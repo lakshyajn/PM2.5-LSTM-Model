@@ -44,7 +44,8 @@ EPOCHS        = 120
 TRAIN_FRAC    = 0.70
 VAL_FRAC      = 0.15
 HUBER_DELTA   = 15.0  # µg/m³ Huber loss threshold
-MAX_SEQS_TRAIN = 300_000  # 300k/epoch ~4-5min on GTX1650; shuffled fresh each epoch
+MAX_SEQS_TRAIN = 0   # 0 = auto-scale to GPU VRAM; >0 = manual override
+                     # GTX 1650 (4GB) -> ~140k | A2000 (6GB) -> ~220k | 3090 (24GB) -> ~980k
 
 # ─── LSTM Architecture ─────────────────────────────────────────────────────────
 LSTM1_UNITS  = 256

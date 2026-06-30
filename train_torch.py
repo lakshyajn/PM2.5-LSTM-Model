@@ -28,6 +28,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
+from tqdm import tqdm
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import (
@@ -64,73 +65,122 @@ def get_device():
     return dev
 
 
+def auto_max_seqs(device, seq_len=SEQ_LEN, n_features=len(FEATURE_COLS),
+                  n_splits=3, headroom_mb=600):
+    """
+    Compute how many sequences fit in GPU VRAM.
+
+    Formula:
+      usable_vram = total_vram - headroom (model + grads + optimizer + activations)
+      bytes_per_seq = seq_len * n_features * 2  (float16)
+      n_splits = 3  (train + val + test all live in VRAM simultaneously)
+      max_seqs = usable_vram / (bytes_per_seq * n_splits)
+
+    GPU          VRAM    headroom   -> max_seqs
+    GTX 1650     4 GB    600 MB     -> ~143k
+    RTX A2000    6 GB    600 MB     -> ~227k
+    RTX 3060    12 GB    600 MB     -> ~481k
+    RTX 3090    24 GB    600 MB     -> ~980k
+    A100        40 GB    600 MB     -> ~1.65M (capped at actual data)
+    """
+    if device.type != "cuda":
+        return MAX_SEQS_TRAIN  # CPU: use config value
+
+    total_bytes  = torch.cuda.get_device_properties(0).total_memory
+    usable_bytes = total_bytes - headroom_mb * 1024**2
+    bytes_per_seq = seq_len * n_features * 2  # float16
+    max_seqs = int(usable_bytes / (bytes_per_seq * n_splits))
+
+    # Floor to nearest 10k for clean numbers
+    max_seqs = (max_seqs // 10_000) * 10_000
+    max_seqs = max(10_000, max_seqs)  # minimum 10k
+
+    total_vram_gb = total_bytes / 1024**3
+    print(f"  Auto VRAM budget: {total_vram_gb:.1f} GB total, "
+          f"{headroom_mb} MB reserved  ->  max {max_seqs:,} seqs/split")
+    return max_seqs
+
+
 # ─── Dataset ──────────────────────────────────────────────────────────────────
 
-class PM25IndexedDataset(Dataset):
+def build_gpu_dataset(df, station_id_map, scaler_X, scaler_y,
+                      feature_cols, device, seq_len=SEQ_LEN, n_horizons=N_HORIZONS,
+                      max_seqs=0, shuffle=True, seed=42):
     """
-    Memory-efficient dataset: stores per-station scaled arrays (~1.2 GB total)
-    and slices sequences on-demand in __getitem__. Never pre-allocates the
-    full (N, SEQ_LEN, n_features) tensor — saves ~8 GB RAM vs naive approach.
+    Builds all sequences into pre-allocated numpy arrays (fast, no list copies),
+    then moves them to GPU VRAM as float16.
+    Training loop: pure GPU VRAM -> GPU cores, zero CPU per batch.
     """
-    def __init__(self, df, station_id_map, scaler_X, scaler_y,
-                 feature_cols, seq_len=SEQ_LEN, n_horizons=N_HORIZONS,
-                 max_seqs=0, shuffle=True, seed=42):
-        rng = np.random.default_rng(seed)
-        stations    = sorted(df["station"].unique())
-        per_station = max(1, max_seqs // len(stations)) if max_seqs > 0 else 0
+    rng      = np.random.default_rng(seed)
+    stations = sorted(df["station"].unique())
+    per_station = max(1, max_seqs // len(stations)) if max_seqs > 0 else 0
 
-        # Per-station arrays (total ~1.2 GB for 434 stations × 10k rows × 59 feats)
-        self.station_feats  = {}   # station -> float32 array (n, n_feats)
-        self.station_tgts   = {}   # station -> float32 array (n, n_horizons)
-        self.station_sids   = {}   # station -> int sid
-        self.index          = []   # list of (station, row_i) pairs
+    # ── Pass 1: count total sequences (fast, no data copy) ───────────────────
+    total = 0
+    counts = {}   # station -> number of valid indices chosen
+    chosen = {}   # station -> chosen indices array
+    for station in stations:
+        sdf = df[df["station"] == station]
+        n   = len(sdf)
+        if n < seq_len + n_horizons:
+            continue
+        valid = np.arange(seq_len, n - n_horizons + 1)
+        if per_station > 0 and len(valid) > per_station:
+            valid = rng.choice(valid, size=per_station, replace=False)
+        chosen[station] = valid
+        counts[station] = len(valid)
+        total += len(valid)
 
-        for station in stations:
-            sdf = (df[df["station"] == station]
-                   .sort_values("timestamp")
-                   .reset_index(drop=True))
-            sid = station_id_map.get(station, 0)
-            n   = len(sdf)
-            if n < seq_len + n_horizons:
-                continue
+    n_seqs = total
+    # ── Pre-allocate arrays (one allocation, no doubling) ────────────────────
+    X_arr   = np.empty((n_seqs, seq_len, len(feature_cols)), dtype=np.float32)
+    y_arr   = np.empty((n_seqs, n_horizons),                 dtype=np.float32)
+    sid_arr = np.empty(n_seqs,                               dtype=np.int64)
 
-            feat_s = scaler_X.transform(
-                sdf[feature_cols].values.astype(np.float32))
-            tgt_s  = scaler_y.transform(
-                sdf[TARGET_COLS].values.astype(np.float32).reshape(-1, 1)
-            ).reshape(n, n_horizons)
+    # ── Pass 2: fill arrays ───────────────────────────────────────────────────
+    ptr = 0
+    for station in stations:
+        if station not in chosen:
+            continue
+        sdf = (df[df["station"] == station]
+               .sort_values("timestamp")
+               .reset_index(drop=True))
+        sid = station_id_map.get(station, 0)
+        n   = len(sdf)
 
-            self.station_feats[station] = feat_s
-            self.station_tgts[station]  = tgt_s
-            self.station_sids[station]  = sid
+        feat_s = scaler_X.transform(sdf[feature_cols].values.astype(np.float32))
+        tgt_s  = scaler_y.transform(
+            sdf[TARGET_COLS].values.astype(np.float32).reshape(-1, 1)
+        ).reshape(n, n_horizons)
 
-            valid = np.arange(seq_len, n - n_horizons + 1)
-            if per_station > 0 and len(valid) > per_station:
-                valid = rng.choice(valid, size=per_station, replace=False)
+        for i in chosen[station]:
+            X_arr[ptr]   = feat_s[i - seq_len : i]
+            y_arr[ptr]   = tgt_s[i]
+            sid_arr[ptr] = sid
+            ptr += 1
 
-            for i in valid:
-                self.index.append((station, int(i)))
+    # ── In-place shuffle (numpy, not Python lists) ───────────────────────────
+    if shuffle:
+        perm = rng.permutation(n_seqs)
+        X_arr   = X_arr[perm]
+        y_arr   = y_arr[perm]
+        sid_arr = sid_arr[perm]
 
-        if shuffle:
-            rng.shuffle(self.index)
+    vram_mb = n_seqs * seq_len * len(feature_cols) * 2 / 1024**2  # float16
 
-        self.seq_len = seq_len
-        n_seqs = len(self.index)
-        mem_feats = sum(v.nbytes for v in self.station_feats.values()) / 1024**3
-        print(f"    {n_seqs:,} sequences  |  station arrays: {mem_feats:.2f} GB RAM")
+    if device.type == "cuda":
+        # One-shot CPU->GPU transfer as float16 — no per-batch transfer ever again
+        X_gpu   = torch.from_numpy(X_arr).half().to(device)
+        y_gpu   = torch.from_numpy(y_arr).to(device)
+        sid_gpu = torch.from_numpy(sid_arr).to(device)
+        del X_arr, y_arr, sid_arr  # free CPU RAM immediately
+        print(f"    {n_seqs:,} sequences -> GPU VRAM as float16  ({vram_mb:.0f} MB used)")
+        return torch.utils.data.TensorDataset(X_gpu, sid_gpu, y_gpu)
+    else:
+        print(f"    {n_seqs:,} sequences -> CPU RAM as float32")
+        return torch.utils.data.TensorDataset(
+            torch.from_numpy(X_arr), torch.from_numpy(sid_arr), torch.from_numpy(y_arr))
 
-    def __len__(self):
-        return len(self.index)
-
-    def __getitem__(self, idx):
-        station, i = self.index[idx]
-        feat_s = self.station_feats[station]
-        tgt_s  = self.station_tgts[station]
-        sid    = self.station_sids[station]
-        # .copy() needed because torch.from_numpy requires contiguous memory
-        X = torch.from_numpy(feat_s[i - self.seq_len : i].copy())
-        y = torch.from_numpy(tgt_s[i].copy())
-        return X, torch.tensor(sid, dtype=torch.long), y
 
 
 
@@ -261,11 +311,15 @@ def compute_metrics(y_true_sc, y_pred_sc, scaler_y):
 
 # ─── Epoch Loops ──────────────────────────────────────────────────────────────
 
-def train_epoch(model, loader, optimizer, loss_fn, device, amp_scaler):
+def train_epoch(model, loader, optimizer, loss_fn, device, amp_scaler, epoch, epochs):
     model.train()
     total, n = 0.0, 0
-    for X, sids, y in loader:
-        X, sids, y = X.to(device), sids.to(device), y.to(device)
+    bar = tqdm(loader, desc=f"  Ep {epoch:>3}/{epochs} [train]",
+               ncols=80, leave=False, unit="step")
+    for X, sids, y in bar:
+        # Data already on GPU VRAM — just cast float16 -> float32 for model (GPU-only op)
+        if X.dtype == torch.float16:
+            X = X.float()
         optimizer.zero_grad(set_to_none=True)
         if amp_scaler:
             with torch.amp.autocast('cuda'):
@@ -281,6 +335,7 @@ def train_epoch(model, loader, optimizer, loss_fn, device, amp_scaler):
             nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
         total += loss.item(); n += 1
+        bar.set_postfix(loss=f"{total/n:.4f}")
     return total / max(1, n)
 
 
@@ -289,12 +344,16 @@ def eval_epoch(model, loader, loss_fn, device):
     model.eval()
     total, n   = 0.0, 0
     yt_list, yp_list = [], []
-    for X, sids, y in loader:
-        X, sids, y = X.to(device), sids.to(device), y.to(device)
+    bar = tqdm(loader, desc="               [val]  ", ncols=80, leave=False, unit="step")
+    for X, sids, y in bar:
+        # Data already on GPU VRAM
+        if X.dtype == torch.float16:
+            X = X.float()
         p = model(X, sids)
         total += loss_fn(p, y).item(); n += 1
         yt_list.append(y.cpu().numpy())
         yp_list.append(p.cpu().numpy())
+        bar.set_postfix(loss=f"{total/n:.4f}")
     return total / max(1, n), np.concatenate(yt_list), np.concatenate(yp_list)
 
 
@@ -324,24 +383,29 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
 
     with open(FEAT_PATH, "w") as f: json.dump(FEATURE_COLS, f, indent=2)
 
-    max_tr = 5_000 if quick else MAX_SEQS_TRAIN
-    max_ev = 2_000 if quick else 50_000
+    if quick:
+        max_tr, max_ev = 5_000, 2_000
+    elif MAX_SEQS_TRAIN > 0:
+        # Config override: user explicitly set a cap
+        max_tr = MAX_SEQS_TRAIN
+        max_ev = min(50_000, MAX_SEQS_TRAIN // 2)
+    else:
+        # Auto-scale: fill GPU VRAM as much as possible
+        max_tr = auto_max_seqs(device)
+        max_ev = min(50_000, max_tr // 3)
 
-    print("\nBuilding datasets ...")
-    ds_tr = PM25IndexedDataset(df_tr, station_map, scaler_X, scaler_y,
-                                FEATURE_COLS, max_seqs=max_tr)
-    ds_va = PM25IndexedDataset(df_va, station_map, scaler_X, scaler_y,
-                                FEATURE_COLS, max_seqs=max_ev, shuffle=False)
-    ds_te = PM25IndexedDataset(df_te, station_map, scaler_X, scaler_y,
-                                FEATURE_COLS, max_seqs=max_ev, shuffle=False)
+    print("\nBuilding datasets (GPU-resident for pure GPU training) ...")
+    ds_tr = build_gpu_dataset(df_tr, station_map, scaler_X, scaler_y,
+                               FEATURE_COLS, device, max_seqs=max_tr)
+    ds_va = build_gpu_dataset(df_va, station_map, scaler_X, scaler_y,
+                               FEATURE_COLS, device, max_seqs=max_ev, shuffle=False)
+    ds_te = build_gpu_dataset(df_te, station_map, scaler_X, scaler_y,
+                               FEATURE_COLS, device, max_seqs=max_ev, shuffle=False)
 
-    pin = device.type == "cuda"
-    dl_tr = DataLoader(ds_tr, batch_size=batch_size, shuffle=True,
-                       num_workers=0, pin_memory=pin)
-    dl_va = DataLoader(ds_va, batch_size=512, shuffle=False,
-                       num_workers=0, pin_memory=pin)
-    dl_te = DataLoader(ds_te, batch_size=512, shuffle=False,
-                       num_workers=0, pin_memory=pin)
+    # DataLoader just shuffles indices into GPU tensors — no CPU work per batch
+    dl_tr = DataLoader(ds_tr, batch_size=batch_size, shuffle=True,  num_workers=0)
+    dl_va = DataLoader(ds_va, batch_size=512,        shuffle=False, num_workers=0)
+    dl_te = DataLoader(ds_te, batch_size=512,        shuffle=False, num_workers=0)
 
     model     = PM25Model(len(FEATURE_COLS), n_stations).to(device)
     print(f"\nModel params: {sum(p.numel() for p in model.parameters()):,}")
@@ -372,7 +436,8 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
 
     for epoch in range(start_epoch, epochs):
         t0      = time.time()
-        tr_loss = train_epoch(model, dl_tr, optimizer, loss_fn, device, amp_scaler)
+        tr_loss = train_epoch(model, dl_tr, optimizer, loss_fn, device, amp_scaler,
+                              epoch + 1, epochs)
         va_loss, _, _ = eval_epoch(model, dl_va, loss_fn, device)
         scheduler.step()
         elapsed = time.time() - t0
