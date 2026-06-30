@@ -1,0 +1,29 @@
+# Core ML
+torch>=2.5.0              # GPU training (install with CUDA: see README)
+tensorflow>=2.13.0        # optional — TF model inference only
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Data / IO
+pyarrow>=12.0.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Visualisation
+matplotlib>=3.7.0
+scipy>=1.11.0
+
+# Utilities
+tqdm>=4.65.0
+newsapi-python>=0.2.7
+
+# ── GPU INSTALL INSTRUCTIONS ──────────────────────────────────────────────────
+# For NVIDIA GPU (CUDA 12.1):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# For Google Colab (auto-detects GPU):
+#   pip install torch torchvision torchaudio   # Colab ships CUDA automatically
+#
+# For CPU only:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu

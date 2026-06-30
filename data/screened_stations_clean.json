@@ -1,0 +1,7330 @@
+[
+  {
+    "station": "r_k_puram_delhi_-_dpcc_17",
+    "location_id": 17,
+    "sensor_id": 12234787,
+    "sensor_ids": [
+      12234787
+    ],
+    "lat": 28.563262,
+    "lon": 77.186937,
+    "city": "Delhi",
+    "name": "R K Puram, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "punjabi_bagh_delhi_-_dpcc_50",
+    "location_id": 50,
+    "sensor_id": 12234796,
+    "sensor_ids": [
+      12234796
+    ],
+    "lat": 28.674045,
+    "lon": 77.131023,
+    "city": "Delhi",
+    "name": "Punjabi Bagh, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "anand_vihar_new_delhi_-_dpcc_235",
+    "location_id": 235,
+    "sensor_id": 12235610,
+    "sensor_ids": [
+      12235610
+    ],
+    "lat": 28.646835,
+    "lon": 77.316032,
+    "city": "Delhi",
+    "name": "Anand Vihar, New Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T21:30:00Z",
+    "data_end": "2025-02-18T21:30:00Z"
+  },
+  {
+    "station": "vikas_sadan_gurugram_-_hspcb_301",
+    "location_id": 301,
+    "sensor_id": 14258988,
+    "sensor_ids": [
+      14258988
+    ],
+    "lat": 28.4501238,
+    "lon": 77.0263051,
+    "city": "Gurugram",
+    "name": "Vikas Sadan, Gurugram - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-10-01T06:30:00Z",
+    "data_end": "2025-10-01T06:30:00Z"
+  },
+  {
+    "station": "zoo_park_hyderabad_-_tspcb_407",
+    "location_id": 407,
+    "sensor_id": 12235583,
+    "sensor_ids": [
+      12235583
+    ],
+    "lat": 17.349694,
+    "lon": 78.451437,
+    "city": "Hyderabad",
+    "name": "Zoo Park, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sanjay_palace_agra_-_uppcb_860",
+    "location_id": 860,
+    "sensor_id": 12235662,
+    "sensor_ids": [
+      12235662
+    ],
+    "lat": 27.19865833,
+    "lon": 78.00598056,
+    "city": "Agra",
+    "name": "Sanjay Palace, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "talkatora_district_industries_center_lucknow_-_cpc",
+    "location_id": 2456,
+    "sensor_id": 12235574,
+    "sensor_ids": [
+      12235574
+    ],
+    "lat": 26.83399722,
+    "lon": 80.8917361,
+    "city": "Lucknow",
+    "name": "Talkatora District Industries Center, Lucknow - CPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-6_panchkula_-_hspcb__2583",
+    "location_id": 2583,
+    "sensor_id": 12328443,
+    "sensor_ids": [
+      12328443
+    ],
+    "lat": 30.7057778,
+    "lon": 76.8531805555555,
+    "city": "Chandigarh",
+    "name": "Sector-6, Panchkula - HSPCB ",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-27T18:30:00Z",
+    "data_end": "2025-02-27T18:30:00Z"
+  },
+  {
+    "station": "manali_chennai_-_cpcb_2586",
+    "location_id": 2586,
+    "sensor_id": 12235653,
+    "sensor_ids": [
+      12235653
+    ],
+    "lat": 13.164544,
+    "lon": 80.26285,
+    "city": "Chennai",
+    "name": "Manali, Chennai - CPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "pusa_delhi_-_imd_5404",
+    "location_id": 5404,
+    "sensor_id": 12234702,
+    "sensor_ids": [
+      12234702
+    ],
+    "lat": 28.639645,
+    "lon": 77.146263,
+    "city": "Delhi",
+    "name": "Pusa, Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mahakaleshwar_temple_ujjain_-_mppcb_5443",
+    "location_id": 5443,
+    "sensor_id": 12234903,
+    "sensor_ids": [
+      12234903
+    ],
+    "lat": 23.182719,
+    "lon": 75.768218,
+    "city": "Indore",
+    "name": "Mahakaleshwar Temple, Ujjain - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "burari_crossing_new_delhi_-_imd_5541",
+    "location_id": 5541,
+    "sensor_id": 12234684,
+    "sensor_ids": [
+      12234684
+    ],
+    "lat": 28.7256504,
+    "lon": 77.2011573,
+    "city": "Delhi",
+    "name": "Burari Crossing, New Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "model_town_patiala_-_ppcb_5544",
+    "location_id": 5544,
+    "sensor_id": 12235142,
+    "sensor_ids": [
+      12235142
+    ],
+    "lat": 30.349388,
+    "lon": 76.366642,
+    "city": "Chandigarh",
+    "name": "Model Town, Patiala - PPCB",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "btm_layout_bengaluru_-_cpcb_5548",
+    "location_id": 5548,
+    "sensor_id": 12235361,
+    "sensor_ids": [
+      12235361
+    ],
+    "lat": 12.9135218,
+    "lon": 77.5950804,
+    "city": "Bengaluru",
+    "name": "BTM Layout, Bengaluru - CPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "golden_temple_amritsar_-_ppcb_5551",
+    "location_id": 5551,
+    "sensor_id": 12235443,
+    "sensor_ids": [
+      12235443
+    ],
+    "lat": 31.62,
+    "lon": 74.876512,
+    "city": "Amritsar",
+    "name": "Golden Temple, Amritsar - PPCB",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "aya_nagar_new_delhi_-_imd_5570",
+    "location_id": 5570,
+    "sensor_id": 12234708,
+    "sensor_ids": [
+      12234708
+    ],
+    "lat": 28.474261,
+    "lon": 77.131606,
+    "city": "Gurugram",
+    "name": "Aya Nagar, New Delhi - IMD",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sirifort_delhi_-_cpcb_5586",
+    "location_id": 5586,
+    "sensor_id": 12234769,
+    "sensor_ids": [
+      12234769
+    ],
+    "lat": 28.5504249,
+    "lon": 77.2159377,
+    "city": "Delhi",
+    "name": "Sirifort, Delhi - CPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "riico_ind._area_iii_bhiwadi_-_rspcb_5588",
+    "location_id": 5588,
+    "sensor_id": 12234832,
+    "sensor_ids": [
+      12234832
+    ],
+    "lat": 28.194909,
+    "lon": 76.862296,
+    "city": "Gurugram",
+    "name": "RIICO Ind. Area III, Bhiwadi - RSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ardhali_bazar_varanasi_-_uppcb_5590",
+    "location_id": 5590,
+    "sensor_id": 12235487,
+    "sensor_ids": [
+      12235487
+    ],
+    "lat": 25.3505986,
+    "lon": 82.9083074,
+    "city": "Varanasi",
+    "name": "Ardhali Bazar, Varanasi - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "muzaffarpur_collectorate_muzaffarpur_-_bspcb_5594",
+    "location_id": 5594,
+    "sensor_id": 12235345,
+    "sensor_ids": [
+      12235345
+    ],
+    "lat": 26.1209,
+    "lon": 85.3647,
+    "city": "Patna",
+    "name": "Muzaffarpur Collectorate, Muzaffarpur - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector_-_125_noida_up_-_uppcb_5598",
+    "location_id": 5598,
+    "sensor_id": 12235187,
+    "sensor_ids": [
+      12235187
+    ],
+    "lat": 28.5447608,
+    "lon": 77.3231257,
+    "city": "Noida",
+    "name": "Sector - 125, Noida, UP - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bollaram_industrial_area_hyderabad_-_tspcb_5599",
+    "location_id": 5599,
+    "sensor_id": 12235400,
+    "sensor_ids": [
+      12235400
+    ],
+    "lat": 17.540891,
+    "lon": 78.358528,
+    "city": "Hyderabad",
+    "name": "Bollaram Industrial Area, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-2_industrial_area_pithampur_-_mppcb_5603",
+    "location_id": 5603,
+    "sensor_id": 12234921,
+    "sensor_ids": [
+      12234921
+    ],
+    "lat": 22.624758,
+    "lon": 75.675238,
+    "city": "Indore",
+    "name": "Sector-2 Industrial Area, Pithampur - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "peenya_bengaluru_-_cpcb_5607",
+    "location_id": 5607,
+    "sensor_id": 12235370,
+    "sensor_ids": [
+      12235370
+    ],
+    "lat": 13.0270199,
+    "lon": 77.494094,
+    "city": "Bengaluru",
+    "name": "Peenya, Bengaluru - CPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "north_campus_du_delhi_-_imd_5610",
+    "location_id": 5610,
+    "sensor_id": 12234690,
+    "sensor_ids": [
+      12234690
+    ],
+    "lat": 28.6573814,
+    "lon": 77.1585447,
+    "city": "Delhi",
+    "name": "North Campus, DU, Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shastri_nagar_jaipur_-_rspcb_5612",
+    "location_id": 5612,
+    "sensor_id": 12234876,
+    "sensor_ids": [
+      12234876
+    ],
+    "lat": 26.9502929,
+    "lon": 75.730943,
+    "city": "Jaipur",
+    "name": "Shastri Nagar, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ito_new_delhi_-_cpcb_5613",
+    "location_id": 5613,
+    "sensor_id": 12234753,
+    "sensor_ids": [
+      12234753
+    ],
+    "lat": 28.628624,
+    "lon": 77.24106,
+    "city": "Delhi",
+    "name": "ITO, New Delhi - CPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "padmapukur_howrah_-_wbpcb_5614",
+    "location_id": 5614,
+    "sensor_id": 12234975,
+    "sensor_ids": [
+      12234975
+    ],
+    "lat": 22.5687319,
+    "lon": 88.2797276,
+    "city": "Kolkata",
+    "name": "Padmapukur, Howrah - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector_-_62_noida_up_-_imd_5616",
+    "location_id": 5616,
+    "sensor_id": 12234720,
+    "sensor_ids": [
+      12234720
+    ],
+    "lat": 28.6245479,
+    "lon": 77.3577104,
+    "city": "Ghaziabad",
+    "name": "Sector - 62, Noida, UP - IMD",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "opp_gpo_civil_lines_nagpur_-_mpcb_5621",
+    "location_id": 5621,
+    "sensor_id": 12235626,
+    "sensor_ids": [
+      12235626
+    ],
+    "lat": 21.152875,
+    "lon": 79.0517531,
+    "city": "Nagpur",
+    "name": "Opp GPO Civil Lines, Nagpur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nsit_dwarka_delhi_-_cpcb_5622",
+    "location_id": 5622,
+    "sensor_id": 12234744,
+    "sensor_ids": [
+      12234744
+    ],
+    "lat": 28.60909,
+    "lon": 77.0325413,
+    "city": "Gurugram",
+    "name": "NSIT Dwarka, Delhi - CPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "central_university_hyderabad_-_tspcb_5623",
+    "location_id": 5623,
+    "sensor_id": 12242121,
+    "sensor_ids": [
+      12242121
+    ],
+    "lat": 17.460103,
+    "lon": 78.334361,
+    "city": "Hyderabad",
+    "name": "Central University, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-19T05:30:00Z",
+    "data_end": "2025-02-19T05:30:00Z"
+  },
+  {
+    "station": "ida_pashamylaram_hyderabad_-_tspcb_5624",
+    "location_id": 5624,
+    "sensor_id": 12235505,
+    "sensor_ids": [
+      12235505
+    ],
+    "lat": 17.5316895,
+    "lon": 78.218939,
+    "city": "Hyderabad",
+    "name": "IDA Pashamylaram, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rimt_university_mandi_gobindgarh_-_ppcb_5625",
+    "location_id": 5625,
+    "sensor_id": 12235434,
+    "sensor_ids": [
+      12235434
+    ],
+    "lat": 30.649961,
+    "lon": 76.331442,
+    "city": "Chandigarh",
+    "name": "RIMT University, Mandi Gobindgarh - PPCB",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dtu_new_delhi_-_cpcb_5626",
+    "location_id": 5626,
+    "sensor_id": 12234760,
+    "sensor_ids": [
+      12234760
+    ],
+    "lat": 28.7500499,
+    "lon": 77.1112615,
+    "city": "Delhi",
+    "name": "DTU, New Delhi - CPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "crri_mathura_road_new_delhi_-_imd_5627",
+    "location_id": 5627,
+    "sensor_id": 12234678,
+    "sensor_ids": [
+      12234678
+    ],
+    "lat": 28.5512005,
+    "lon": 77.2735737,
+    "city": "Delhi",
+    "name": "CRRI Mathura Road, New Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "gvm_corporation_visakhapatnam_-_appcb_5628",
+    "location_id": 5628,
+    "sensor_id": 12235460,
+    "sensor_ids": [
+      12235460
+    ],
+    "lat": 17.722682,
+    "lon": 83.308197,
+    "city": "Visakhapatnam",
+    "name": "GVM Corporation, Visakhapatnam - APPCB",
+    "owner": "",
+    "state": "Andhra Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shadipur_delhi_-_cpcb_5630",
+    "location_id": 5630,
+    "sensor_id": 12234726,
+    "sensor_ids": [
+      12234726
+    ],
+    "lat": 28.6514781,
+    "lon": 77.1473105,
+    "city": "Delhi",
+    "name": "Shadipur, Delhi - CPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "maninagar_ahmedabad_-_gpcb_5631",
+    "location_id": 5631,
+    "sensor_id": 12235671,
+    "sensor_ids": [
+      12235671
+    ],
+    "lat": 23.002657,
+    "lon": 72.591912,
+    "city": "Ahmedabad",
+    "name": "Maninagar, Ahmedabad - GPCB",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-d_industrial_area_mandideep_-_mppcb_5632",
+    "location_id": 5632,
+    "sensor_id": 12234930,
+    "sensor_ids": [
+      12234930
+    ],
+    "lat": 23.10844,
+    "lon": 77.511428,
+    "city": "Bhopal",
+    "name": "Sector-D Industrial Area, Mandideep - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "police_commissionerate_jaipur_-_rspcb_5633",
+    "location_id": 5633,
+    "sensor_id": 12234805,
+    "sensor_ids": [
+      12234805
+    ],
+    "lat": 26.9164092,
+    "lon": 75.7994901,
+    "city": "Jaipur",
+    "name": "Police Commissionerate, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "lodhi_road_new_delhi_-_imd_5634",
+    "location_id": 5634,
+    "sensor_id": 12234714,
+    "sensor_ids": [
+      12234714
+    ],
+    "lat": 28.5918245,
+    "lon": 77.2273074,
+    "city": "Delhi",
+    "name": "Lodhi Road, New Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "adarsh_nagar_jaipur_-_rspcb_5635",
+    "location_id": 5635,
+    "sensor_id": 12234850,
+    "sensor_ids": [
+      12234850
+    ],
+    "lat": 26.902909,
+    "lon": 75.836858,
+    "city": "Jaipur",
+    "name": "Adarsh Nagar, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "icrisat_patancheru_hyderabad_-_tspcb_5645",
+    "location_id": 5645,
+    "sensor_id": 12235409,
+    "sensor_ids": [
+      12235409
+    ],
+    "lat": 17.5184,
+    "lon": 78.278777,
+    "city": "Hyderabad",
+    "name": "ICRISAT Patancheru, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sanathnagar_hyderabad_-_tspcb_5647",
+    "location_id": 5647,
+    "sensor_id": 12242129,
+    "sensor_ids": [
+      12242129
+    ],
+    "lat": 17.4559458,
+    "lon": 78.4332152,
+    "city": "Hyderabad",
+    "name": "Sanathnagar, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-19T05:30:00Z",
+    "data_end": "2025-02-19T05:30:00Z"
+  },
+  {
+    "station": "igi_airport_(t3)_delhi_-_imd_5650",
+    "location_id": 5650,
+    "sensor_id": 12234696,
+    "sensor_ids": [
+      12234696
+    ],
+    "lat": 28.5627763,
+    "lon": 77.1180053,
+    "city": "Delhi",
+    "name": "IGI Airport (T3), Delhi - IMD",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "igsc_planetarium_complex_patna_-_bspcb_5652",
+    "location_id": 5652,
+    "sensor_id": 12235337,
+    "sensor_ids": [
+      12235337
+    ],
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "city": "Patna",
+    "name": "IGSC Planetarium Complex, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "velachery_res._area_chennai_-_cpcb_5655",
+    "location_id": 5655,
+    "sensor_id": 12235531,
+    "sensor_ids": [
+      12235531
+    ],
+    "lat": 13.0052189,
+    "lon": 80.2398125,
+    "city": "Chennai",
+    "name": "Velachery Res. Area, Chennai - CPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "lalbagh_lucknow_-_cpcb_5659",
+    "location_id": 5659,
+    "sensor_id": 12235522,
+    "sensor_ids": [
+      12235522
+    ],
+    "lat": 26.8458805,
+    "lon": 80.9365541,
+    "city": "Lucknow",
+    "name": "Lalbagh, Lucknow - CPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "karve_road_pune_pune_-_mpcb_5661",
+    "location_id": 5661,
+    "sensor_id": 12235540,
+    "sensor_ids": [
+      12235540
+    ],
+    "lat": 18.5011743,
+    "lon": 73.8165527,
+    "city": "Pune",
+    "name": "Karve Road Pune, Pune - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nehru_nagar_kanpur_-_uppcb_5662",
+    "location_id": 5662,
+    "sensor_id": 12235513,
+    "sensor_ids": [
+      12235513
+    ],
+    "lat": 26.4703136,
+    "lon": 80.3229863,
+    "city": "Kanpur",
+    "name": "Nehru Nagar, Kanpur - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vasundhara_ghaziabad_-_uppcb_5665",
+    "location_id": 5665,
+    "sensor_id": 12235160,
+    "sensor_ids": [
+      12235160
+    ],
+    "lat": 28.6603346,
+    "lon": 77.3572563,
+    "city": "Ghaziabad",
+    "name": "Vasundhara, Ghaziabad - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhopal_chauraha_dewas_-_mppcb_5667",
+    "location_id": 5667,
+    "sensor_id": 12234939,
+    "sensor_ids": [
+      12234939
+    ],
+    "lat": 22.9682591,
+    "lon": 76.064118,
+    "city": "Indore",
+    "name": "Bhopal Chauraha, Dewas - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "pusa_delhi_-_dpcc_6356",
+    "location_id": 6356,
+    "sensor_id": 12235321,
+    "sensor_ids": [
+      12235321
+    ],
+    "lat": 28.639645,
+    "lon": 77.146262,
+    "city": "Delhi",
+    "name": "Pusa, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mandir_marg_new_delhi_-_dpcc_6358",
+    "location_id": 6358,
+    "sensor_id": 12234778,
+    "sensor_ids": [
+      12234778
+    ],
+    "lat": 28.636429,
+    "lon": 77.201067,
+    "city": "Delhi",
+    "name": "Mandir Marg, New Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ihbas_dilshad_gardennew_delhi_-_cpcb_6359",
+    "location_id": 6359,
+    "sensor_id": 12234735,
+    "sensor_ids": [
+      12234735
+    ],
+    "lat": 28.6811736,
+    "lon": 77.3025234,
+    "city": "Delhi",
+    "name": "IHBAS, Dilshad Garden,New Delhi - CPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ratanpura_rupnagar_-_ambuja_cements_6442",
+    "location_id": 6442,
+    "sensor_id": 12291454,
+    "sensor_ids": [
+      12291454
+    ],
+    "lat": 31.0325454,
+    "lon": 76.5623046,
+    "city": "Chandigarh",
+    "name": "Ratanpura, Rupnagar - Ambuja Cements",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-24T05:30:00Z",
+    "data_end": "2025-02-24T05:30:00Z"
+  },
+  {
+    "station": "indirapuram_ghaziabad_-_uppcb_6924",
+    "location_id": 6924,
+    "sensor_id": 12235779,
+    "sensor_ids": [
+      12235779
+    ],
+    "lat": 28.646233,
+    "lon": 77.358075,
+    "city": "Ghaziabad",
+    "name": "Indirapuram, Ghaziabad - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "colaba_mumbai_-_mpcb_6927",
+    "location_id": 6927,
+    "sensor_id": 12235926,
+    "sensor_ids": [
+      12235926
+    ],
+    "lat": 18.91,
+    "lon": 72.82,
+    "city": "Mumbai",
+    "name": "Colaba, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vasai_west_mumbai_-_mpcb_6928",
+    "location_id": 6928,
+    "sensor_id": 12235823,
+    "sensor_ids": [
+      12235823
+    ],
+    "lat": 19.3832,
+    "lon": 72.8204,
+    "city": "Mumbai",
+    "name": "Vasai West, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "major_dhyan_chand_national_stadium_delhi_-_dpcc_69",
+    "location_id": 6929,
+    "sensor_id": 12235047,
+    "sensor_ids": [
+      12235047
+    ],
+    "lat": 28.611281,
+    "lon": 77.237738,
+    "city": "Delhi",
+    "name": "Major Dhyan Chand National Stadium, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "gobind_pura_yamuna_nagar_-_hspcb_6930",
+    "location_id": 6930,
+    "sensor_id": 12961441,
+    "sensor_ids": [
+      12961441
+    ],
+    "lat": 30.1480566,
+    "lon": 77.2893471,
+    "city": "Dehradun",
+    "name": "Gobind Pura, Yamuna Nagar - HSPCB",
+    "owner": "",
+    "state": "Uttarakhand",
+    "data_start": "2025-05-06T07:30:00Z",
+    "data_end": "2025-05-06T07:30:00Z"
+  },
+  {
+    "station": "dwarka-sector_8_delhi_-_dpcc__6931",
+    "location_id": 6931,
+    "sensor_id": 12235020,
+    "sensor_ids": [
+      12235020
+    ],
+    "lat": 28.5710274,
+    "lon": 77.0719006,
+    "city": "Gurugram",
+    "name": "Dwarka-Sector 8, Delhi - DPCC ",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "alipur_delhi_-_dpcc_6932",
+    "location_id": 6932,
+    "sensor_id": 12235698,
+    "sensor_ids": [
+      12235698
+    ],
+    "lat": 28.815329,
+    "lon": 77.15301,
+    "city": "Delhi",
+    "name": "Alipur, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dr._karni_singh_shooting_range_delhi_-_dpcc_6934",
+    "location_id": 6934,
+    "sensor_id": 12235011,
+    "sensor_ids": [
+      12235011
+    ],
+    "lat": 28.498571,
+    "lon": 77.26484,
+    "city": "Faridabad",
+    "name": "Dr. Karni Singh Shooting Range, Delhi - DPCC",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "arya_nagar_bahadurgarh_-_hspcb_6936",
+    "location_id": 6936,
+    "sensor_id": 14233904,
+    "sensor_ids": [
+      14233904
+    ],
+    "lat": 28.6701,
+    "lon": 76.9254,
+    "city": "Gurugram",
+    "name": "Arya Nagar, Bahadurgarh - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-09-28T09:30:00Z",
+    "data_end": "2025-09-28T09:30:00Z"
+  },
+  {
+    "station": "sector-10_gandhinagar_-_gpcb_6937",
+    "location_id": 6937,
+    "sensor_id": 12235731,
+    "sensor_ids": [
+      12235731
+    ],
+    "lat": 23.221714,
+    "lon": 72.654328,
+    "city": "Ahmedabad",
+    "name": "Sector-10, Gandhinagar - GPCB",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vivek_vihar_delhi_-_dpcc_6938",
+    "location_id": 6938,
+    "sensor_id": 12235133,
+    "sensor_ids": [
+      12235133
+    ],
+    "lat": 28.672342,
+    "lon": 77.31526,
+    "city": "Ghaziabad",
+    "name": "Vivek Vihar, Delhi - DPCC",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "phase-4_gidc_vatva_-_gpcb_6942",
+    "location_id": 6942,
+    "sensor_id": 12235740,
+    "sensor_ids": [
+      12235740
+    ],
+    "lat": 22.969611,
+    "lon": 72.6435,
+    "city": "Ahmedabad",
+    "name": "Phase-4 GIDC, Vatva - GPCB",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mahape_navi_mumbai_-_mpcb_6943",
+    "location_id": 6943,
+    "sensor_id": 12235905,
+    "sensor_ids": [
+      12235905
+    ],
+    "lat": 19.1135051,
+    "lon": 73.008978,
+    "city": "Mumbai",
+    "name": "Mahape, Navi Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kurla_mumbai_-_mpcb_6945",
+    "location_id": 6945,
+    "sensor_id": 12235834,
+    "sensor_ids": [
+      12235834
+    ],
+    "lat": 19.0863,
+    "lon": 72.8888,
+    "city": "Mumbai",
+    "name": "Kurla, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "belur_math_howrah_-_wbpcb_6946",
+    "location_id": 6946,
+    "sensor_id": 12235814,
+    "sensor_ids": [
+      12235814
+    ],
+    "lat": 22.629801,
+    "lon": 88.352017,
+    "city": "Kolkata",
+    "name": "Belur Math, Howrah - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "general_hospital_mandikhera_-_hspcb_6947",
+    "location_id": 6947,
+    "sensor_id": 14216055,
+    "sensor_ids": [
+      14216055
+    ],
+    "lat": 27.9002,
+    "lon": 76.9938,
+    "city": "Gurugram",
+    "name": "General Hospital, Mandikhera - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-09-26T06:30:00Z",
+    "data_end": "2025-09-26T06:30:00Z"
+  },
+  {
+    "station": "chhatrapati_shivaji_intl._airport_(t2)_mumbai_-_mp",
+    "location_id": 6948,
+    "sensor_id": 12235860,
+    "sensor_ids": [
+      12235860
+    ],
+    "lat": 19.10078,
+    "lon": 72.87462,
+    "city": "Mumbai",
+    "name": "Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "municipal_corporation_office_dharuhera_-__hspcb_69",
+    "location_id": 6949,
+    "sensor_id": 14291091,
+    "sensor_ids": [
+      14291091
+    ],
+    "lat": 28.2068,
+    "lon": 76.7997,
+    "city": "Gurugram",
+    "name": "Municipal Corporation Office, Dharuhera -  HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-10-05T01:30:00Z",
+    "data_end": "2025-10-05T01:30:00Z"
+  },
+  {
+    "station": "jadavpur_kolkata_-_wbpcb_6950",
+    "location_id": 6950,
+    "sensor_id": 12235887,
+    "sensor_ids": [
+      12235887
+    ],
+    "lat": 22.49929,
+    "lon": 88.36917,
+    "city": "Kolkata",
+    "name": "Jadavpur, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "murthal_sonipat_-_hspcb_6951",
+    "location_id": 6951,
+    "sensor_id": 14258143,
+    "sensor_ids": [
+      14258143
+    ],
+    "lat": 29.0272,
+    "lon": 77.0621,
+    "city": "Delhi",
+    "name": "Murthal, Sonipat - HSPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-10-01T04:30:00Z",
+    "data_end": "2025-10-01T04:30:00Z"
+  },
+  {
+    "station": "sector-2_imt_manesar_-_hspcb_6953",
+    "location_id": 6953,
+    "sensor_id": 14250045,
+    "sensor_ids": [
+      14250045
+    ],
+    "lat": 28.360699,
+    "lon": 76.93609,
+    "city": "Gurugram",
+    "name": "Sector-2 IMT, Manesar - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-09-30T07:30:00Z",
+    "data_end": "2025-09-30T07:30:00Z"
+  },
+  {
+    "station": "chikkaballapur_rural_chikkaballapur_-_kspcb_6954",
+    "location_id": 6954,
+    "sensor_id": 12235276,
+    "sensor_ids": [
+      12235276
+    ],
+    "lat": 13.428828,
+    "lon": 77.731418,
+    "city": "Bengaluru",
+    "name": "Chikkaballapur Rural, Chikkaballapur - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "powai_mumbai_-_mpcb_6956",
+    "location_id": 6956,
+    "sensor_id": 12235896,
+    "sensor_ids": [
+      12235896
+    ],
+    "lat": 19.1375,
+    "lon": 72.915056,
+    "city": "Mumbai",
+    "name": "Powai, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "jawaharlal_nehru_stadium_delhi_-_dpcc_6957",
+    "location_id": 6957,
+    "sensor_id": 12235038,
+    "sensor_ids": [
+      12235038
+    ],
+    "lat": 28.58028,
+    "lon": 77.233829,
+    "city": "Delhi",
+    "name": "Jawaharlal Nehru Stadium, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "siddharth_nagar-worli_mumbai_-_iitm_6959",
+    "location_id": 6959,
+    "sensor_id": 12236435,
+    "sensor_ids": [
+      12236435
+    ],
+    "lat": 19.000083,
+    "lon": 72.813993,
+    "city": "Mumbai",
+    "name": "Siddharth Nagar-Worli, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "patparganj_delhi_-_dpcc_6960",
+    "location_id": 6960,
+    "sensor_id": 12235101,
+    "sensor_ids": [
+      12235101
+    ],
+    "lat": 28.623748,
+    "lon": 77.287205,
+    "city": "Delhi",
+    "name": "Patparganj, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "patti_mehar_ambala_-_hspcb_6964",
+    "location_id": 6964,
+    "sensor_id": 14258997,
+    "sensor_ids": [
+      14258997
+    ],
+    "lat": 30.379589,
+    "lon": 76.778328,
+    "city": "Chandigarh",
+    "name": "Patti Mehar, Ambala - HSPCB",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-10-01T05:30:00Z",
+    "data_end": "2025-10-01T05:30:00Z"
+  },
+  {
+    "station": "borivali_east_mumbai_-_mpcb_6965",
+    "location_id": 6965,
+    "sensor_id": 12252658,
+    "sensor_ids": [
+      12252658
+    ],
+    "lat": 19.227474,
+    "lon": 72.864394,
+    "city": "Mumbai",
+    "name": "Borivali East, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-20T07:30:00Z",
+    "data_end": "2025-02-20T07:30:00Z"
+  },
+  {
+    "station": "sion_mumbai_-_mpcb_6967",
+    "location_id": 6967,
+    "sensor_id": 12243930,
+    "sensor_ids": [
+      12243930
+    ],
+    "lat": 19.047,
+    "lon": 72.8746,
+    "city": "Mumbai",
+    "name": "Sion, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-19T08:30:00Z",
+    "data_end": "2025-02-19T08:30:00Z"
+  },
+  {
+    "station": "nathu_colony_ballabgarh_-_hspcb_6972",
+    "location_id": 6972,
+    "sensor_id": 14283600,
+    "sensor_ids": [
+      14283600
+    ],
+    "lat": 28.3419248,
+    "lon": 77.319699,
+    "city": "Faridabad",
+    "name": "Nathu Colony, Ballabgarh - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-10-04T04:30:00Z",
+    "data_end": "2025-10-04T04:30:00Z"
+  },
+  {
+    "station": "jayanagar_5th_block_bengaluru_-_kspcb_6973",
+    "location_id": 6973,
+    "sensor_id": 12235267,
+    "sensor_ids": [
+      12235267
+    ],
+    "lat": 12.920984,
+    "lon": 77.584908,
+    "city": "Bengaluru",
+    "name": "Jayanagar 5th Block, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bapuji_nagar_bengaluru_-_kspcb_6974",
+    "location_id": 6974,
+    "sensor_id": 12235240,
+    "sensor_ids": [
+      12235240
+    ],
+    "lat": 12.951913,
+    "lon": 77.539784,
+    "city": "Bengaluru",
+    "name": "Bapuji Nagar, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "silk_board_bengaluru_-_kspcb_6975",
+    "location_id": 6975,
+    "sensor_id": 12235285,
+    "sensor_ids": [
+      12235285
+    ],
+    "lat": 12.917348,
+    "lon": 77.622813,
+    "city": "Bengaluru",
+    "name": "Silk Board, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "knowledge_park_-_iii_greater_noida_-_uppcb_6978",
+    "location_id": 6978,
+    "sensor_id": 12235196,
+    "sensor_ids": [
+      12235196
+    ],
+    "lat": 28.47272,
+    "lon": 77.482,
+    "city": "Noida",
+    "name": "Knowledge Park - III, Greater Noida - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-1_noida_-_uppcb_6980",
+    "location_id": 6980,
+    "sensor_id": 12235951,
+    "sensor_ids": [
+      12235951
+    ],
+    "lat": 28.589247,
+    "lon": 77.321962,
+    "city": "Noida",
+    "name": "Sector-1, Noida - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "fort_william_kolkata_-_wbpcb_6981",
+    "location_id": 6981,
+    "sensor_id": 12235878,
+    "sensor_ids": [
+      12235878
+    ],
+    "lat": 22.55664,
+    "lon": 88.342674,
+    "city": "Kolkata",
+    "name": "Fort William, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "hombegowda_nagar_bengaluru_-_kspcb_6983",
+    "location_id": 6983,
+    "sensor_id": 12235258,
+    "sensor_ids": [
+      12235258
+    ],
+    "lat": 12.938539,
+    "lon": 77.5901,
+    "city": "Bengaluru",
+    "name": "Hombegowda Nagar, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "hebbal_bengaluru_-_kspcb_6984",
+    "location_id": 6984,
+    "sensor_id": 12235249,
+    "sensor_ids": [
+      12235249
+    ],
+    "lat": 13.029152,
+    "lon": 77.585901,
+    "city": "Bengaluru",
+    "name": "Hebbal, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "yamunapuram_bulandshahr_-_uppcb_6985",
+    "location_id": 6985,
+    "sensor_id": 12235205,
+    "sensor_ids": [
+      12235205
+    ],
+    "lat": 28.406963,
+    "lon": 77.849831,
+    "city": "Noida",
+    "name": "Yamunapuram, Bulandshahr - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "knowledge_park_-_v_greater_noida_-_uppcb_6986",
+    "location_id": 6986,
+    "sensor_id": 12235935,
+    "sensor_ids": [
+      12235935
+    ],
+    "lat": 28.557054,
+    "lon": 77.453663,
+    "city": "Noida",
+    "name": "Knowledge Park - V, Greater Noida - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vile_parle_west_mumbai_-_mpcb_6987",
+    "location_id": 6987,
+    "sensor_id": 12235851,
+    "sensor_ids": [
+      12235851
+    ],
+    "lat": 19.10861,
+    "lon": 72.83622,
+    "city": "Mumbai",
+    "name": "Vile Parle West, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-116_noida_-_uppcb_6988",
+    "location_id": 6988,
+    "sensor_id": 12235942,
+    "sensor_ids": [
+      12235942
+    ],
+    "lat": 28.56923,
+    "lon": 77.393848,
+    "city": "Noida",
+    "name": "Sector-116, Noida - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "loni_ghaziabad_-_uppcb_7005",
+    "location_id": 7005,
+    "sensor_id": 12235787,
+    "sensor_ids": [
+      12235787
+    ],
+    "lat": 28.757294,
+    "lon": 77.278792,
+    "city": "Delhi",
+    "name": "Loni, Ghaziabad - UPPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "gomti_nagar_lucknow_-_uppcb_7140",
+    "location_id": 7140,
+    "sensor_id": 12235985,
+    "sensor_ids": [
+      12235985
+    ],
+    "lat": 26.86812,
+    "lon": 81.005119,
+    "city": "Lucknow",
+    "name": "Gomti Nagar, Lucknow - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shyam_nagar_palwal_-_hspcb_7280",
+    "location_id": 7280,
+    "sensor_id": 14249204,
+    "sensor_ids": [
+      14249204
+    ],
+    "lat": 28.1485564,
+    "lon": 77.3320667,
+    "city": "Faridabad",
+    "name": "Shyam Nagar, Palwal - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-09-30T04:30:00Z",
+    "data_end": "2025-09-30T04:30:00Z"
+  },
+  {
+    "station": "md_university_rohtak_-_hspcb_7283",
+    "location_id": 7283,
+    "sensor_id": 12599853,
+    "sensor_ids": [
+      12599853
+    ],
+    "lat": 28.87793,
+    "lon": 76.620825,
+    "city": "Gurugram",
+    "name": "MD University, Rohtak - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-03-27T04:30:00Z",
+    "data_end": "2025-03-27T04:30:00Z"
+  },
+  {
+    "station": "chhoti_gwaltoli_indore_-_mppcb_7292",
+    "location_id": 7292,
+    "sensor_id": 12236030,
+    "sensor_ids": [
+      12236030
+    ],
+    "lat": 22.431,
+    "lon": 75.5213,
+    "city": "Indore",
+    "name": "Chhoti Gwaltoli, Indore - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "drm_office_danapur_patna_-_bspcb_7495",
+    "location_id": 7495,
+    "sensor_id": 12236191,
+    "sensor_ids": [
+      12236191
+    ],
+    "lat": 25.586562,
+    "lon": 85.043586,
+    "city": "Patna",
+    "name": "DRM Office Danapur, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "khadakpada_kalyan_-_mpcb_7752",
+    "location_id": 7752,
+    "sensor_id": 12235920,
+    "sensor_ids": [
+      12235920
+    ],
+    "lat": 19.25292,
+    "lon": 73.142019,
+    "city": "Mumbai",
+    "name": "Khadakpada, Kalyan - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "us_diplomatic_post:_kolkata_8172",
+    "location_id": 8172,
+    "sensor_id": 5077640,
+    "sensor_ids": [
+      5077640
+    ],
+    "lat": 22.56263,
+    "lon": 88.36304,
+    "city": "Kolkata",
+    "name": "US Diplomatic Post: Kolkata",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2022-10-03T18:30:00Z",
+    "data_end": "2022-10-03T18:30:00Z"
+  },
+  {
+    "station": "jahangirpuri_delhi_-_dpcc_8235",
+    "location_id": 8235,
+    "sensor_id": 12235029,
+    "sensor_ids": [
+      12235029
+    ],
+    "lat": 28.73282,
+    "lon": 77.170633,
+    "city": "Delhi",
+    "name": "Jahangirpuri, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "okhla_phase-2_delhi_-_dpcc_8239",
+    "location_id": 8239,
+    "sensor_id": 12235074,
+    "sensor_ids": [
+      12235074
+    ],
+    "lat": 28.530785,
+    "lon": 77.271255,
+    "city": "Delhi",
+    "name": "Okhla Phase-2, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nehru_nagar_delhi_-_dpcc_8365",
+    "location_id": 8365,
+    "sensor_id": 12235083,
+    "sensor_ids": [
+      12235083
+    ],
+    "lat": 28.56789,
+    "lon": 77.250515,
+    "city": "Delhi",
+    "name": "Nehru Nagar, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bawana_delhi_-_dpcc_8472",
+    "location_id": 8472,
+    "sensor_id": 12235294,
+    "sensor_ids": [
+      12235294
+    ],
+    "lat": 28.7762,
+    "lon": 77.051074,
+    "city": "Delhi",
+    "name": "Bawana, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sonia_vihar_delhi_-_dpcc_8475",
+    "location_id": 8475,
+    "sensor_id": 12235110,
+    "sensor_ids": [
+      12235110
+    ],
+    "lat": 28.710508,
+    "lon": 77.249485,
+    "city": "Delhi",
+    "name": "Sonia Vihar, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "chennai_8558",
+    "location_id": 8558,
+    "sensor_id": 5077812,
+    "sensor_ids": [
+      5077812
+    ],
+    "lat": 13.08784,
+    "lon": 80.278475,
+    "city": "Chennai",
+    "name": "Chennai",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2022-10-03T18:30:00Z",
+    "data_end": "2022-10-03T18:30:00Z"
+  },
+  {
+    "station": "wazirpur_delhi_-_dpcc_8915",
+    "location_id": 8915,
+    "sensor_id": 12235124,
+    "sensor_ids": [
+      12235124
+    ],
+    "lat": 28.699793,
+    "lon": 77.165453,
+    "city": "Delhi",
+    "name": "Wazirpur, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ashok_vihar_delhi_-_dpcc_8917",
+    "location_id": 8917,
+    "sensor_id": 12235002,
+    "sensor_ids": [
+      12235002
+    ],
+    "lat": 28.695381,
+    "lon": 77.181665,
+    "city": "Delhi",
+    "name": "Ashok Vihar, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sri_aurobindo_marg_delhi_-_dpcc_10484",
+    "location_id": 10484,
+    "sensor_id": 12235312,
+    "sensor_ids": [
+      12235312
+    ],
+    "lat": 28.531346,
+    "lon": 77.190156,
+    "city": "Delhi",
+    "name": "Sri Aurobindo Marg, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "narela_delhi_-_dpcc_10485",
+    "location_id": 10485,
+    "sensor_id": 12235056,
+    "sensor_ids": [
+      12235056
+    ],
+    "lat": 28.822836,
+    "lon": 77.101981,
+    "city": "Delhi",
+    "name": "Narela, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mundka_delhi_-_dpcc_10486",
+    "location_id": 10486,
+    "sensor_id": 12235303,
+    "sensor_ids": [
+      12235303
+    ],
+    "lat": 28.684678,
+    "lon": 77.076574,
+    "city": "Delhi",
+    "name": "Mundka, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "najafgarh_delhi_-_dpcc_10488",
+    "location_id": 10488,
+    "sensor_id": 12235065,
+    "sensor_ids": [
+      12235065
+    ],
+    "lat": 28.570173,
+    "lon": 76.933762,
+    "city": "Gurugram",
+    "name": "Najafgarh, Delhi - DPCC",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rajbansi_nagar_patna_-_bspcb_10599",
+    "location_id": 10599,
+    "sensor_id": 12236102,
+    "sensor_ids": [
+      12236102
+    ],
+    "lat": 25.599486,
+    "lon": 85.113666,
+    "city": "Patna",
+    "name": "Rajbansi Nagar, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "govt._high_school_shikarpur_patna_-_bspcb_10630",
+    "location_id": 10630,
+    "sensor_id": 12236182,
+    "sensor_ids": [
+      12236182
+    ],
+    "lat": 25.592539,
+    "lon": 85.227158,
+    "city": "Patna",
+    "name": "Govt. High School Shikarpur, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "victoria_kolkata_-_wbpcb_10633",
+    "location_id": 10633,
+    "sensor_id": 12235680,
+    "sensor_ids": [
+      12235680
+    ],
+    "lat": 22.5448082,
+    "lon": 88.3403691,
+    "city": "Kolkata",
+    "name": "Victoria, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "industrial_area_hajipur_-_bspcb_10645",
+    "location_id": 10645,
+    "sensor_id": 12236200,
+    "sensor_ids": [
+      12236200
+    ],
+    "lat": 25.697189,
+    "lon": 85.2459,
+    "city": "Patna",
+    "name": "Industrial Area, Hajipur - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "muradpur_patna_-_bspcb_10670",
+    "location_id": 10670,
+    "sensor_id": 12236093,
+    "sensor_ids": [
+      12236093
+    ],
+    "lat": 25.619651,
+    "lon": 85.147382,
+    "city": "Patna",
+    "name": "Muradpur, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "samanpura_patna_-_bspcb_10697",
+    "location_id": 10697,
+    "sensor_id": 12236111,
+    "sensor_ids": [
+      12236111
+    ],
+    "lat": 25.596727,
+    "lon": 85.085624,
+    "city": "Patna",
+    "name": "Samanpura, Patna - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mini_secretariat_charkhi_dadri_-_hspcb_10725",
+    "location_id": 10725,
+    "sensor_id": 12236218,
+    "sensor_ids": [
+      12236218
+    ],
+    "lat": 28.593883,
+    "lon": 76.270653,
+    "city": "Gurugram",
+    "name": "Mini Secretariat, Charkhi Dadri - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "manali_village_chennai_-_tnpcb_10780",
+    "location_id": 10780,
+    "sensor_id": 12235796,
+    "sensor_ids": [
+      12235796
+    ],
+    "lat": 13.1662,
+    "lon": 80.2584,
+    "city": "Chennai",
+    "name": "Manali Village, Chennai - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector_30_faridabad_-_hspcb_10820",
+    "location_id": 10820,
+    "sensor_id": 12236236,
+    "sensor_ids": [
+      12236236
+    ],
+    "lat": 28.4417,
+    "lon": 77.3217,
+    "city": "Faridabad",
+    "name": "Sector 30, Faridabad - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "buddha_colony_muzaffarpur_-_bspcb_10823",
+    "location_id": 10823,
+    "sensor_id": 12236325,
+    "sensor_ids": [
+      12236325
+    ],
+    "lat": 26.11442,
+    "lon": 85.39813,
+    "city": "Patna",
+    "name": "Buddha Colony, Muzaffarpur - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-51_gurugram_-_hspcb_10825",
+    "location_id": 10825,
+    "sensor_id": 12236259,
+    "sensor_ids": [
+      12236259
+    ],
+    "lat": 28.4227,
+    "lon": 77.0667,
+    "city": "Gurugram",
+    "name": "Sector-51, Gurugram - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rohini_delhi_-_dpcc_10831",
+    "location_id": 10831,
+    "sensor_id": 12235092,
+    "sensor_ids": [
+      12235092
+    ],
+    "lat": 28.732528,
+    "lon": 77.11992,
+    "city": "Delhi",
+    "name": "Rohini, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ghusuri_howrah_-_wbpcb_10844",
+    "location_id": 10844,
+    "sensor_id": 12235496,
+    "sensor_ids": [
+      12235496
+    ],
+    "lat": 22.611968,
+    "lon": 88.347422,
+    "city": "Kolkata",
+    "name": "Ghusuri, Howrah - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bidhannagar_kolkata_-_wbpcb_10851",
+    "location_id": 10851,
+    "sensor_id": 12235994,
+    "sensor_ids": [
+      12235994
+    ],
+    "lat": 22.58157048,
+    "lon": 88.41002457,
+    "city": "Kolkata",
+    "name": "Bidhannagar, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "teri_gram_gurugram_-_hspcb_10900",
+    "location_id": 10900,
+    "sensor_id": 12236251,
+    "sensor_ids": [
+      12236251
+    ],
+    "lat": 28.4275,
+    "lon": 77.1465,
+    "city": "Gurugram",
+    "name": "Teri Gram, Gurugram - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "railway_colony_guwahati_-_apcb_10903",
+    "location_id": 10903,
+    "sensor_id": 12235761,
+    "sensor_ids": [
+      12235761
+    ],
+    "lat": 26.181742,
+    "lon": 91.78063,
+    "city": "Guwahati",
+    "name": "Railway Colony, Guwahati - APCB",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rabindra_sarobar_kolkata_-_wbpcb_10904",
+    "location_id": 10904,
+    "sensor_id": 12235967,
+    "sensor_ids": [
+      12235967
+    ],
+    "lat": 22.51106,
+    "lon": 88.35142,
+    "city": "Kolkata",
+    "name": "Rabindra Sarobar, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector_11_faridabad_-_hspcb_10908",
+    "location_id": 10908,
+    "sensor_id": 12236245,
+    "sensor_ids": [
+      12236245
+    ],
+    "lat": 28.376058,
+    "lon": 77.315741,
+    "city": "Faridabad",
+    "name": "Sector 11, Faridabad - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vijay_nagar_ramanagara_-_kspcb_10909",
+    "location_id": 10909,
+    "sensor_id": 12236066,
+    "sensor_ids": [
+      12236066
+    ],
+    "lat": 12.733409,
+    "lon": 77.298051,
+    "city": "Bengaluru",
+    "name": "Vijay Nagar, Ramanagara - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "t_t_nagar_bhopal_-_mppcb_10913",
+    "location_id": 10913,
+    "sensor_id": 12236021,
+    "sensor_ids": [
+      12236021
+    ],
+    "lat": 23.233584,
+    "lon": 77.400574,
+    "city": "Bhopal",
+    "name": "T T Nagar, Bhopal - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-25_chandigarh_-_cpcc_10914",
+    "location_id": 10914,
+    "sensor_id": 12235976,
+    "sensor_ids": [
+      12235976
+    ],
+    "lat": 30.751462,
+    "lon": 76.762879,
+    "city": "Chandigarh",
+    "name": "Sector-25, Chandigarh - CPCC",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ballygunge_kolkata_-_wbpcb_10918",
+    "location_id": 10918,
+    "sensor_id": 12236012,
+    "sensor_ids": [
+      12236012
+    ],
+    "lat": 22.5367507,
+    "lon": 88.3638022,
+    "city": "Kolkata",
+    "name": "Ballygunge, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sanjay_nagar_ghaziabad_-_uppcb_10919",
+    "location_id": 10919,
+    "sensor_id": 12235770,
+    "sensor_ids": [
+      12235770
+    ],
+    "lat": 28.685382,
+    "lon": 77.453839,
+    "city": "Ghaziabad",
+    "name": "Sanjay Nagar, Ghaziabad - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "new_industrial_town_faridabad_-_hspcb_10920",
+    "location_id": 10920,
+    "sensor_id": 12236227,
+    "sensor_ids": [
+      12236227
+    ],
+    "lat": 28.39072,
+    "lon": 77.30059,
+    "city": "Faridabad",
+    "name": "New Industrial Town, Faridabad - HSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nise_gwal_pahari_gurugram_-_imd_10921",
+    "location_id": 10921,
+    "sensor_id": 12235707,
+    "sensor_ids": [
+      12235707
+    ],
+    "lat": 28.422681,
+    "lon": 77.148944,
+    "city": "Gurugram",
+    "name": "NISE Gwal Pahari, Gurugram - IMD",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "royapuram_chennai_-_tnpcb_11578",
+    "location_id": 11578,
+    "sensor_id": 12236299,
+    "sensor_ids": [
+      12236299
+    ],
+    "lat": 13.1036,
+    "lon": 80.2909,
+    "city": "Chennai",
+    "name": "Royapuram, Chennai - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kodungaiyur_chennai_-_tnpcb_11579",
+    "location_id": 11579,
+    "sensor_id": 12236308,
+    "sensor_ids": [
+      12236308
+    ],
+    "lat": 13.1278,
+    "lon": 80.2642,
+    "city": "Chennai",
+    "name": "Kodungaiyur, Chennai - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "arumbakkam_chennai_-_tnpcb_11581",
+    "location_id": 11581,
+    "sensor_id": 12236274,
+    "sensor_ids": [
+      12236274
+    ],
+    "lat": 13.0664,
+    "lon": 80.2112,
+    "city": "Chennai",
+    "name": "Arumbakkam, Chennai - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "chandni_chowk_delhi_-_iitm_11603",
+    "location_id": 11603,
+    "sensor_id": 12236361,
+    "sensor_ids": [
+      12236361
+    ],
+    "lat": 28.656756,
+    "lon": 77.227234,
+    "city": "Delhi",
+    "name": "Chandni Chowk, Delhi - IITM",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "borivali_east_mumbai_-_iitm_11606",
+    "location_id": 11606,
+    "sensor_id": 12236418,
+    "sensor_ids": [
+      12236418
+    ],
+    "lat": 19.23241,
+    "lon": 72.86895,
+    "city": "Mumbai",
+    "name": "Borivali East, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "lodhi_road_delhi_-_iitm_11607",
+    "location_id": 11607,
+    "sensor_id": 12236376,
+    "sensor_ids": [
+      12236376
+    ],
+    "lat": 28.588333,
+    "lon": 77.221667,
+    "city": "Delhi",
+    "name": "Lodhi Road, Delhi - IITM",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mhada_colony_pune_-_iitm_11609",
+    "location_id": 11609,
+    "sensor_id": 12236443,
+    "sensor_ids": [
+      12236443
+    ],
+    "lat": 18.57304,
+    "lon": 73.927715,
+    "city": "Pune",
+    "name": "Mhada Colony, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "transport_nagar-nigdi_pune_-_iitm_11610",
+    "location_id": 11610,
+    "sensor_id": 12236457,
+    "sensor_ids": [
+      12236457
+    ],
+    "lat": 18.664282,
+    "lon": 73.763966,
+    "city": "Pune",
+    "name": "Transport Nagar-Nigdi, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "malad_west_mumbai_-_iitm_11611",
+    "location_id": 11611,
+    "sensor_id": 12236426,
+    "sensor_ids": [
+      12236426
+    ],
+    "lat": 19.19709,
+    "lon": 72.82204,
+    "city": "Mumbai",
+    "name": "Malad West, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "revenue_colony-shivajinagar_pune_-_iitm_11613",
+    "location_id": 11613,
+    "sensor_id": 12236463,
+    "sensor_ids": [
+      12236463
+    ],
+    "lat": 18.530085,
+    "lon": 73.849598,
+    "city": "Pune",
+    "name": "Revenue Colony-Shivajinagar, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "chakala-andheri_east_mumbai_-_iitm_12024",
+    "location_id": 12024,
+    "sensor_id": 12442196,
+    "sensor_ids": [
+      12442196
+    ],
+    "lat": 19.11074,
+    "lon": 72.86084,
+    "city": "Mumbai",
+    "name": "Chakala-Andheri East, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-03-11T07:30:00Z",
+    "data_end": "2025-03-11T07:30:00Z"
+  },
+  {
+    "station": "khindipada-bhandup_west_mumbai_-_iitm_12039",
+    "location_id": 12039,
+    "sensor_id": 12236394,
+    "sensor_ids": [
+      12236394
+    ],
+    "lat": 19.164394,
+    "lon": 72.928297,
+    "city": "Mumbai",
+    "name": "Khindipada-Bhandup West, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mulund_west_mumbai_-_mpcb_12040",
+    "location_id": 12040,
+    "sensor_id": 12236481,
+    "sensor_ids": [
+      12236481
+    ],
+    "lat": 19.175,
+    "lon": 72.9419,
+    "city": "Mumbai",
+    "name": "Mulund West, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kandivali_east_mumbai_-_mpcb_12044",
+    "location_id": 12044,
+    "sensor_id": 12236472,
+    "sensor_ids": [
+      12236472
+    ],
+    "lat": 19.2058,
+    "lon": 72.8682,
+    "city": "Mumbai",
+    "name": "Kandivali East, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "perungudi_chennai_-_tnpcb_12046",
+    "location_id": 12046,
+    "sensor_id": 12236290,
+    "sensor_ids": [
+      12236290
+    ],
+    "lat": 12.9533,
+    "lon": 80.2357,
+    "city": "Chennai",
+    "name": "Perungudi, Chennai - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "pan_bazaar_guwahati_-_apcb_42240",
+    "location_id": 42240,
+    "sensor_id": 12236490,
+    "sensor_ids": [
+      12236490
+    ],
+    "lat": 26.1875,
+    "lon": 91.744194,
+    "city": "Guwahati",
+    "name": "Pan Bazaar, Guwahati - APCB",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "anthoni_pillai_nagar_gummidipoondi_-_tnpcb_45008",
+    "location_id": 45008,
+    "sensor_id": 12236281,
+    "sensor_ids": [
+      12236281
+    ],
+    "lat": 13.4127,
+    "lon": 80.1081,
+    "city": "Chennai",
+    "name": "Anthoni Pillai Nagar, Gummidipoondi - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "tamaka_ind._area_kolar_-_kspcb_60656",
+    "location_id": 60656,
+    "sensor_id": 12235231,
+    "sensor_ids": [
+      12235231
+    ],
+    "lat": 13.1276288,
+    "lon": 78.1570122,
+    "city": "Bengaluru",
+    "name": "Tamaka Ind. Area, Kolar - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "hadapsar_pune_-_iitm_60658",
+    "location_id": 60658,
+    "sensor_id": 12236449,
+    "sensor_ids": [
+      12236449
+    ],
+    "lat": 18.501793,
+    "lon": 73.927532,
+    "city": "Pune",
+    "name": "Hadapsar, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rajbagh_srinagar_-_jkspcb_220265",
+    "location_id": 220265,
+    "sensor_id": 12251174,
+    "sensor_ids": [
+      12251174
+    ],
+    "lat": 34.06621,
+    "lon": 74.81982,
+    "city": "Srinagar",
+    "name": "Rajbagh, Srinagar - JKSPCB",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-02-20T04:30:00Z",
+    "data_end": "2025-02-20T04:30:00Z"
+  },
+  {
+    "station": "b_r_ambedkar_university_lucknow_-_uppcb_227386",
+    "location_id": 227386,
+    "sensor_id": 12236621,
+    "sensor_ids": [
+      12236621
+    ],
+    "lat": 26.766433000000003,
+    "lon": 80.927299,
+    "city": "Lucknow",
+    "name": "B R Ambedkar University, Lucknow - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rakhial_ahmedabad_-_iitm_227533",
+    "location_id": 227533,
+    "sensor_id": 12236540,
+    "sensor_ids": [
+      12236540
+    ],
+    "lat": 23.016834,
+    "lon": 72.625775,
+    "city": "Ahmedabad",
+    "name": "Rakhial, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "gyaspur_ahmedabad_-_iitm_227534",
+    "location_id": 227534,
+    "sensor_id": 12236531,
+    "sensor_ids": [
+      12236531
+    ],
+    "lat": 22.977134,
+    "lon": 72.553024,
+    "city": "Ahmedabad",
+    "name": "Gyaspur, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "manoharpur_agra_-_uppcb_227535",
+    "location_id": 227535,
+    "sensor_id": 12236648,
+    "sensor_ids": [
+      12236648
+    ],
+    "lat": 27.237109999999998,
+    "lon": 78.01935999999999,
+    "city": "Agra",
+    "name": "Manoharpur, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "chandkheda_ahmedabad_-_iitm_227536",
+    "location_id": 227536,
+    "sensor_id": 12236558,
+    "sensor_ids": [
+      12236558
+    ],
+    "lat": 23.107969,
+    "lon": 72.574648,
+    "city": "Ahmedabad",
+    "name": "Chandkheda, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-3b_avas_vikas_colony_agra_-_uppcb_227931",
+    "location_id": 227931,
+    "sensor_id": 12236657,
+    "sensor_ids": [
+      12236657
+    ],
+    "lat": 27.19412,
+    "lon": 77.96236999999999,
+    "city": "Agra",
+    "name": "Sector-3B Avas Vikas Colony, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "svpi_airport_hansol_ahmedabad_-_iitm_228297",
+    "location_id": 228297,
+    "sensor_id": 12236585,
+    "sensor_ids": [
+      12236585
+    ],
+    "lat": 23.076793,
+    "lon": 72.627874,
+    "city": "Ahmedabad",
+    "name": "SVPI Airport Hansol, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sardar_vallabhbhai_patel_stadium_ahmedabad_-_iitm_",
+    "location_id": 228298,
+    "sensor_id": 12236522,
+    "sensor_ids": [
+      12236522
+    ],
+    "lat": 23.04307,
+    "lon": 72.56296800000001,
+    "city": "Ahmedabad",
+    "name": "Sardar Vallabhbhai Patel Stadium, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sac_isro_satellite_ahmedabad_-_iitm_228300",
+    "location_id": 228300,
+    "sensor_id": 12236576,
+    "sensor_ids": [
+      12236576
+    ],
+    "lat": 23.023389,
+    "lon": 72.515201,
+    "city": "Ahmedabad",
+    "name": "SAC ISRO Satellite, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "iiphg_lekawada_gandhinagar_-_iitm_228301",
+    "location_id": 228301,
+    "sensor_id": 12236594,
+    "sensor_ids": [
+      12236594
+    ],
+    "lat": 23.243639,
+    "lon": 72.68994,
+    "city": "Ahmedabad",
+    "name": "IIPHG Lekawada, Gandhinagar - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sac_isro_bopal_ahmedabad_-_iitm_228303",
+    "location_id": 228303,
+    "sensor_id": 12236567,
+    "sensor_ids": [
+      12236567
+    ],
+    "lat": 23.041137,
+    "lon": 72.456691,
+    "city": "Ahmedabad",
+    "name": "SAC ISRO Bopal, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shastripuram_agra_-_uppcb_228352",
+    "location_id": 228352,
+    "sensor_id": 12236639,
+    "sensor_ids": [
+      12236639
+    ],
+    "lat": 27.198620000000002,
+    "lon": 77.92066,
+    "city": "Agra",
+    "name": "Shastripuram, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "iesd_banaras_hindu_university_varanasi_-_uppcb_228",
+    "location_id": 228397,
+    "sensor_id": 12236666,
+    "sensor_ids": [
+      12236666
+    ],
+    "lat": 25.262326,
+    "lon": 82.995408,
+    "city": "Varanasi",
+    "name": "IESD Banaras Hindu University, Varanasi - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhelupur_varanasi_-_uppcb_228403",
+    "location_id": 228403,
+    "sensor_id": 12236675,
+    "sensor_ids": [
+      12236675
+    ],
+    "lat": 25.301778,
+    "lon": 82.996789,
+    "city": "Varanasi",
+    "name": "Bhelupur, Varanasi - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "maldahiya_varanasi_-_uppcb_229195",
+    "location_id": 229195,
+    "sensor_id": 12236702,
+    "sensor_ids": [
+      12236702
+    ],
+    "lat": 25.323929999999997,
+    "lon": 82.99687,
+    "city": "Varanasi",
+    "name": "Maldahiya, Varanasi - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nsi_kalyanpur_kanpur_-_uppcb_229252",
+    "location_id": 229252,
+    "sensor_id": 12236693,
+    "sensor_ids": [
+      12236693
+    ],
+    "lat": 26.509953999999997,
+    "lon": 80.249612,
+    "city": "Kanpur",
+    "name": "NSI Kalyanpur, Kanpur - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kukrail_picnic_spot-1_lucknow_-_uppcb_229404",
+    "location_id": 229404,
+    "sensor_id": 12236630,
+    "sensor_ids": [
+      12236630
+    ],
+    "lat": 26.90723,
+    "lon": 80.98579000000001,
+    "city": "Lucknow",
+    "name": "Kukrail Picnic Spot-1, Lucknow - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nagla_bhau_firozabad_-_uppcb_229729",
+    "location_id": 229729,
+    "sensor_id": 12236735,
+    "sensor_ids": [
+      12236735
+    ],
+    "lat": 27.168896999999998,
+    "lon": 78.37696,
+    "city": "Agra",
+    "name": "Nagla Bhau, Firozabad - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "d_m_colony_bihar_sharif_-_bspcb_229985",
+    "location_id": 229985,
+    "sensor_id": 12236743,
+    "sensor_ids": [
+      12236743
+    ],
+    "lat": 25.204762,
+    "lon": 85.51496,
+    "city": "Patna",
+    "name": "D M Colony, Bihar Sharif - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mit-daudpur_kothi_muzaffarpur_-_bspcb_229987",
+    "location_id": 229987,
+    "sensor_id": 12241395,
+    "sensor_ids": [
+      12241395
+    ],
+    "lat": 26.1403345,
+    "lon": 85.3650192,
+    "city": "Patna",
+    "name": "MIT-Daudpur Kothi, Muzaffarpur - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-19T01:30:00Z",
+    "data_end": "2025-02-19T01:30:00Z"
+  },
+  {
+    "station": "omex_eternity_vrindavan_-_uppcb_233414",
+    "location_id": 233414,
+    "sensor_id": 12236761,
+    "sensor_ids": [
+      12236761
+    ],
+    "lat": 27.571409000000003,
+    "lon": 77.655757,
+    "city": "Agra",
+    "name": "Omex Eternity, Vrindavan - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector_22_chandigarh_-_cpcc_233415",
+    "location_id": 233415,
+    "sensor_id": 12236806,
+    "sensor_ids": [
+      12236806
+    ],
+    "lat": 30.735567,
+    "lon": 76.77571400000001,
+    "city": "Chandigarh",
+    "name": "Sector 22, Chandigarh - CPCC",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "fti_kidwai_nagar_kanpur_-_uppcb_234568",
+    "location_id": 234568,
+    "sensor_id": 12236815,
+    "sensor_ids": [
+      12236815
+    ],
+    "lat": 26.428282,
+    "lon": 80.327067,
+    "city": "Kanpur",
+    "name": "FTI Kidwai Nagar, Kanpur - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dharmapuri_agra_-_uppcb_234997",
+    "location_id": 234997,
+    "sensor_id": 12236824,
+    "sensor_ids": [
+      12236824
+    ],
+    "lat": 27.169338,
+    "lon": 78.03582,
+    "city": "Agra",
+    "name": "Dharmapuri, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "civic_center_bhilai_-_bhilai_steel_plant_270708",
+    "location_id": 270708,
+    "sensor_id": 12236841,
+    "sensor_ids": [
+      12236841
+    ],
+    "lat": 21.185571,
+    "lon": 81.343175,
+    "city": "Raipur",
+    "name": "Civic Center, Bhilai - Bhilai Steel Plant",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "darshan_nagar_chhapra_-_bspcb_270729",
+    "location_id": 270729,
+    "sensor_id": 12236911,
+    "sensor_ids": [
+      12236911
+    ],
+    "lat": 25.780825699999998,
+    "lon": 84.7446768,
+    "city": "Patna",
+    "name": "Darshan Nagar, Chhapra - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dangi_tola_rajgir_-_bspcb_270730",
+    "location_id": 270730,
+    "sensor_id": 12236788,
+    "sensor_ids": [
+      12236788
+    ],
+    "lat": 25.0328,
+    "lon": 85.41948000000001,
+    "city": "Patna",
+    "name": "Dangi Tola, Rajgir - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "new_dm_office_arrah_-_bspcb_270774",
+    "location_id": 270774,
+    "sensor_id": 12236848,
+    "sensor_ids": [
+      12236848
+    ],
+    "lat": 25.5626095,
+    "lon": 84.663264,
+    "city": "Patna",
+    "name": "New DM Office, Arrah - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rohta_agra_-_uppcb_278159",
+    "location_id": 278159,
+    "sensor_id": 12236752,
+    "sensor_ids": [
+      12236752
+    ],
+    "lat": 27.106972,
+    "lon": 78.000111,
+    "city": "Agra",
+    "name": "Rohta, Agra - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-53_chandigarh_-_cpcc_278418",
+    "location_id": 278418,
+    "sensor_id": 12237008,
+    "sensor_ids": [
+      12237008
+    ],
+    "lat": 30.719859000000003,
+    "lon": 76.738637,
+    "city": "Chandigarh",
+    "name": "Sector-53, Chandigarh - CPCC",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "raikhad_ahmedabad_-_iitm_301387",
+    "location_id": 301387,
+    "sensor_id": 12236549,
+    "sensor_ids": [
+      12236549
+    ],
+    "lat": 23.020509,
+    "lon": 72.579261,
+    "city": "Ahmedabad",
+    "name": "Raikhad, Ahmedabad - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sardar_patel_inter_college_baghpat_-_uppcb_301388",
+    "location_id": 301388,
+    "sensor_id": 12237035,
+    "sensor_ids": [
+      12237035
+    ],
+    "lat": 28.964949,
+    "lon": 77.278761,
+    "city": "Ghaziabad",
+    "name": "Sardar Patel Inter College, Baghpat - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "himuda_complex_phase-1_baddi_-_hppcb_301389",
+    "location_id": 301389,
+    "sensor_id": 12237044,
+    "sensor_ids": [
+      12237044
+    ],
+    "lat": 30.943887,
+    "lon": 76.801991,
+    "city": "Chandigarh",
+    "name": "HIMUDA Complex Phase-1, Baddi - HPPCB",
+    "owner": "",
+    "state": "Chandigarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dm_office_kasipur_samastipur_-_bspcb_301391",
+    "location_id": 301391,
+    "sensor_id": 12236972,
+    "sensor_ids": [
+      12236972
+    ],
+    "lat": 25.859655,
+    "lon": 85.77944000000001,
+    "city": "Patna",
+    "name": "DM Office_Kasipur, Samastipur - BSPCB",
+    "owner": "",
+    "state": "Bihar",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "doon_university_dehradun_-_ukpcb_317035",
+    "location_id": 317035,
+    "sensor_id": 12237080,
+    "sensor_ids": [
+      12237080
+    ],
+    "lat": 30.269444,
+    "lon": 78.044167,
+    "city": "Dehradun",
+    "name": "Doon University, Dehradun - UKPCB",
+    "owner": "",
+    "state": "Uttarakhand",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vibhab_nagar_firozabad_-_uppcb_330021",
+    "location_id": 330021,
+    "sensor_id": 12237026,
+    "sensor_ids": [
+      12237026
+    ],
+    "lat": 27.1594,
+    "lon": 78.3953,
+    "city": "Agra",
+    "name": "Vibhab Nagar, Firozabad - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ecil_kapra_hyderabad_-_tspcb_344103",
+    "location_id": 344103,
+    "sensor_id": 12237098,
+    "sensor_ids": [
+      12237098
+    ],
+    "lat": 17.470431,
+    "lon": 78.566959,
+    "city": "Hyderabad",
+    "name": "ECIL Kapra, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kompally_municipal_office_hyderabad_-_tspcb_344104",
+    "location_id": 344104,
+    "sensor_id": 12237125,
+    "sensor_ids": [
+      12237125
+    ],
+    "lat": 17.544898999999997,
+    "lon": 78.486949,
+    "city": "Hyderabad",
+    "name": "Kompally Municipal Office, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "somajiguda_hyderabad_-_tspcb_344140",
+    "location_id": 344140,
+    "sensor_id": 12237116,
+    "sensor_ids": [
+      12237116
+    ],
+    "lat": 17.417094,
+    "lon": 78.457437,
+    "city": "Hyderabad",
+    "name": "Somajiguda, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "nacharam_tsiic_iala_hyderabad_-_tspcb_344142",
+    "location_id": 344142,
+    "sensor_id": 12237134,
+    "sensor_ids": [
+      12237134
+    ],
+    "lat": 17.429398,
+    "lon": 78.569354,
+    "city": "Hyderabad",
+    "name": "Nacharam_TSIIC IALA, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "iith_kandi_hyderabad_-_tspcb_344144",
+    "location_id": 344144,
+    "sensor_id": 12237107,
+    "sensor_ids": [
+      12237107
+    ],
+    "lat": 17.585704999999997,
+    "lon": 78.126199,
+    "city": "Hyderabad",
+    "name": "IITH Kandi, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ramachandrapuram_hyderabad_-_tspcb_346257",
+    "location_id": 346257,
+    "sensor_id": 12242164,
+    "sensor_ids": [
+      12242164
+    ],
+    "lat": 17.528544,
+    "lon": 78.28619499999999,
+    "city": "Hyderabad",
+    "name": "Ramachandrapuram, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-19T05:30:00Z",
+    "data_end": "2025-02-19T05:30:00Z"
+  },
+  {
+    "station": "kokapet_hyderabad_-_tspcb_346258",
+    "location_id": 346258,
+    "sensor_id": 12237161,
+    "sensor_ids": [
+      12237161
+    ],
+    "lat": 17.393559,
+    "lon": 78.33919399999999,
+    "city": "Hyderabad",
+    "name": "Kokapet, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kalindi_kunj_khurja_-_uppcb_346439",
+    "location_id": 346439,
+    "sensor_id": 12237152,
+    "sensor_ids": [
+      12237152
+    ],
+    "lat": 28.234892699999996,
+    "lon": 77.8683002,
+    "city": "Faridabad",
+    "name": "Kalindi Kunj, Khurja - UPPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "new_malakpet_hyderabad_-_tspcb_352465",
+    "location_id": 352465,
+    "sensor_id": 12237089,
+    "sensor_ids": [
+      12237089
+    ],
+    "lat": 17.37206,
+    "lon": 78.50864,
+    "city": "Hyderabad",
+    "name": "New Malakpet, Hyderabad - TSPCB",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sipcot_phase-1_hosur_-_tnpcb_358454",
+    "location_id": 358454,
+    "sensor_id": 2028423,
+    "sensor_ids": [
+      2028423
+    ],
+    "lat": 12.746998,
+    "lon": 77.813811,
+    "city": "Bengaluru",
+    "name": "SIPCOT Phase-1, Hosur - TNPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2022-09-13T11:00:00Z",
+    "data_end": "2022-09-13T11:00:00Z"
+  },
+  {
+    "station": "crescent_university_chengalpattu_-_tnpcb_358627",
+    "location_id": 358627,
+    "sensor_id": 12237166,
+    "sensor_ids": [
+      12237166
+    ],
+    "lat": 12.877731599999999,
+    "lon": 80.08348070000001,
+    "city": "Chennai",
+    "name": "Crescent University, Chengalpattu - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "paryavaran_parisar_bhopal_-_mppcb_361378",
+    "location_id": 361378,
+    "sensor_id": 12237358,
+    "sensor_ids": [
+      12237358
+    ],
+    "lat": 23.210494,
+    "lon": 77.425409,
+    "city": "Bhopal",
+    "name": "Paryavaran Parisar, Bhopal - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "iitg_guwahati_-_pcba_361411",
+    "location_id": 361411,
+    "sensor_id": 2042938,
+    "sensor_ids": [
+      2042938
+    ],
+    "lat": 26.2028636,
+    "lon": 91.70046436,
+    "city": "Guwahati",
+    "name": "IITG, Guwahati - PCBA",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2022-09-19T12:00:00Z",
+    "data_end": "2022-09-19T12:00:00Z"
+  },
+  {
+    "station": "dhopagachi_1236037",
+    "location_id": 1236037,
+    "sensor_id": 6530267,
+    "sensor_ids": [
+      6530267
+    ],
+    "lat": 22.3743,
+    "lon": 88.415,
+    "city": "Kolkata",
+    "name": "Dhopagachi",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2023-07-15T12:00:00Z",
+    "data_end": "2023-07-15T12:00:00Z"
+  },
+  {
+    "station": "spartan_-_iit_kanpur_1285345",
+    "location_id": 1285345,
+    "sensor_id": 6566245,
+    "sensor_ids": [
+      6566245
+    ],
+    "lat": 26.5128,
+    "lon": 80.2316,
+    "city": "Kanpur",
+    "name": "SPARTAN - IIT Kanpur",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2019-10-21T12:00:00Z",
+    "data_end": "2019-10-21T12:00:00Z"
+  },
+  {
+    "station": "lahore_1894641",
+    "location_id": 1894641,
+    "sensor_id": 7466365,
+    "sensor_ids": [
+      7466365
+    ],
+    "lat": 31.54815,
+    "lon": 74.34396,
+    "city": "Amritsar",
+    "name": "Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2023-11-28T16:00:00Z",
+    "data_end": "2023-11-28T16:00:00Z"
+  },
+  {
+    "station": "sirijaya_2498781",
+    "location_id": 2498781,
+    "sensor_id": 7951363,
+    "sensor_ids": [
+      7951363
+    ],
+    "lat": 12.909153635368195,
+    "lon": 77.52476183092863,
+    "city": "Bengaluru",
+    "name": "SiriJaya",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2024-03-01T16:00:00Z",
+    "data_end": "2024-03-01T16:00:00Z"
+  },
+  {
+    "station": "gk1_(oberoi_terrace)_2860223",
+    "location_id": 2860223,
+    "sensor_id": 9320367,
+    "sensor_ids": [
+      9320367
+    ],
+    "lat": 28.5500047,
+    "lon": 77.2431058,
+    "city": "Delhi",
+    "name": "GK1 (Oberoi Terrace)",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2024-05-22T10:00:00Z",
+    "data_end": "2024-05-22T10:00:00Z"
+  },
+  {
+    "station": "nasa_gsfc_rutgers_calib._n8_3024966",
+    "location_id": 3024966,
+    "sensor_id": 10326358,
+    "sensor_ids": [
+      10326358
+    ],
+    "lat": 28.31733,
+    "lon": 76.91603,
+    "city": "Gurugram",
+    "name": "NASA GSFC Rutgers Calib. N8",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2024-08-20T06:00:00Z",
+    "data_end": "2024-08-20T06:00:00Z"
+  },
+  {
+    "station": "malav_3174188",
+    "location_id": 3174188,
+    "sensor_id": 11056921,
+    "sensor_ids": [
+      11056921
+    ],
+    "lat": 22.70763,
+    "lon": 75.85257,
+    "city": "Indore",
+    "name": "Malav",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2023-01-09T12:30:00Z",
+    "data_end": "2023-01-09T12:30:00Z"
+  },
+  {
+    "station": "bicholi_hapsi_3174189",
+    "location_id": 3174189,
+    "sensor_id": 11056913,
+    "sensor_ids": [
+      11056913
+    ],
+    "lat": 22.71771,
+    "lon": 75.93739,
+    "city": "Indore",
+    "name": "Bicholi Hapsi",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2023-01-09T09:30:00Z",
+    "data_end": "2023-01-09T09:30:00Z"
+  },
+  {
+    "station": "musakhedi_3174190",
+    "location_id": 3174190,
+    "sensor_id": 11056917,
+    "sensor_ids": [
+      11056917
+    ],
+    "lat": 22.6967,
+    "lon": 75.89488,
+    "city": "Indore",
+    "name": "Musakhedi",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2023-01-09T07:30:00Z",
+    "data_end": "2023-01-09T07:30:00Z"
+  },
+  {
+    "station": "farhan_shah_labs_3292849",
+    "location_id": 3292849,
+    "sensor_id": 11480306,
+    "sensor_ids": [
+      11480306
+    ],
+    "lat": 32.424312,
+    "lon": 74.52885,
+    "city": "Jammu",
+    "name": "Farhan Shah Labs",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2024-11-30T00:00:00Z",
+    "data_end": "2024-11-30T00:00:00Z"
+  },
+  {
+    "station": "bwssb_kadabesanahalli_bengaluru_-_cpcb_3409312",
+    "location_id": 3409312,
+    "sensor_id": 14406995,
+    "sensor_ids": [
+      14406995
+    ],
+    "lat": 12.9352049,
+    "lon": 77.6814488,
+    "city": "Bengaluru",
+    "name": "BWSSB Kadabesanahalli, Bengaluru - CPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-10-18T06:30:00Z",
+    "data_end": "2025-10-18T06:30:00Z"
+  },
+  {
+    "station": "central_school_lucknow_-_cpcb_3409318",
+    "location_id": 3409318,
+    "sensor_id": 12235478,
+    "sensor_ids": [
+      12235478
+    ],
+    "lat": 26.8821003,
+    "lon": 80.9302753,
+    "city": "Lucknow",
+    "name": "Central School, Lucknow - CPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "alandur_bus_depot_chennai_-_cpcb_3409319",
+    "location_id": 3409319,
+    "sensor_id": 12235549,
+    "sensor_ids": [
+      12235549
+    ],
+    "lat": 12.9099161,
+    "lon": 80.1076538,
+    "city": "Chennai",
+    "name": "Alandur Bus Depot, Chennai - CPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rabindra_bharati_university_kolkata_-_wbpcb_340932",
+    "location_id": 3409320,
+    "sensor_id": 12235565,
+    "sensor_ids": [
+      12235565
+    ],
+    "lat": 22.627875,
+    "lon": 88.3804,
+    "city": "Kolkata",
+    "name": "Rabindra Bharati University, Kolkata - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "haldia_-_wbspcb_3409321",
+    "location_id": 3409321,
+    "sensor_id": 12235601,
+    "sensor_ids": [
+      12235601
+    ],
+    "lat": 22.06047,
+    "lon": 88.109737,
+    "city": "Kolkata",
+    "name": "Haldia - WBSPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "pimpleshwar_mandir_thane_-_mpcb_3409322",
+    "location_id": 3409322,
+    "sensor_id": 12235644,
+    "sensor_ids": [
+      12235644
+    ],
+    "lat": 19.192056,
+    "lon": 72.9585188,
+    "city": "Mumbai",
+    "name": "Pimpleshwar Mandir, Thane - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "worli_mumbai_-_mpcb_3409323",
+    "location_id": 3409323,
+    "sensor_id": 12235914,
+    "sensor_ids": [
+      12235914
+    ],
+    "lat": 18.9936162,
+    "lon": 72.8128113,
+    "city": "Mumbai",
+    "name": "Worli, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bandra_kurla_complex_mumbai_-_iitm_3409328",
+    "location_id": 3409328,
+    "sensor_id": 12708246,
+    "sensor_ids": [
+      12708246
+    ],
+    "lat": 19.0627,
+    "lon": 72.84614,
+    "city": "Mumbai",
+    "name": "Bandra Kurla Complex, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-04-07T12:30:00Z",
+    "data_end": "2025-04-07T12:30:00Z"
+  },
+  {
+    "station": "deonar_mumbai_-_iitm_3409329",
+    "location_id": 3409329,
+    "sensor_id": 12236385,
+    "sensor_ids": [
+      12236385
+    ],
+    "lat": 19.04946,
+    "lon": 72.923,
+    "city": "Mumbai",
+    "name": "Deonar, Mumbai - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhosari_pune_-_iitm_3409331",
+    "location_id": 3409331,
+    "sensor_id": 12304615,
+    "sensor_ids": [
+      12304615
+    ],
+    "lat": 18.640051,
+    "lon": 73.848956,
+    "city": "Pune",
+    "name": "Bhosari, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-25T12:30:00Z",
+    "data_end": "2025-02-25T12:30:00Z"
+  },
+  {
+    "station": "gift_city_gandhinagar_-_iitm_3409336",
+    "location_id": 3409336,
+    "sensor_id": 12236603,
+    "sensor_ids": [
+      12236603
+    ],
+    "lat": 23.163798,
+    "lon": 72.677768,
+    "city": "Ahmedabad",
+    "name": "GIFT City, Gandhinagar - IITM",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sipcot_phase-1_hosur_-_tnpcb_3409347",
+    "location_id": 3409347,
+    "sensor_id": 12475183,
+    "sensor_ids": [
+      12475183
+    ],
+    "lat": 12.746998,
+    "lon": 77.813811,
+    "city": "Bengaluru",
+    "name": "SIPCOT Phase-1, Hosur - TNPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-03-14T15:30:00Z",
+    "data_end": "2025-03-14T15:30:00Z"
+  },
+  {
+    "station": "kilambi_kanchipuram_-_tnpcb_3409353",
+    "location_id": 3409353,
+    "sensor_id": 12237264,
+    "sensor_ids": [
+      12237264
+    ],
+    "lat": 12.864618,
+    "lon": 79.659968,
+    "city": "Chennai",
+    "name": "Kilambi, Kanchipuram - TNPCB",
+    "owner": "",
+    "state": "Tamil Nadu",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "iitg_guwahati_-_pcba_3409360",
+    "location_id": 3409360,
+    "sensor_id": 12237367,
+    "sensor_ids": [
+      12237367
+    ],
+    "lat": 26.202863600000004,
+    "lon": 91.70046436,
+    "city": "Guwahati",
+    "name": "IITG, Guwahati - PCBA",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "aiims_raipur_-_cecb_3409361",
+    "location_id": 3409361,
+    "sensor_id": 12237376,
+    "sensor_ids": [
+      12237376
+    ],
+    "lat": 21.258815,
+    "lon": 81.578979,
+    "city": "Raipur",
+    "name": "AIIMS, Raipur - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "siltara_phase-ii_raipur_-_cecb_3409362",
+    "location_id": 3409362,
+    "sensor_id": 12237385,
+    "sensor_ids": [
+      12237385
+    ],
+    "lat": 21.371751,
+    "lon": 81.664929,
+    "city": "Raipur",
+    "name": "Siltara Phase-II, Raipur - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "krishak_nagar_raipur_-_cecb_3409363",
+    "location_id": 3409363,
+    "sensor_id": 12237394,
+    "sensor_ids": [
+      12237394
+    ],
+    "lat": 21.237755,
+    "lon": 81.705301,
+    "city": "Raipur",
+    "name": "Krishak Nagar, Raipur - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhatagaon_new_isbt_raipur_-_cecb_3409364",
+    "location_id": 3409364,
+    "sensor_id": 12263431,
+    "sensor_ids": [
+      12263431
+    ],
+    "lat": 21.219665,
+    "lon": 81.630094,
+    "city": "Raipur",
+    "name": "Bhatagaon New ISBT, Raipur - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-21T11:30:00Z",
+    "data_end": "2025-02-21T11:30:00Z"
+  },
+  {
+    "station": "hathkhoj_bhilai_-_cecb_3409367",
+    "location_id": 3409367,
+    "sensor_id": 12237421,
+    "sensor_ids": [
+      12237421
+    ],
+    "lat": 21.224231,
+    "lon": 81.40835,
+    "city": "Raipur",
+    "name": "Hathkhoj, Bhilai - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "32bungalows_bhilai_-_cecb_3409368",
+    "location_id": 3409368,
+    "sensor_id": 12237430,
+    "sensor_ids": [
+      12237430
+    ],
+    "lat": 21.194815,
+    "lon": 81.31477,
+    "city": "Raipur",
+    "name": "32Bungalows, Bhilai - CECB",
+    "owner": "",
+    "state": "Chhattisgarh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bata_chowk_nalbari_-_pcba_3409375",
+    "location_id": 3409375,
+    "sensor_id": 12237485,
+    "sensor_ids": [
+      12237485
+    ],
+    "lat": 26.446912,
+    "lon": 91.43905699999999,
+    "city": "Guwahati",
+    "name": "Bata Chowk, Nalbari - PCBA",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "central_academy_for_sfs_byrnihat_-_pcba_3409376",
+    "location_id": 3409376,
+    "sensor_id": 12237494,
+    "sensor_ids": [
+      12237494
+    ],
+    "lat": 26.071317999999998,
+    "lon": 91.87488,
+    "city": "Guwahati",
+    "name": "Central Academy for SFS, Byrnihat - PCBA",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "rvce-mailasandra_bengaluru_-_kspcb_3409385",
+    "location_id": 3409385,
+    "sensor_id": 12237573,
+    "sensor_ids": [
+      12237573
+    ],
+    "lat": 12.921418,
+    "lon": 77.502466,
+    "city": "Bengaluru",
+    "name": "RVCE-Mailasandra, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kasturi_nagar_bengaluru_-_kspcb_3409388",
+    "location_id": 3409388,
+    "sensor_id": 12237600,
+    "sensor_ids": [
+      12237600
+    ],
+    "lat": 13.003872,
+    "lon": 77.664217,
+    "city": "Bengaluru",
+    "name": "Kasturi Nagar, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "thimmalapura_tumakuru_-_kspcb_3409389",
+    "location_id": 3409389,
+    "sensor_id": 12237609,
+    "sensor_ids": [
+      12237609
+    ],
+    "lat": 13.377516,
+    "lon": 77.09907199999999,
+    "city": "Bengaluru",
+    "name": "Thimmalapura, Tumakuru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "lgbi_airport_guwahati_-_pcba_3409390",
+    "location_id": 3409390,
+    "sensor_id": 12237618,
+    "sensor_ids": [
+      12237618
+    ],
+    "lat": 26.10887,
+    "lon": 91.58954399999999,
+    "city": "Guwahati",
+    "name": "LGBI Airport, Guwahati - PCBA",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shivapura_peenya_bengaluru_-_kspcb_3409393",
+    "location_id": 3409393,
+    "sensor_id": 12237645,
+    "sensor_ids": [
+      12237645
+    ],
+    "lat": 13.0246342,
+    "lon": 77.5080115,
+    "city": "Bengaluru",
+    "name": "Shivapura_Peenya, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "krishna_nagar_bharatpur_-_rspcb_3409402",
+    "location_id": 3409402,
+    "sensor_id": 12237721,
+    "sensor_ids": [
+      12237721
+    ],
+    "lat": 27.215415000000004,
+    "lon": 77.50873,
+    "city": "Agra",
+    "name": "Krishna Nagar, Bharatpur - RSPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "raja_ganj_dholpur_-_rspcb_3409405",
+    "location_id": 3409405,
+    "sensor_id": 12237748,
+    "sensor_ids": [
+      12237748
+    ],
+    "lat": 26.699557000000002,
+    "lon": 77.898881,
+    "city": "Agra",
+    "name": "Raja Ganj, Dholpur - RSPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shivaji_nagar_rishikesh_-_ukpcb_3409408",
+    "location_id": 3409408,
+    "sensor_id": 12237775,
+    "sensor_ids": [
+      12237775
+    ],
+    "lat": 30.075910999999998,
+    "lon": 78.2859547,
+    "city": "Dehradun",
+    "name": "Shivaji Nagar, Rishikesh - UKPCB",
+    "owner": "",
+    "state": "Uttarakhand",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "idgah_hills_bhopal_-_mppcb_3409413",
+    "location_id": 3409413,
+    "sensor_id": 12237811,
+    "sensor_ids": [
+      12237811
+    ],
+    "lat": 23.264758999999998,
+    "lon": 77.381568,
+    "city": "Bhopal",
+    "name": "Idgah Hills, Bhopal - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T20:30:00Z",
+    "data_end": "2025-02-18T20:30:00Z"
+  },
+  {
+    "station": "vijay_nagar_scheme-78_indore_-_glenmark_3409414",
+    "location_id": 3409414,
+    "sensor_id": 12237818,
+    "sensor_ids": [
+      12237818
+    ],
+    "lat": 22.76726,
+    "lon": 75.8871,
+    "city": "Indore",
+    "name": "Vijay Nagar Scheme-78, Indore - Glenmark",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "khatikan_mohalla_dausa_-_rspcb_3409418",
+    "location_id": 3409418,
+    "sensor_id": 12237843,
+    "sensor_ids": [
+      12237843
+    ],
+    "lat": 26.895552000000002,
+    "lon": 76.334753,
+    "city": "Jaipur",
+    "name": "Khatikan Mohalla, Dausa - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mansarovar_sector-12_jaipur_-_rspcb_3409430",
+    "location_id": 3409430,
+    "sensor_id": 12237951,
+    "sensor_ids": [
+      12237951
+    ],
+    "lat": 26.843698,
+    "lon": 75.766894,
+    "city": "Jaipur",
+    "name": "Mansarovar Sector-12, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-2_murlipura_jaipur_-_rspcb_3409432",
+    "location_id": 3409432,
+    "sensor_id": 12237969,
+    "sensor_ids": [
+      12237969
+    ],
+    "lat": 26.960669,
+    "lon": 75.771817,
+    "city": "Jaipur",
+    "name": "Sector-2 Murlipura, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "riico_sitapura_jaipur_-_rspcb_3409433",
+    "location_id": 3409433,
+    "sensor_id": 12237978,
+    "sensor_ids": [
+      12237978
+    ],
+    "lat": 26.786682,
+    "lon": 75.827928,
+    "city": "Jaipur",
+    "name": "RIICO Sitapura, Jaipur - RSPCB",
+    "owner": "",
+    "state": "Rajasthan",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "jigani_bengaluru_-_kspcb_3409434",
+    "location_id": 3409434,
+    "sensor_id": 12243008,
+    "sensor_ids": [
+      12243008
+    ],
+    "lat": 12.7816279,
+    "lon": 77.6299145,
+    "city": "Bengaluru",
+    "name": "Jigani, Bengaluru - KSPCB",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-02-19T06:30:00Z",
+    "data_end": "2025-02-19T06:30:00Z"
+  },
+  {
+    "station": "gavalinagar_pimpri_chinchwad_-_mpcb_3409435",
+    "location_id": 3409435,
+    "sensor_id": 12237987,
+    "sensor_ids": [
+      12237987
+    ],
+    "lat": 18.63673,
+    "lon": 73.82487,
+    "city": "Pune",
+    "name": "Gavalinagar, Pimpri Chinchwad - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "park_street_wakad_pimpri_chinchwad_-_mpcb_3409436",
+    "location_id": 3409436,
+    "sensor_id": 12237996,
+    "sensor_ids": [
+      12237996
+    ],
+    "lat": 18.59051,
+    "lon": 73.77946,
+    "city": "Pune",
+    "name": "Park Street Wakad, Pimpri Chinchwad - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "thergaon_pimpri_chinchwad_-_mpcb_3409437",
+    "location_id": 3409437,
+    "sensor_id": 12243017,
+    "sensor_ids": [
+      12243017
+    ],
+    "lat": 18.616318,
+    "lon": 73.765797,
+    "city": "Pune",
+    "name": "Thergaon, Pimpri Chinchwad - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-19T05:30:00Z",
+    "data_end": "2025-02-19T05:30:00Z"
+  },
+  {
+    "station": "katraj_dairy_pune_-_mpcb_3409438",
+    "location_id": 3409438,
+    "sensor_id": 12248370,
+    "sensor_ids": [
+      12248370
+    ],
+    "lat": 18.45445,
+    "lon": 73.854155,
+    "city": "Pune",
+    "name": "Katraj Dairy, Pune - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-19T20:30:00Z",
+    "data_end": "2025-02-19T20:30:00Z"
+  },
+  {
+    "station": "savitribai_phule_pune_university_pune_-_mpcb_34094",
+    "location_id": 3409439,
+    "sensor_id": 12238005,
+    "sensor_ids": [
+      12238005
+    ],
+    "lat": 18.547056,
+    "lon": 73.826908,
+    "city": "Pune",
+    "name": "Savitribai Phule Pune University, Pune - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kamble_tarf_birwadi_mahad_-_mpcb_3409455",
+    "location_id": 3409455,
+    "sensor_id": 12238148,
+    "sensor_ids": [
+      12238148
+    ],
+    "lat": 18.1023399,
+    "lon": 73.4783687,
+    "city": "Pune",
+    "name": "Kamble Tarf Birwadi, Mahad - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ambazari_nagpur_-_mpcb_3409464",
+    "location_id": 3409464,
+    "sensor_id": 12238213,
+    "sensor_ids": [
+      12238213
+    ],
+    "lat": 21.121801,
+    "lon": 79.04952,
+    "city": "Nagpur",
+    "name": "Ambazari, Nagpur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "ram_nagar_nagpur_-_mpcb_3409465",
+    "location_id": 3409465,
+    "sensor_id": 12238222,
+    "sensor_ids": [
+      12238222
+    ],
+    "lat": 21.143383,
+    "lon": 79.048912,
+    "city": "Nagpur",
+    "name": "Ram Nagar, Nagpur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mahal_nagpur_-_mpcb_3409468",
+    "location_id": 3409468,
+    "sensor_id": 12238249,
+    "sensor_ids": [
+      12238249
+    ],
+    "lat": 21.14472,
+    "lon": 79.107595,
+    "city": "Nagpur",
+    "name": "Mahal, Nagpur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kasarvadavali_thane_-_mpcb_3409469",
+    "location_id": 3409469,
+    "sensor_id": 12238258,
+    "sensor_ids": [
+      12238258
+    ],
+    "lat": 19.26777,
+    "lon": 72.97182,
+    "city": "Mumbai",
+    "name": "Kasarvadavali, Thane - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "katrap_badlapur_-_mpcb_3409470",
+    "location_id": 3409470,
+    "sensor_id": 12238267,
+    "sensor_ids": [
+      12238267
+    ],
+    "lat": 19.16485,
+    "lon": 73.23409,
+    "city": "Mumbai",
+    "name": "Katrap, Badlapur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sector-2e_kalamboli_navi_mumbai_-_mpcb_3409471",
+    "location_id": 3409471,
+    "sensor_id": 12238276,
+    "sensor_ids": [
+      12238276
+    ],
+    "lat": 19.02579,
+    "lon": 73.10297,
+    "city": "Mumbai",
+    "name": "Sector-2E Kalamboli, Navi Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "upvan_fort_thane_-_mpcb_3409472",
+    "location_id": 3409472,
+    "sensor_id": 12238285,
+    "sensor_ids": [
+      12238285
+    ],
+    "lat": 19.222279,
+    "lon": 72.957979,
+    "city": "Mumbai",
+    "name": "Upvan Fort, Thane - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "tondare-taloja_navi_mumbai_-_mpcb_3409475",
+    "location_id": 3409475,
+    "sensor_id": 12238312,
+    "sensor_ids": [
+      12238312
+    ],
+    "lat": 19.063,
+    "lon": 73.1209,
+    "city": "Mumbai",
+    "name": "Tondare-Taloja, Navi Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "cbd_belapur_belapur_-_mpcb_3409476",
+    "location_id": 3409476,
+    "sensor_id": 12238321,
+    "sensor_ids": [
+      12238321
+    ],
+    "lat": 19.0243902,
+    "lon": 73.0406721,
+    "city": "Mumbai",
+    "name": "CBD Belapur, Belapur - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kopripada-vashi_navi_mumbai_-_mpcb_3409477",
+    "location_id": 3409477,
+    "sensor_id": 12238330,
+    "sensor_ids": [
+      12238330
+    ],
+    "lat": 19.090337,
+    "lon": 73.014232,
+    "city": "Mumbai",
+    "name": "Kopripada-Vashi, Navi Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhayandar_west_mira-bhayandar_-_mpcb_3409478",
+    "location_id": 3409478,
+    "sensor_id": 12238339,
+    "sensor_ids": [
+      12238339
+    ],
+    "lat": 19.296481,
+    "lon": 72.840923,
+    "city": "Mumbai",
+    "name": "Bhayandar West, Mira-Bhayandar - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "mindspace-malad_west_mumbai_-_mpcb_3409479",
+    "location_id": 3409479,
+    "sensor_id": 12238348,
+    "sensor_ids": [
+      12238348
+    ],
+    "lat": 19.1878657,
+    "lon": 72.8304069,
+    "city": "Mumbai",
+    "name": "Mindspace-Malad West, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bolinj_virar_-_mpcb_3409480",
+    "location_id": 3409480,
+    "sensor_id": 12238357,
+    "sensor_ids": [
+      12238357
+    ],
+    "lat": 19.445821,
+    "lon": 72.7988231,
+    "city": "Mumbai",
+    "name": "Bolinj, Virar - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "khaira_boisar_-_mpcb_3409481",
+    "location_id": 3409481,
+    "sensor_id": 12238366,
+    "sensor_ids": [
+      12238366
+    ],
+    "lat": 19.786089,
+    "lon": 72.757971,
+    "city": "Mumbai",
+    "name": "Khaira, Boisar - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bandra_kurla_complex_mumbai_-_mpcb_3409482",
+    "location_id": 3409482,
+    "sensor_id": 12238375,
+    "sensor_ids": [
+      12238375
+    ],
+    "lat": 19.065931,
+    "lon": 72.862131,
+    "city": "Mumbai",
+    "name": "Bandra Kurla Complex, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "chembur_mumbai_-_mpcb_3409483",
+    "location_id": 3409483,
+    "sensor_id": 12238384,
+    "sensor_ids": [
+      12238384
+    ],
+    "lat": 19.0364585,
+    "lon": 72.8954371,
+    "city": "Mumbai",
+    "name": "Chembur, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sidhi_vinayak_nagar_ulhasnagar_-_mpcb_3409484",
+    "location_id": 3409484,
+    "sensor_id": 12238393,
+    "sensor_ids": [
+      12238393
+    ],
+    "lat": 19.235581,
+    "lon": 73.159121,
+    "city": "Mumbai",
+    "name": "Sidhi Vinayak Nagar, Ulhasnagar - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "gokul_nagar_bhiwandi_-_mpcb_3409485",
+    "location_id": 3409485,
+    "sensor_id": 12238402,
+    "sensor_ids": [
+      12238402
+    ],
+    "lat": 19.309073,
+    "lon": 73.057223,
+    "city": "Mumbai",
+    "name": "Gokul Nagar, Bhiwandi - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kherwadi_bandra_east_mumbai_-_mpcb_3409486",
+    "location_id": 3409486,
+    "sensor_id": 12238411,
+    "sensor_ids": [
+      12238411
+    ],
+    "lat": 19.0632143,
+    "lon": 72.8456324,
+    "city": "Mumbai",
+    "name": "Kherwadi_Bandra East, Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sanpada_navi_mumbai_-_mpcb_3409487",
+    "location_id": 3409487,
+    "sensor_id": 12243949,
+    "sensor_ids": [
+      12243949
+    ],
+    "lat": 19.0575752,
+    "lon": 73.0151367,
+    "city": "Mumbai",
+    "name": "Sanpada, Navi Mumbai - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-19T09:30:00Z",
+    "data_end": "2025-02-19T09:30:00Z"
+  },
+  {
+    "station": "new_moti_bagh_delhi_-_mhua_3409496",
+    "location_id": 3409496,
+    "sensor_id": 15646335,
+    "sensor_ids": [
+      15646335
+    ],
+    "lat": 28.57834,
+    "lon": 77.184,
+    "city": "Delhi",
+    "name": "New Moti Bagh, Delhi - MHUA",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-03-10T09:30:00Z",
+    "data_end": "2026-03-10T09:30:00Z"
+  },
+  {
+    "station": "residency_area_indore_-_imc_3409498",
+    "location_id": 3409498,
+    "sensor_id": 12238477,
+    "sensor_ids": [
+      12238477
+    ],
+    "lat": 22.7084,
+    "lon": 75.8815,
+    "city": "Indore",
+    "name": "Residency Area, Indore - IMC",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "regional_park_indore_-_mppcb_3409499",
+    "location_id": 3409499,
+    "sensor_id": 12238486,
+    "sensor_ids": [
+      12238486
+    ],
+    "lat": 22.678,
+    "lon": 75.8559,
+    "city": "Indore",
+    "name": "Regional Park, Indore - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "maguda_nagar_indore_-_imc_3409500",
+    "location_id": 3409500,
+    "sensor_id": 12815122,
+    "sensor_ids": [
+      12815122
+    ],
+    "lat": 22.7524,
+    "lon": 75.8872,
+    "city": "Indore",
+    "name": "Maguda Nagar, Indore - IMC",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-04-18T08:30:00Z",
+    "data_end": "2025-04-18T08:30:00Z"
+  },
+  {
+    "station": "airport_area_indore_-_imc_3409501",
+    "location_id": 3409501,
+    "sensor_id": 12238495,
+    "sensor_ids": [
+      12238495
+    ],
+    "lat": 22.7289,
+    "lon": 75.8076,
+    "city": "Indore",
+    "name": "Airport Area, Indore - IMC",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "svspa_campus_barrackpore_-_wbpcb_3409509",
+    "location_id": 3409509,
+    "sensor_id": 12238558,
+    "sensor_ids": [
+      12238558
+    ],
+    "lat": 22.7605581,
+    "lon": 88.3617589,
+    "city": "Kolkata",
+    "name": "SVSPA Campus, Barrackpore - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "byculla_mumbai_-_bmc_3409510",
+    "location_id": 3409510,
+    "sensor_id": 12238567,
+    "sensor_ids": [
+      12238567
+    ],
+    "lat": 18.9767,
+    "lon": 72.838,
+    "city": "Mumbai",
+    "name": "Byculla, Mumbai - BMC",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "shivaji_nagar_mumbai_-_bmc_3409511",
+    "location_id": 3409511,
+    "sensor_id": 12238576,
+    "sensor_ids": [
+      12238576
+    ],
+    "lat": 19.060498,
+    "lon": 72.923356,
+    "city": "Mumbai",
+    "name": "Shivaji Nagar, Mumbai - BMC",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "kandivali_west_mumbai_-_bmc_3409512",
+    "location_id": 3409512,
+    "sensor_id": 12238585,
+    "sensor_ids": [
+      12238585
+    ],
+    "lat": 19.215859,
+    "lon": 72.831718,
+    "city": "Mumbai",
+    "name": "Kandivali West, Mumbai - BMC",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "sewri_mumbai_-_bmc_3409513",
+    "location_id": 3409513,
+    "sensor_id": 12238594,
+    "sensor_ids": [
+      12238594
+    ],
+    "lat": 19.000084,
+    "lon": 72.85673,
+    "city": "Mumbai",
+    "name": "Sewri, Mumbai - BMC",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T20:30:00Z",
+    "data_end": "2025-02-18T20:30:00Z"
+  },
+  {
+    "station": "ghatkopar_mumbai_-_bmc_3409514",
+    "location_id": 3409514,
+    "sensor_id": 12238603,
+    "sensor_ids": [
+      12238603
+    ],
+    "lat": 19.083694,
+    "lon": 72.920967,
+    "city": "Mumbai",
+    "name": "Ghatkopar, Mumbai - BMC",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "vasundhara_nagar_uit_bhiwadi_-_rspcb_3409519",
+    "location_id": 3409519,
+    "sensor_id": 12238640,
+    "sensor_ids": [
+      12238640
+    ],
+    "lat": 28.207266,
+    "lon": 76.829265,
+    "city": "Gurugram",
+    "name": "Vasundhara Nagar_UIT, Bhiwadi - RSPCB",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "bhumkar_nagar_pune_-_iitm_3409523",
+    "location_id": 3409523,
+    "sensor_id": 12238676,
+    "sensor_ids": [
+      12238676
+    ],
+    "lat": 18.60577,
+    "lon": 73.749976,
+    "city": "Pune",
+    "name": "Bhumkar Nagar, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "botanical_garden_howrah_-_wbpcb_3409524",
+    "location_id": 3409524,
+    "sensor_id": 12243958,
+    "sensor_ids": [
+      12243958
+    ],
+    "lat": 22.554954,
+    "lon": 88.292568,
+    "city": "Kolkata",
+    "name": "Botanical Garden, Howrah - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-19T08:30:00Z",
+    "data_end": "2025-02-19T08:30:00Z"
+  },
+  {
+    "station": "panchawati_pashan_pune_-_iitm_3409526",
+    "location_id": 3409526,
+    "sensor_id": 12238693,
+    "sensor_ids": [
+      12238693
+    ],
+    "lat": 18.536457,
+    "lon": 73.805454,
+    "city": "Pune",
+    "name": "Panchawati_Pashan, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "savta_mali_nagar_pimpri-chinchwad_-_iitm_3409528",
+    "location_id": 3409528,
+    "sensor_id": 12238710,
+    "sensor_ids": [
+      12238710
+    ],
+    "lat": 18.614767,
+    "lon": 73.799516,
+    "city": "Pune",
+    "name": "Savta Mali Nagar, Pimpri-Chinchwad - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dasnagar_howrah_-_wbpcb_3409530",
+    "location_id": 3409530,
+    "sensor_id": 12244866,
+    "sensor_ids": [
+      12244866
+    ],
+    "lat": 22.6025571,
+    "lon": 88.3105664,
+    "city": "Kolkata",
+    "name": "Dasnagar, Howrah - WBPCB",
+    "owner": "",
+    "state": "West Bengal",
+    "data_start": "2025-02-19T10:30:00Z",
+    "data_end": "2025-02-19T10:30:00Z"
+  },
+  {
+    "station": "amity_university_panchgaon_-_iitm_3410004",
+    "location_id": 3410004,
+    "sensor_id": 12238725,
+    "sensor_ids": [
+      12238725
+    ],
+    "lat": 28.3153,
+    "lon": 76.9143,
+    "city": "Gurugram",
+    "name": "Amity University, Panchgaon - IITM",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "dhankawadi_pune_-_iitm_3410005",
+    "location_id": 3410005,
+    "sensor_id": 12238734,
+    "sensor_ids": [
+      12238734
+    ],
+    "lat": 18.459883,
+    "lon": 73.852193,
+    "city": "Pune",
+    "name": "Dhankawadi, Pune - IITM",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-02-18T19:30:00Z",
+    "data_end": "2025-02-18T19:30:00Z"
+  },
+  {
+    "station": "altair's_home_-_bemina_srinagar_4512170",
+    "location_id": 4512170,
+    "sensor_id": 13135297,
+    "sensor_ids": [
+      13135297
+    ],
+    "lat": 34.0702669,
+    "lon": 74.7754688,
+    "city": "Srinagar",
+    "name": "Altair's Home - Bemina, Srinagar",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-05-24T10:00:00Z",
+    "data_end": "2025-05-24T10:00:00Z"
+  },
+  {
+    "station": "barki_lahore_4515157",
+    "location_id": 4515157,
+    "sensor_id": 13137726,
+    "sensor_ids": [
+      13137726
+    ],
+    "lat": 31.4591591,
+    "lon": 74.5396309,
+    "city": "Amritsar",
+    "name": "Barki, Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-24T16:00:00Z",
+    "data_end": "2025-05-24T16:00:00Z"
+  },
+  {
+    "station": "civil_secretariat_4527035",
+    "location_id": 4527035,
+    "sensor_id": 13153587,
+    "sensor_ids": [
+      13153587
+    ],
+    "lat": 31.565942,
+    "lon": 74.2993626,
+    "city": "Amritsar",
+    "name": "Civil Secretariat",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-26T06:00:00Z",
+    "data_end": "2025-05-26T06:00:00Z"
+  },
+  {
+    "station": "learning_alliance_intl._dha_4527173",
+    "location_id": 4527173,
+    "sensor_id": 13154528,
+    "sensor_ids": [
+      13154528
+    ],
+    "lat": 31.525621,
+    "lon": 74.436078,
+    "city": "Amritsar",
+    "name": "Learning Alliance Intl. DHA",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-26T08:00:00Z",
+    "data_end": "2025-05-26T08:00:00Z"
+  },
+  {
+    "station": "foot_&_mouth_disease_research_centre_4527306",
+    "location_id": 4527306,
+    "sensor_id": 13155469,
+    "sensor_ids": [
+      13155469
+    ],
+    "lat": 31.53574,
+    "lon": 74.43538,
+    "city": "Amritsar",
+    "name": "FOOT & MOUTH DISEASE RESEARCH CENTRE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-26T10:00:00Z",
+    "data_end": "2025-05-26T10:00:00Z"
+  },
+  {
+    "station": "hbfc_society_dha_phase_5_(hussainy_house)_4527402",
+    "location_id": 4527402,
+    "sensor_id": 13156083,
+    "sensor_ids": [
+      13156083
+    ],
+    "lat": 31.4571645,
+    "lon": 74.4106586,
+    "city": "Amritsar",
+    "name": "HBFC Society, DHA Phase 5 (Hussainy House)",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-26T12:00:00Z",
+    "data_end": "2025-05-26T12:00:00Z"
+  },
+  {
+    "station": "gajju_matta_(kahna)_4535267",
+    "location_id": 4535267,
+    "sensor_id": 13163333,
+    "sensor_ids": [
+      13163333
+    ],
+    "lat": 31.377378,
+    "lon": 74.350574,
+    "city": "Amritsar",
+    "name": "Gajju Matta (Kahna)",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-27T06:00:00Z",
+    "data_end": "2025-05-27T06:00:00Z"
+  },
+  {
+    "station": "sandha_road_4554729",
+    "location_id": 4554729,
+    "sensor_id": 13182280,
+    "sensor_ids": [
+      13182280
+    ],
+    "lat": 31.562302,
+    "lon": 74.3027031,
+    "city": "Amritsar",
+    "name": "Sandha Road",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-29T07:00:00Z",
+    "data_end": "2025-05-29T07:00:00Z"
+  },
+  {
+    "station": "ravi_road_4555745",
+    "location_id": 4555745,
+    "sensor_id": 13183459,
+    "sensor_ids": [
+      13183459
+    ],
+    "lat": 31.602875,
+    "lon": 74.300927,
+    "city": "Amritsar",
+    "name": "Ravi Road",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-29T10:00:00Z",
+    "data_end": "2025-05-29T10:00:00Z"
+  },
+  {
+    "station": "shalimar_town_4557686",
+    "location_id": 4557686,
+    "sensor_id": 13184347,
+    "sensor_ids": [
+      13184347
+    ],
+    "lat": 31.574289,
+    "lon": 74.447898,
+    "city": "Amritsar",
+    "name": "Shalimar Town",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-29T12:00:00Z",
+    "data_end": "2025-05-29T12:00:00Z"
+  },
+  {
+    "station": "ieee_punjab_university_lhr_4565933",
+    "location_id": 4565933,
+    "sensor_id": 13190998,
+    "sensor_ids": [
+      13190998
+    ],
+    "lat": 31.495322,
+    "lon": 74.295056,
+    "city": "Amritsar",
+    "name": "IEEE, Punjab University, LHR",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-30T06:00:00Z",
+    "data_end": "2025-05-30T06:00:00Z"
+  },
+  {
+    "station": "johar_town_4566427",
+    "location_id": 4566427,
+    "sensor_id": 13191315,
+    "sensor_ids": [
+      13191315
+    ],
+    "lat": 31.460056,
+    "lon": 74.280672,
+    "city": "Amritsar",
+    "name": "Johar Town",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-30T07:00:00Z",
+    "data_end": "2025-05-30T07:00:00Z"
+  },
+  {
+    "station": "model_town_4568423",
+    "location_id": 4568423,
+    "sensor_id": 13192746,
+    "sensor_ids": [
+      13192746
+    ],
+    "lat": 31.491676,
+    "lon": 74.313288,
+    "city": "Amritsar",
+    "name": "Model Town",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-05-30T11:00:00Z",
+    "data_end": "2025-05-30T11:00:00Z"
+  },
+  {
+    "station": "college_road_4605119",
+    "location_id": 4605119,
+    "sensor_id": 13223107,
+    "sensor_ids": [
+      13223107
+    ],
+    "lat": 31.421799,
+    "lon": 74.274837,
+    "city": "Amritsar",
+    "name": "College Road",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-02T17:00:00Z",
+    "data_end": "2025-06-02T17:00:00Z"
+  },
+  {
+    "station": "assistant_commissioner_office_allama_iqbal__460842",
+    "location_id": 4608421,
+    "sensor_id": 13229197,
+    "sensor_ids": [
+      13229197
+    ],
+    "lat": 31.47188,
+    "lon": 74.239512,
+    "city": "Amritsar",
+    "name": "Assistant Commissioner Office, Allama Iqbal ",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-03T08:00:00Z",
+    "data_end": "2025-06-03T08:00:00Z"
+  },
+  {
+    "station": "pajian_raiwind_4609261",
+    "location_id": 4609261,
+    "sensor_id": 13230342,
+    "sensor_ids": [
+      13230342
+    ],
+    "lat": 31.299695,
+    "lon": 74.22505,
+    "city": "Amritsar",
+    "name": "Pajian, Raiwind",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-03T11:00:00Z",
+    "data_end": "2025-06-03T11:00:00Z"
+  },
+  {
+    "station": "kahna_hospital__4609353",
+    "location_id": 4609353,
+    "sensor_id": 13230942,
+    "sensor_ids": [
+      13230942
+    ],
+    "lat": 31.371023502439286,
+    "lon": 74.36487268127355,
+    "city": "Amritsar",
+    "name": "Kahna Hospital ",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-03T13:00:00Z",
+    "data_end": "2025-06-03T13:00:00Z"
+  },
+  {
+    "station": "gulberg_iii_4618814",
+    "location_id": 4618814,
+    "sensor_id": 13238783,
+    "sensor_ids": [
+      13238783
+    ],
+    "lat": 31.508051,
+    "lon": 74.337544,
+    "city": "Amritsar",
+    "name": "Gulberg III",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-04T11:00:00Z",
+    "data_end": "2025-06-04T11:00:00Z"
+  },
+  {
+    "station": "pha_sialkot_4629400",
+    "location_id": 4629400,
+    "sensor_id": 13247149,
+    "sensor_ids": [
+      13247149
+    ],
+    "lat": 32.505567,
+    "lon": 74.536067,
+    "city": "Jammu",
+    "name": "PHA, Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-05T08:00:00Z",
+    "data_end": "2025-06-05T08:00:00Z"
+  },
+  {
+    "station": "scci__4629401",
+    "location_id": 4629401,
+    "sensor_id": 13247154,
+    "sensor_ids": [
+      13247154
+    ],
+    "lat": 32.507924,
+    "lon": 74.537957,
+    "city": "Jammu",
+    "name": "SCCI ",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-05T09:00:00Z",
+    "data_end": "2025-06-05T09:00:00Z"
+  },
+  {
+    "station": "dc_office_sialkot_4630451",
+    "location_id": 4630451,
+    "sensor_id": 13248051,
+    "sensor_ids": [
+      13248051
+    ],
+    "lat": 32.505286,
+    "lon": 74.532952,
+    "city": "Jammu",
+    "name": "Dc Office Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-05T11:00:00Z",
+    "data_end": "2025-06-05T11:00:00Z"
+  },
+  {
+    "station": "santushti_apartments_vasant_kunj_4663956",
+    "location_id": 4663956,
+    "sensor_id": 13273790,
+    "sensor_ids": [
+      13273790
+    ],
+    "lat": 28.5266,
+    "lon": 77.1493,
+    "city": "Delhi",
+    "name": "Santushti Apartments, Vasant Kunj",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-06-08T08:30:00Z",
+    "data_end": "2025-06-08T08:30:00Z"
+  },
+  {
+    "station": "cantonment_4698865",
+    "location_id": 4698865,
+    "sensor_id": 13300980,
+    "sensor_ids": [
+      13300980
+    ],
+    "lat": 31.539422,
+    "lon": 74.413792,
+    "city": "Amritsar",
+    "name": "Cantonment",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-11T07:00:00Z",
+    "data_end": "2025-06-11T07:00:00Z"
+  },
+  {
+    "station": "pak_arab_4699919",
+    "location_id": 4699919,
+    "sensor_id": 14152835,
+    "sensor_ids": [
+      14152835
+    ],
+    "lat": 31.418387,
+    "lon": 74.345283,
+    "city": "Amritsar",
+    "name": "Pak Arab",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-09-18T23:00:00Z",
+    "data_end": "2025-09-18T23:00:00Z"
+  },
+  {
+    "station": "samanabad_4700982",
+    "location_id": 4700982,
+    "sensor_id": 13302769,
+    "sensor_ids": [
+      13302769
+    ],
+    "lat": 31.541983,
+    "lon": 74.298065,
+    "city": "Amritsar",
+    "name": "Samanabad",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-11T13:00:00Z",
+    "data_end": "2025-06-11T13:00:00Z"
+  },
+  {
+    "station": "wwf_4708999",
+    "location_id": 4708999,
+    "sensor_id": 13308623,
+    "sensor_ids": [
+      13308623
+    ],
+    "lat": 32.4598818,
+    "lon": 74.5130851,
+    "city": "Jammu",
+    "name": "WWF",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-12T05:00:00Z",
+    "data_end": "2025-06-12T05:00:00Z"
+  },
+  {
+    "station": "regional_ombudsman_office_4710567",
+    "location_id": 4710567,
+    "sensor_id": 13310091,
+    "sensor_ids": [
+      13310091
+    ],
+    "lat": 32.48209,
+    "lon": 74.52664,
+    "city": "Jammu",
+    "name": "Regional Ombudsman Office",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-12T08:00:00Z",
+    "data_end": "2025-06-12T08:00:00Z"
+  },
+  {
+    "station": "psgmea_4712030",
+    "location_id": 4712030,
+    "sensor_id": 13310654,
+    "sensor_ids": [
+      13310654
+    ],
+    "lat": 32.487371,
+    "lon": 74.512444,
+    "city": "Jammu",
+    "name": "PSGMEA",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-12T10:00:00Z",
+    "data_end": "2025-06-12T10:00:00Z"
+  },
+  {
+    "station": "craftive__apparels_defence_road_4712608",
+    "location_id": 4712608,
+    "sensor_id": 13311519,
+    "sensor_ids": [
+      13311519
+    ],
+    "lat": 32.49447,
+    "lon": 74.498977,
+    "city": "Jammu",
+    "name": "Craftive  Apparels, Defence Road",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-12T12:00:00Z",
+    "data_end": "2025-06-12T12:00:00Z"
+  },
+  {
+    "station": "air_check_4712609",
+    "location_id": 4712609,
+    "sensor_id": 15289075,
+    "sensor_ids": [
+      15289075
+    ],
+    "lat": 28.623056,
+    "lon": 77.234167,
+    "city": "Delhi",
+    "name": "Air Check",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-01-28T10:00:00Z",
+    "data_end": "2026-01-28T10:00:00Z"
+  },
+  {
+    "station": "hyderabad_4720578",
+    "location_id": 4720578,
+    "sensor_id": 13317467,
+    "sensor_ids": [
+      13317467
+    ],
+    "lat": 17.492676,
+    "lon": 78.405394,
+    "city": "Hyderabad",
+    "name": "Hyderabad",
+    "owner": "",
+    "state": "Telangana",
+    "data_start": "2025-06-13T02:30:00Z",
+    "data_end": "2025-06-13T02:30:00Z"
+  },
+  {
+    "station": "agriculture__office_emnabad_road_4721112",
+    "location_id": 4721112,
+    "sensor_id": 13318038,
+    "sensor_ids": [
+      13318038
+    ],
+    "lat": 32.465555,
+    "lon": 74.523957,
+    "city": "Jammu",
+    "name": "Agriculture  Office Emnabad Road",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-13T05:00:00Z",
+    "data_end": "2025-06-13T05:00:00Z"
+  },
+  {
+    "station": "swmc_4721113",
+    "location_id": 4721113,
+    "sensor_id": 13318043,
+    "sensor_ids": [
+      13318043
+    ],
+    "lat": 32.516512,
+    "lon": 74.51071,
+    "city": "Jammu",
+    "name": "SWMC",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-13T05:00:00Z",
+    "data_end": "2025-06-13T05:00:00Z"
+  },
+  {
+    "station": "divisional_forest_office_kotli_araian_4722655",
+    "location_id": 4722655,
+    "sensor_id": 13319197,
+    "sensor_ids": [
+      13319197
+    ],
+    "lat": 32.59938,
+    "lon": 74.479594,
+    "city": "Jammu",
+    "name": "Divisional Forest office Kotli Araian",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-13T07:00:00Z",
+    "data_end": "2025-06-13T07:00:00Z"
+  },
+  {
+    "station": "cheema_palace_4723667",
+    "location_id": 4723667,
+    "sensor_id": 13319770,
+    "sensor_ids": [
+      13319770
+    ],
+    "lat": 32.54477,
+    "lon": 74.569535,
+    "city": "Jammu",
+    "name": "Cheema Palace",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-13T10:00:00Z",
+    "data_end": "2025-06-13T10:00:00Z"
+  },
+  {
+    "station": "ac__sambrial_4725232",
+    "location_id": 4725232,
+    "sensor_id": 13320880,
+    "sensor_ids": [
+      13320880
+    ],
+    "lat": 32.477858,
+    "lon": 74.337355,
+    "city": "Jammu",
+    "name": "AC  Sambrial",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-13T13:00:00Z",
+    "data_end": "2025-06-13T13:00:00Z"
+  },
+  {
+    "station": "forman_christian_college_&_chartered_university_47",
+    "location_id": 4757305,
+    "sensor_id": 13341452,
+    "sensor_ids": [
+      13341452
+    ],
+    "lat": 31.521146,
+    "lon": 74.333954,
+    "city": "Amritsar",
+    "name": "Forman Christian College & Chartered University",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-16T09:00:00Z",
+    "data_end": "2025-06-16T09:00:00Z"
+  },
+  {
+    "station": "allama_iqbal_hospital_4791416",
+    "location_id": 4791416,
+    "sensor_id": 13368149,
+    "sensor_ids": [
+      13368149
+    ],
+    "lat": 32.503689,
+    "lon": 74.547365,
+    "city": "Jammu",
+    "name": "Allama iqbal hospital",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-19T06:00:00Z",
+    "data_end": "2025-06-19T06:00:00Z"
+  },
+  {
+    "station": "grand_asian_university_4792427",
+    "location_id": 4792427,
+    "sensor_id": 13368759,
+    "sensor_ids": [
+      13368759
+    ],
+    "lat": 32.437542,
+    "lon": 74.577984,
+    "city": "Jammu",
+    "name": "Grand Asian University",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-19T07:00:00Z",
+    "data_end": "2025-06-19T07:00:00Z"
+  },
+  {
+    "station": "union_council_sohwala_4792975",
+    "location_id": 4792975,
+    "sensor_id": 14152890,
+    "sensor_ids": [
+      14152890
+    ],
+    "lat": 32.456292,
+    "lon": 74.407467,
+    "city": "Jammu",
+    "name": "Union Council Sohwala",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-18T23:00:00Z",
+    "data_end": "2025-09-18T23:00:00Z"
+  },
+  {
+    "station": "ac_office_daska_4801603",
+    "location_id": 4801603,
+    "sensor_id": 13375890,
+    "sensor_ids": [
+      13375890
+    ],
+    "lat": 32.331763,
+    "lon": 74.350492,
+    "city": "Jammu",
+    "name": "Ac Office Daska",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-20T02:00:00Z",
+    "data_end": "2025-06-20T02:00:00Z"
+  },
+  {
+    "station": "university_of_sialkot_4803208",
+    "location_id": 4803208,
+    "sensor_id": 13377689,
+    "sensor_ids": [
+      13377689
+    ],
+    "lat": 32.46479,
+    "lon": 74.514128,
+    "city": "Jammu",
+    "name": "University Of Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-20T06:00:00Z",
+    "data_end": "2025-06-20T06:00:00Z"
+  },
+  {
+    "station": "sialkot_medical_college_4803720",
+    "location_id": 4803720,
+    "sensor_id": 13378016,
+    "sensor_ids": [
+      13378016
+    ],
+    "lat": 32.429665,
+    "lon": 74.47675,
+    "city": "Jammu",
+    "name": "Sialkot Medical College",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-06-20T07:00:00Z",
+    "data_end": "2025-06-20T07:00:00Z"
+  },
+  {
+    "station": "dc_office_kasur_4908792",
+    "location_id": 4908792,
+    "sensor_id": 13472384,
+    "sensor_ids": [
+      13472384
+    ],
+    "lat": 31.11548,
+    "lon": 74.467625,
+    "city": "Amritsar",
+    "name": "DC Office, Kasur",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-06-30T11:00:00Z",
+    "data_end": "2025-06-30T11:00:00Z"
+  },
+  {
+    "station": "ac_office_pasrur_4997881",
+    "location_id": 4997881,
+    "sensor_id": 14152895,
+    "sensor_ids": [
+      14152895
+    ],
+    "lat": 32.26521,
+    "lon": 74.655047,
+    "city": "Jammu",
+    "name": "Ac Office Pasrur",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-18T23:00:00Z",
+    "data_end": "2025-09-18T23:00:00Z"
+  },
+  {
+    "station": "iima_ventures_5057509",
+    "location_id": 5057509,
+    "sensor_id": 13587481,
+    "sensor_ids": [
+      13587481
+    ],
+    "lat": 23.034568596154394,
+    "lon": 72.53287536498033,
+    "city": "Ahmedabad",
+    "name": "IIMA Ventures",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2025-07-13T06:30:00Z",
+    "data_end": "2025-07-13T06:30:00Z"
+  },
+  {
+    "station": "thokar_niaz_baig_5371017",
+    "location_id": 5371017,
+    "sensor_id": 13817570,
+    "sensor_ids": [
+      13817570
+    ],
+    "lat": 31.473135638585408,
+    "lon": 74.23981655978756,
+    "city": "Amritsar",
+    "name": "Thokar Niaz Baig",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-08-09T10:00:00Z",
+    "data_end": "2025-08-09T10:00:00Z"
+  },
+  {
+    "station": "bemina_srinagar_5728639",
+    "location_id": 5728639,
+    "sensor_id": 14077538,
+    "sensor_ids": [
+      14077538
+    ],
+    "lat": 34.07023554237501,
+    "lon": 74.77548492160591,
+    "city": "Srinagar",
+    "name": "Bemina, Srinagar",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-09T17:30:00Z",
+    "data_end": "2025-09-09T17:30:00Z"
+  },
+  {
+    "station": "social_walfare_sialkot_5803519",
+    "location_id": 5803519,
+    "sensor_id": 14129446,
+    "sensor_ids": [
+      14129446
+    ],
+    "lat": 32.49374,
+    "lon": 74.5322,
+    "city": "Jammu",
+    "name": "Social Walfare Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-16T05:00:00Z",
+    "data_end": "2025-09-16T05:00:00Z"
+  },
+  {
+    "station": "ugoki_union_council_5884439",
+    "location_id": 5884439,
+    "sensor_id": 14191896,
+    "sensor_ids": [
+      14191896
+    ],
+    "lat": 32.480061,
+    "lon": 74.451296,
+    "city": "Jammu",
+    "name": "Ugoki Union Council",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-23T09:00:00Z",
+    "data_end": "2025-09-23T09:00:00Z"
+  },
+  {
+    "station": "psychopath_studios_5929186",
+    "location_id": 5929186,
+    "sensor_id": 14224273,
+    "sensor_ids": [
+      14224273
+    ],
+    "lat": 34.0584621,
+    "lon": 74.8324004,
+    "city": "Srinagar",
+    "name": "Psychopath Studios",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-09-27T06:30:00Z",
+    "data_end": "2025-09-27T06:30:00Z"
+  },
+  {
+    "station": "kanipora_6013125",
+    "location_id": 6013125,
+    "sensor_id": 14285557,
+    "sensor_ids": [
+      14285557
+    ],
+    "lat": 34.0132271,
+    "lon": 74.8398961,
+    "city": "Srinagar",
+    "name": "Kanipora",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-10-04T11:30:00Z",
+    "data_end": "2025-10-04T11:30:00Z"
+  },
+  {
+    "station": "jkpcb_6061085",
+    "location_id": 6061085,
+    "sensor_id": 14320782,
+    "sensor_ids": [
+      14320782
+    ],
+    "lat": 34.067893918880145,
+    "lon": 74.81864018646164,
+    "city": "Srinagar",
+    "name": "JKPCB",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-10-08T12:30:00Z",
+    "data_end": "2025-10-08T12:30:00Z"
+  },
+  {
+    "station": "test_device_6093552",
+    "location_id": 6093552,
+    "sensor_id": 14363855,
+    "sensor_ids": [
+      14363855
+    ],
+    "lat": 31.485304,
+    "lon": 74.341333,
+    "city": "Amritsar",
+    "name": "Test Device",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-10-13T06:00:00Z",
+    "data_end": "2025-10-13T06:00:00Z"
+  },
+  {
+    "station": "sector_1_noida_extension_6105800",
+    "location_id": 6105800,
+    "sensor_id": 14453757,
+    "sensor_ids": [
+      14453757
+    ],
+    "lat": 28.583491,
+    "lon": 77.431714,
+    "city": "Noida",
+    "name": "Sector 1, Noida extension",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-10-23T17:30:00Z",
+    "data_end": "2025-10-23T17:30:00Z"
+  },
+  {
+    "station": "vnit_nagpur_6112064",
+    "location_id": 6112064,
+    "sensor_id": 14499369,
+    "sensor_ids": [
+      14499369
+    ],
+    "lat": 21.123229,
+    "lon": 79.052856,
+    "city": "Nagpur",
+    "name": "VNIT NAGPUR",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2025-10-29T11:30:00Z",
+    "data_end": "2025-10-29T11:30:00Z"
+  },
+  {
+    "station": "kumaraswamy_layout_6119271",
+    "location_id": 6119271,
+    "sensor_id": 14551750,
+    "sensor_ids": [
+      14551750
+    ],
+    "lat": 12.9044,
+    "lon": 77.5649,
+    "city": "Bengaluru",
+    "name": "Kumaraswamy Layout",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-11-04T16:30:00Z",
+    "data_end": "2025-11-04T16:30:00Z"
+  },
+  {
+    "station": "sector_-_5_vasundhara_ghaziabad_uttar_pradesh__611",
+    "location_id": 6119272,
+    "sensor_id": 14551755,
+    "sensor_ids": [
+      14551755
+    ],
+    "lat": 28.658398,
+    "lon": 77.3780531,
+    "city": "Ghaziabad",
+    "name": "Sector - 5, Vasundhara, Ghaziabad, Uttar Pradesh ",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2025-11-04T14:30:00Z",
+    "data_end": "2025-11-04T14:30:00Z"
+  },
+  {
+    "station": "uptitude_cloud_pvt_ltd_6125489",
+    "location_id": 6125489,
+    "sensor_id": 14598776,
+    "sensor_ids": [
+      14598776
+    ],
+    "lat": 28.40240847053802,
+    "lon": 77.08477464826682,
+    "city": "Gurugram",
+    "name": "Uptitude Cloud Pvt Ltd",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2025-11-10T08:30:00Z",
+    "data_end": "2025-11-10T08:30:00Z"
+  },
+  {
+    "station": "arc_lahore_6125629",
+    "location_id": 6125629,
+    "sensor_id": 14599816,
+    "sensor_ids": [
+      14599816
+    ],
+    "lat": 31.522056,
+    "lon": 74.314944,
+    "city": "Amritsar",
+    "name": "ARC, Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-10T11:00:00Z",
+    "data_end": "2025-11-10T11:00:00Z"
+  },
+  {
+    "station": "hatim's_airvisual_aqi_moniter_-_chitti_sheikhan_61",
+    "location_id": 6135287,
+    "sensor_id": 14671462,
+    "sensor_ids": [
+      14671462
+    ],
+    "lat": 32.53850802521623,
+    "lon": 74.48415837340578,
+    "city": "Jammu",
+    "name": "Hatim's AirVisual AQI Moniter - Chitti Sheikhan",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "bedian_thethar_rd_lhe_6135289",
+    "location_id": 6135289,
+    "sensor_id": 14671464,
+    "sensor_ids": [
+      14671464
+    ],
+    "lat": 31.4139,
+    "lon": 74.4581,
+    "city": "Amritsar",
+    "name": "Bedian Thethar Rd LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "b_block_phase_5_dha_6135293",
+    "location_id": 6135293,
+    "sensor_id": 14671468,
+    "sensor_ids": [
+      14671468
+    ],
+    "lat": 31.4646,
+    "lon": 74.4204,
+    "city": "Amritsar",
+    "name": "B Block, Phase 5, DHA",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "pakistan_engineering_services_(pvt)_ltd._6135295",
+    "location_id": 6135295,
+    "sensor_id": 14671470,
+    "sensor_ids": [
+      14671470
+    ],
+    "lat": 31.4671,
+    "lon": 74.4169,
+    "city": "Amritsar",
+    "name": "Pakistan Engineering Services (Pvt) Ltd.",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "yani_home_6135299",
+    "location_id": 6135299,
+    "sensor_id": 14671474,
+    "sensor_ids": [
+      14671474
+    ],
+    "lat": 31.4788,
+    "lon": 74.4726,
+    "city": "Amritsar",
+    "name": "Yani Home",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "grand_charter_school_6135301",
+    "location_id": 6135301,
+    "sensor_id": 14671476,
+    "sensor_ids": [
+      14671476
+    ],
+    "lat": 31.4721,
+    "lon": 74.3192,
+    "city": "Amritsar",
+    "name": "Grand Charter School",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "askari_10_6135306",
+    "location_id": 6135306,
+    "sensor_id": 14671481,
+    "sensor_ids": [
+      14671481
+    ],
+    "lat": 31.5353,
+    "lon": 74.4172,
+    "city": "Amritsar",
+    "name": "Askari 10",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "scarsdale_international_school_6135309",
+    "location_id": 6135309,
+    "sensor_id": 14671484,
+    "sensor_ids": [
+      14671484
+    ],
+    "lat": 31.4637,
+    "lon": 74.3749,
+    "city": "Amritsar",
+    "name": "Scarsdale International School",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "ghazi_road_interchange_6135313",
+    "location_id": 6135313,
+    "sensor_id": 14671488,
+    "sensor_ids": [
+      14671488
+    ],
+    "lat": 31.489402,
+    "lon": 74.4176706,
+    "city": "Amritsar",
+    "name": "Ghazi Road Interchange",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "wwf-pakistan_sialkot_6135315",
+    "location_id": 6135315,
+    "sensor_id": 14671490,
+    "sensor_ids": [
+      14671490
+    ],
+    "lat": 32.4644,
+    "lon": 74.5132,
+    "city": "Jammu",
+    "name": "WWF-Pakistan Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-18T15:00:00Z",
+    "data_end": "2025-11-18T15:00:00Z"
+  },
+  {
+    "station": "ff_pakistan_6135316",
+    "location_id": 6135316,
+    "sensor_id": 14671491,
+    "sensor_ids": [
+      14671491
+    ],
+    "lat": 31.4714,
+    "lon": 74.2879,
+    "city": "Amritsar",
+    "name": "FF Pakistan",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T14:00:00Z",
+    "data_end": "2025-11-18T14:00:00Z"
+  },
+  {
+    "station": "wwf-pakistan_6135318",
+    "location_id": 6135318,
+    "sensor_id": 14671493,
+    "sensor_ids": [
+      14671493
+    ],
+    "lat": 31.4853,
+    "lon": 74.3415,
+    "city": "Amritsar",
+    "name": "WWF-PAKISTAN",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "revenue_employees_coop_housing_society_6135319",
+    "location_id": 6135319,
+    "sensor_id": 14671494,
+    "sensor_ids": [
+      14671494
+    ],
+    "lat": 31.4485,
+    "lon": 74.288,
+    "city": "Amritsar",
+    "name": "Revenue Employees Coop Housing Society",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "model_town_a_lhe_6135320",
+    "location_id": 6135320,
+    "sensor_id": 14671495,
+    "sensor_ids": [
+      14671495
+    ],
+    "lat": 31.4784,
+    "lon": 74.3238,
+    "city": "Amritsar",
+    "name": "Model Town A LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "gurumangat_rd_b_lhe_6135323",
+    "location_id": 6135323,
+    "sensor_id": 14671498,
+    "sensor_ids": [
+      14671498
+    ],
+    "lat": 31.5047,
+    "lon": 74.358,
+    "city": "Amritsar",
+    "name": "Gurumangat Rd B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "shadman_market_b_lhe_6135324",
+    "location_id": 6135324,
+    "sensor_id": 14671499,
+    "sensor_ids": [
+      14671499
+    ],
+    "lat": 31.5406,
+    "lon": 74.331,
+    "city": "Amritsar",
+    "name": "Shadman Market B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "ferozepur_rd_a_lhe_6135326",
+    "location_id": 6135326,
+    "sensor_id": 14671501,
+    "sensor_ids": [
+      14671501
+    ],
+    "lat": 31.4766,
+    "lon": 74.344,
+    "city": "Amritsar",
+    "name": "Ferozepur Rd A LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "honda_gateway_6135328",
+    "location_id": 6135328,
+    "sensor_id": 14671503,
+    "sensor_ids": [
+      14671503
+    ],
+    "lat": 31.4515,
+    "lon": 74.2098,
+    "city": "Amritsar",
+    "name": "Honda Gateway",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "las_lahore_6135329",
+    "location_id": 6135329,
+    "sensor_id": 14671504,
+    "sensor_ids": [
+      14671504
+    ],
+    "lat": 31.5466,
+    "lon": 74.3538,
+    "city": "Amritsar",
+    "name": "LAS Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "university_of_central_punjab_6135330",
+    "location_id": 6135330,
+    "sensor_id": 14671505,
+    "sensor_ids": [
+      14671505
+    ],
+    "lat": 31.4469,
+    "lon": 74.2677,
+    "city": "Amritsar",
+    "name": "University of Central Punjab",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "trinity_school_lahore_6135333",
+    "location_id": 6135333,
+    "sensor_id": 14671508,
+    "sensor_ids": [
+      14671508
+    ],
+    "lat": 31.4746,
+    "lon": 74.2786,
+    "city": "Amritsar",
+    "name": "Trinity School Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "syed_maratib_ali_road_6135336",
+    "location_id": 6135336,
+    "sensor_id": 14671511,
+    "sensor_ids": [
+      14671511
+    ],
+    "lat": 31.5287712,
+    "lon": 74.3454402,
+    "city": "Amritsar",
+    "name": "Syed Maratib Ali Road",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "tufail_road_near_rahat_bakery_6135340",
+    "location_id": 6135340,
+    "sensor_id": 14671515,
+    "sensor_ids": [
+      14671515
+    ],
+    "lat": 31.5298,
+    "lon": 74.3776,
+    "city": "Amritsar",
+    "name": "Tufail Road near Rahat Bakery",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "powerzone_head_office_6135343",
+    "location_id": 6135343,
+    "sensor_id": 14671518,
+    "sensor_ids": [
+      14671518
+    ],
+    "lat": 31.393,
+    "lon": 74.2408,
+    "city": "Amritsar",
+    "name": "Powerzone head office",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "kickstart_mm_alam_6135344",
+    "location_id": 6135344,
+    "sensor_id": 14671519,
+    "sensor_ids": [
+      14671519
+    ],
+    "lat": 31.5051,
+    "lon": 74.3486,
+    "city": "Amritsar",
+    "name": "Kickstart MM Alam",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "hc_-_askari_10_6135348",
+    "location_id": 6135348,
+    "sensor_id": 14671523,
+    "sensor_ids": [
+      14671523
+    ],
+    "lat": 31.5307,
+    "lon": 74.4115,
+    "city": "Amritsar",
+    "name": "HC - Askari 10",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "diamond_paint_industries_pvt_ltd._6135349",
+    "location_id": 6135349,
+    "sensor_id": 14671524,
+    "sensor_ids": [
+      14671524
+    ],
+    "lat": 31.4598,
+    "lon": 74.329,
+    "city": "Amritsar",
+    "name": "Diamond Paint industries PVT LTD.",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "nppmcl_6135350",
+    "location_id": 6135350,
+    "sensor_id": 14671525,
+    "sensor_ids": [
+      14671525
+    ],
+    "lat": 31.5182,
+    "lon": 74.3508,
+    "city": "Amritsar",
+    "name": "NPPMCL",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "hiking_&_mountaineering_club_gcu_lahore_6135351",
+    "location_id": 6135351,
+    "sensor_id": 14671526,
+    "sensor_ids": [
+      14671526
+    ],
+    "lat": 31.5741,
+    "lon": 74.308,
+    "city": "Amritsar",
+    "name": "Hiking & Mountaineering Club GCU Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "the_university_of_lahore_6135353",
+    "location_id": 6135353,
+    "sensor_id": 14671528,
+    "sensor_ids": [
+      14671528
+    ],
+    "lat": 31.3912,
+    "lon": 74.2414,
+    "city": "Amritsar",
+    "name": "The University of Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "w.r_6135356",
+    "location_id": 6135356,
+    "sensor_id": 14671531,
+    "sensor_ids": [
+      14671531
+    ],
+    "lat": 31.4761,
+    "lon": 74.405,
+    "city": "Amritsar",
+    "name": "W.R",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "vts_6135357",
+    "location_id": 6135357,
+    "sensor_id": 14671532,
+    "sensor_ids": [
+      14671532
+    ],
+    "lat": 31.5083,
+    "lon": 74.321,
+    "city": "Amritsar",
+    "name": "VTS",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "allama_iqbal_town_b_lhe_6135360",
+    "location_id": 6135360,
+    "sensor_id": 14671535,
+    "sensor_ids": [
+      14671535
+    ],
+    "lat": 31.5169,
+    "lon": 74.2849,
+    "city": "Amritsar",
+    "name": "Allama Iqbal Town B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "cerp_office_6135364",
+    "location_id": 6135364,
+    "sensor_id": 14671539,
+    "sensor_ids": [
+      14671539
+    ],
+    "lat": 31.5236,
+    "lon": 74.3524,
+    "city": "Amritsar",
+    "name": "CERP Office",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "phase8-dha_6135366",
+    "location_id": 6135366,
+    "sensor_id": 14671541,
+    "sensor_ids": [
+      14671541
+    ],
+    "lat": 31.52903121887204,
+    "lon": 74.4381257796822,
+    "city": "Amritsar",
+    "name": "Phase8-DHA",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "ff_pakistan_-_1_6135368",
+    "location_id": 6135368,
+    "sensor_id": 14671543,
+    "sensor_ids": [
+      14671543
+    ],
+    "lat": 31.4551,
+    "lon": 74.437,
+    "city": "Amritsar",
+    "name": "FF Pakistan - 1",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "burki_rd_b_lhe_6135370",
+    "location_id": 6135370,
+    "sensor_id": 14671545,
+    "sensor_ids": [
+      14671545
+    ],
+    "lat": 31.5332,
+    "lon": 74.4504,
+    "city": "Amritsar",
+    "name": "Burki Rd B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "climate_finance_pakistan_(pakairquality)_6135373",
+    "location_id": 6135373,
+    "sensor_id": 14671548,
+    "sensor_ids": [
+      14671548
+    ],
+    "lat": 31.5378,
+    "lon": 74.3441,
+    "city": "Amritsar",
+    "name": "Climate Finance Pakistan (PakAirQuality)",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "near_ada_plot_raiwind_road_6135374",
+    "location_id": 6135374,
+    "sensor_id": 14671549,
+    "sensor_ids": [
+      14671549
+    ],
+    "lat": 31.3766,
+    "lon": 74.2379,
+    "city": "Amritsar",
+    "name": "Near Ada Plot, Raiwind Road",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "johar_town_b_lhe_6135377",
+    "location_id": 6135377,
+    "sensor_id": 14671552,
+    "sensor_ids": [
+      14671552
+    ],
+    "lat": 31.47,
+    "lon": 74.2611,
+    "city": "Amritsar",
+    "name": "Johar Town B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-18T13:00:00Z",
+    "data_end": "2025-11-18T13:00:00Z"
+  },
+  {
+    "station": "model_town_b_lhe_6135421",
+    "location_id": 6135421,
+    "sensor_id": 14677802,
+    "sensor_ids": [
+      14677802
+    ],
+    "lat": 31.4824,
+    "lon": 74.308,
+    "city": "Amritsar",
+    "name": "Model Town B LHE",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-19T07:00:00Z",
+    "data_end": "2025-11-19T07:00:00Z"
+  },
+  {
+    "station": "muncipal_corporation_sialkot_6135423",
+    "location_id": 6135423,
+    "sensor_id": 14673707,
+    "sensor_ids": [
+      14673707
+    ],
+    "lat": 32.494596,
+    "lon": 74.541963,
+    "city": "Jammu",
+    "name": "Muncipal Corporation, Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-18T22:00:00Z",
+    "data_end": "2025-11-18T22:00:00Z"
+  },
+  {
+    "station": "ac_office_pasrur_6135424",
+    "location_id": 6135424,
+    "sensor_id": 14923460,
+    "sensor_ids": [
+      14923460
+    ],
+    "lat": 32.26521,
+    "lon": 74.655047,
+    "city": "Jammu",
+    "name": "Ac Office Pasrur",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-12-18T07:00:00Z",
+    "data_end": "2025-12-18T07:00:00Z"
+  },
+  {
+    "station": "university_of_sialkot_6135446",
+    "location_id": 6135446,
+    "sensor_id": 14795550,
+    "sensor_ids": [
+      14795550
+    ],
+    "lat": 32.46479,
+    "lon": 74.514128,
+    "city": "Jammu",
+    "name": "University Of Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-12-04T06:00:00Z",
+    "data_end": "2025-12-04T06:00:00Z"
+  },
+  {
+    "station": "ugoki_union_council_6135455",
+    "location_id": 6135455,
+    "sensor_id": 14795551,
+    "sensor_ids": [
+      14795551
+    ],
+    "lat": 32.480061,
+    "lon": 74.451296,
+    "city": "Jammu",
+    "name": "Ugoki Union Council",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-12-04T06:00:00Z",
+    "data_end": "2025-12-04T06:00:00Z"
+  },
+  {
+    "station": "generation_pvt_ltd_6135457",
+    "location_id": 6135457,
+    "sensor_id": 14675087,
+    "sensor_ids": [
+      14675087
+    ],
+    "lat": 31.4081,
+    "lon": 74.3584,
+    "city": "Amritsar",
+    "name": "GENERATION Pvt ltd",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-19T05:00:00Z",
+    "data_end": "2025-11-19T05:00:00Z"
+  },
+  {
+    "station": "valancia_town_lahore_6135458",
+    "location_id": 6135458,
+    "sensor_id": 14723649,
+    "sensor_ids": [
+      14723649
+    ],
+    "lat": 31.4096,
+    "lon": 74.2617,
+    "city": "Amritsar",
+    "name": "Valancia Town Lahore",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-25T12:00:00Z",
+    "data_end": "2025-11-25T12:00:00Z"
+  },
+  {
+    "station": "social_walfare_sialkot_6135460",
+    "location_id": 6135460,
+    "sensor_id": 14673711,
+    "sensor_ids": [
+      14673711
+    ],
+    "lat": 32.49374,
+    "lon": 74.5322,
+    "city": "Jammu",
+    "name": "Social Walfare Sialkot",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-18T22:00:00Z",
+    "data_end": "2025-11-18T22:00:00Z"
+  },
+  {
+    "station": "the_bank_of_punjab_head_office_bop_tower_gulberg_i",
+    "location_id": 6135466,
+    "sensor_id": 14686625,
+    "sensor_ids": [
+      14686625
+    ],
+    "lat": 31.508051,
+    "lon": 74.337544,
+    "city": "Amritsar",
+    "name": "The Bank of Punjab, Head Office, BOP Tower, Gulberg III.",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "divisional_forest_office_kotli_araian_6135469",
+    "location_id": 6135469,
+    "sensor_id": 14686626,
+    "sensor_ids": [
+      14686626
+    ],
+    "lat": 32.59938,
+    "lon": 74.479594,
+    "city": "Jammu",
+    "name": "Divisional Forest office Kotli Araian",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-20T10:00:00Z",
+    "data_end": "2025-11-20T10:00:00Z"
+  },
+  {
+    "station": "ac_office_daska_6135471",
+    "location_id": 6135471,
+    "sensor_id": 14686627,
+    "sensor_ids": [
+      14686627
+    ],
+    "lat": 32.331763,
+    "lon": 74.350492,
+    "city": "Jammu",
+    "name": "Ac Office Daska",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "bam__civil_secretariat_6135473",
+    "location_id": 6135473,
+    "sensor_id": 14686628,
+    "sensor_ids": [
+      14686628
+    ],
+    "lat": 31.565942,
+    "lon": 74.299363,
+    "city": "Amritsar",
+    "name": "BAM,  Civil Secretariat",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "ac_office_nishtar_gajumata_6135476",
+    "location_id": 6135476,
+    "sensor_id": 14686630,
+    "sensor_ids": [
+      14686630
+    ],
+    "lat": 31.377378,
+    "lon": 74.350574,
+    "city": "Amritsar",
+    "name": "AC OFFICE NISHTAR, GAJUMATA",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "samanabad_6135493",
+    "location_id": 6135493,
+    "sensor_id": 14686631,
+    "sensor_ids": [
+      14686631
+    ],
+    "lat": 31.541983,
+    "lon": 74.298065,
+    "city": "Amritsar",
+    "name": "Samanabad",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "sos_johar_town_lhr_6135496",
+    "location_id": 6135496,
+    "sensor_id": 14806380,
+    "sensor_ids": [
+      14806380
+    ],
+    "lat": 31.4544,
+    "lon": 74.2825,
+    "city": "Amritsar",
+    "name": "SOS Johar Town LHR",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-12-05T07:00:00Z",
+    "data_end": "2025-12-05T07:00:00Z"
+  },
+  {
+    "station": "model_town_cd_ground_6135507",
+    "location_id": 6135507,
+    "sensor_id": 14686635,
+    "sensor_ids": [
+      14686635
+    ],
+    "lat": 31.491676,
+    "lon": 74.313288,
+    "city": "Amritsar",
+    "name": "Model Town, CD Ground",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "allama_iqbal_hospital_6135513",
+    "location_id": 6135513,
+    "sensor_id": 14711055,
+    "sensor_ids": [
+      14711055
+    ],
+    "lat": 32.503689,
+    "lon": 74.547365,
+    "city": "Jammu",
+    "name": "Allama iqbal hospital",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-24T07:00:00Z",
+    "data_end": "2025-11-24T07:00:00Z"
+  },
+  {
+    "station": "agriculture__office_emnabad_road_6135521",
+    "location_id": 6135521,
+    "sensor_id": 14727422,
+    "sensor_ids": [
+      14727422
+    ],
+    "lat": 32.465555,
+    "lon": 74.523957,
+    "city": "Jammu",
+    "name": "Agriculture  Office Emnabad Road",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-26T05:00:00Z",
+    "data_end": "2025-11-26T05:00:00Z"
+  },
+  {
+    "station": "wwf_6135523",
+    "location_id": 6135523,
+    "sensor_id": 14686638,
+    "sensor_ids": [
+      14686638
+    ],
+    "lat": 32.459882,
+    "lon": 74.513085,
+    "city": "Jammu",
+    "name": "WWF",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "abdullah_khokhar_house_johar_town_6135528",
+    "location_id": 6135528,
+    "sensor_id": 14686639,
+    "sensor_ids": [
+      14686639
+    ],
+    "lat": 31.460056,
+    "lon": 74.280672,
+    "city": "Amritsar",
+    "name": "Abdullah Khokhar, House Johar Town",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-20T11:00:00Z",
+    "data_end": "2025-11-20T11:00:00Z"
+  },
+  {
+    "station": "university_of_management_and_technology_6135533",
+    "location_id": 6135533,
+    "sensor_id": 14828965,
+    "sensor_ids": [
+      14828965
+    ],
+    "lat": 31.4515,
+    "lon": 74.2943,
+    "city": "Amritsar",
+    "name": "University of Management and Technology",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-12-07T22:00:00Z",
+    "data_end": "2025-12-07T22:00:00Z"
+  },
+  {
+    "station": "govt_boys_high_school_narowal_6138140",
+    "location_id": 6138140,
+    "sensor_id": 14690933,
+    "sensor_ids": [
+      14690933
+    ],
+    "lat": 32.09323,
+    "lon": 74.871654,
+    "city": "Amritsar",
+    "name": "Govt Boys High School, Narowal",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2025-11-21T09:00:00Z",
+    "data_end": "2025-11-21T09:00:00Z"
+  },
+  {
+    "station": "govt_boys_high_school_zafarwal_6138207",
+    "location_id": 6138207,
+    "sensor_id": 14691425,
+    "sensor_ids": [
+      14691425
+    ],
+    "lat": 32.342419,
+    "lon": 74.90578,
+    "city": "Jammu",
+    "name": "Govt Boys High School, Zafarwal",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-11-21T09:00:00Z",
+    "data_end": "2025-11-21T09:00:00Z"
+  },
+  {
+    "station": "anand_lok_6145551",
+    "location_id": 6145551,
+    "sensor_id": 14745878,
+    "sensor_ids": [
+      14745878
+    ],
+    "lat": 28.5587,
+    "lon": 77.21886,
+    "city": "Delhi",
+    "name": "Anand Lok",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-11-28T10:30:00Z",
+    "data_end": "2025-11-28T10:30:00Z"
+  },
+  {
+    "station": "bellandur_6146655",
+    "location_id": 6146655,
+    "sensor_id": 14754075,
+    "sensor_ids": [
+      14754075
+    ],
+    "lat": 12.9178128,
+    "lon": 77.6955288,
+    "city": "Bengaluru",
+    "name": "Bellandur",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2025-11-29T11:30:00Z",
+    "data_end": "2025-11-29T11:30:00Z"
+  },
+  {
+    "station": "iit_delhi_delhi_-_iitm_6148686",
+    "location_id": 6148686,
+    "sensor_id": 14769474,
+    "sensor_ids": [
+      14769474
+    ],
+    "lat": 28.54246,
+    "lon": 77.191651,
+    "city": "Delhi",
+    "name": "IIT Delhi, Delhi - IITM",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2025-12-01T11:30:00Z",
+    "data_end": "2025-12-01T11:30:00Z"
+  },
+  {
+    "station": "khunmoh_srinagar_-_jkpcc_6167193",
+    "location_id": 6167193,
+    "sensor_id": 14908696,
+    "sensor_ids": [
+      14908696
+    ],
+    "lat": 34.06313,
+    "lon": 74.96017,
+    "city": "Srinagar",
+    "name": "Khunmoh, Srinagar - JKPCC",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-12-16T10:30:00Z",
+    "data_end": "2025-12-16T10:30:00Z"
+  },
+  {
+    "station": "khrew_pampore_-_jkpcc_6167988",
+    "location_id": 6167988,
+    "sensor_id": 14914380,
+    "sensor_ids": [
+      14914380
+    ],
+    "lat": 34.031606,
+    "lon": 75.009712,
+    "city": "Srinagar",
+    "name": "Khrew, Pampore - JKPCC",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2025-12-17T04:30:00Z",
+    "data_end": "2025-12-17T04:30:00Z"
+  },
+  {
+    "station": "mahashweta_nagar_ujjain_-_mppcb_6194938",
+    "location_id": 6194938,
+    "sensor_id": 15115536,
+    "sensor_ids": [
+      15115536
+    ],
+    "lat": 23.1633321,
+    "lon": 75.800225,
+    "city": "Indore",
+    "name": "Mahashweta Nagar, Ujjain - MPPCB",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2026-01-09T10:30:00Z",
+    "data_end": "2026-01-09T10:30:00Z"
+  },
+  {
+    "station": "talab_tillo_jammu_6203210",
+    "location_id": 6203210,
+    "sensor_id": 15175974,
+    "sensor_ids": [
+      15175974
+    ],
+    "lat": 32.740106329099916,
+    "lon": 74.83177768465765,
+    "city": "Jammu",
+    "name": "Talab Tillo Jammu",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2026-01-16T08:30:00Z",
+    "data_end": "2026-01-16T08:30:00Z"
+  },
+  {
+    "station": "koramangala_6206921",
+    "location_id": 6206921,
+    "sensor_id": 15203555,
+    "sensor_ids": [
+      15203555
+    ],
+    "lat": 12.9370223,
+    "lon": 77.6115928,
+    "city": "Bengaluru",
+    "name": "Koramangala",
+    "owner": "",
+    "state": "Karnataka",
+    "data_start": "2026-01-19T10:30:00Z",
+    "data_end": "2026-01-19T10:30:00Z"
+  },
+  {
+    "station": "sadanand_nagar_mehsana_-_nexteng_enviro_6221395",
+    "location_id": 6221395,
+    "sensor_id": 15309407,
+    "sensor_ids": [
+      15309407
+    ],
+    "lat": 23.59315,
+    "lon": 72.372792,
+    "city": "Ahmedabad",
+    "name": "Sadanand Nagar, Mehsana - Nexteng Enviro",
+    "owner": "",
+    "state": "Gujarat",
+    "data_start": "2026-01-30T11:30:00Z",
+    "data_end": "2026-01-30T11:30:00Z"
+  },
+  {
+    "station": "nardani_jammu_6229179",
+    "location_id": 6229179,
+    "sensor_id": 15365153,
+    "sensor_ids": [
+      15365153
+    ],
+    "lat": 32.80803,
+    "lon": 74.816769,
+    "city": "Jammu",
+    "name": "Nardani Jammu",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2026-02-05T07:30:00Z",
+    "data_end": "2026-02-05T07:30:00Z"
+  },
+  {
+    "station": "gandhi_nagar_6231999",
+    "location_id": 6231999,
+    "sensor_id": 15385944,
+    "sensor_ids": [
+      15385944
+    ],
+    "lat": 32.701576,
+    "lon": 74.859108,
+    "city": "Jammu",
+    "name": "Gandhi Nagar",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2026-02-07T14:30:00Z",
+    "data_end": "2026-02-07T14:30:00Z"
+  },
+  {
+    "station": "bahria_town__6236626",
+    "location_id": 6236626,
+    "sensor_id": 15420347,
+    "sensor_ids": [
+      15420347
+    ],
+    "lat": 31.378524,
+    "lon": 74.183937,
+    "city": "Amritsar",
+    "name": "Bahria Town ",
+    "owner": "",
+    "state": "Punjab",
+    "data_start": "2026-02-11T16:00:00Z",
+    "data_end": "2026-02-11T16:00:00Z"
+  },
+  {
+    "station": "agya_enterprises_6250050",
+    "location_id": 6250050,
+    "sensor_id": 15520291,
+    "sensor_ids": [
+      15520291
+    ],
+    "lat": 23.258543,
+    "lon": 77.454474,
+    "city": "Bhopal",
+    "name": "Agya Enterprises",
+    "owner": "",
+    "state": "Madhya Pradesh",
+    "data_start": "2026-02-23T13:30:00Z",
+    "data_end": "2026-02-23T13:30:00Z"
+  },
+  {
+    "station": "indira_nagar_raebareli_-_ntpc_unchahar_6251997",
+    "location_id": 6251997,
+    "sensor_id": 15534762,
+    "sensor_ids": [
+      15534762
+    ],
+    "lat": 26.207781,
+    "lon": 81.245571,
+    "city": "Lucknow",
+    "name": "Indira Nagar, Raebareli - NTPC Unchahar",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2026-02-25T04:30:00Z",
+    "data_end": "2026-02-25T04:30:00Z"
+  },
+  {
+    "station": "talkatora_garden_delhi_-_dpcc_6254594",
+    "location_id": 6254594,
+    "sensor_id": 15554208,
+    "sensor_ids": [
+      15554208
+    ],
+    "lat": 28.62181,
+    "lon": 77.1944633,
+    "city": "Delhi",
+    "name": "Talkatora Garden, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-02-27T14:30:00Z",
+    "data_end": "2026-02-27T14:30:00Z"
+  },
+  {
+    "station": "jnu_delhi_-_dpcc_6254663",
+    "location_id": 6254663,
+    "sensor_id": 15554704,
+    "sensor_ids": [
+      15554704
+    ],
+    "lat": 28.540721,
+    "lon": 77.168544,
+    "city": "Delhi",
+    "name": "JNU, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-02-27T16:30:00Z",
+    "data_end": "2026-02-27T16:30:00Z"
+  },
+  {
+    "station": "nsut_jaffarpur_delhi_-_dpcc_6254664",
+    "location_id": 6254664,
+    "sensor_id": 15554716,
+    "sensor_ids": [
+      15554716
+    ],
+    "lat": 28.594004,
+    "lon": 76.909423,
+    "city": "Gurugram",
+    "name": "NSUT Jaffarpur, Delhi - DPCC",
+    "owner": "",
+    "state": "Haryana",
+    "data_start": "2026-02-27T16:30:00Z",
+    "data_end": "2026-02-27T16:30:00Z"
+  },
+  {
+    "station": "commonwealth_sports_complex_delhi_-_dpcc_6254665",
+    "location_id": 6254665,
+    "sensor_id": 15554728,
+    "sensor_ids": [
+      15554728
+    ],
+    "lat": 28.615828,
+    "lon": 77.271992,
+    "city": "Delhi",
+    "name": "Commonwealth Sports Complex, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-02-27T16:30:00Z",
+    "data_end": "2026-02-27T16:30:00Z"
+  },
+  {
+    "station": "ignou_maidan_garhi_delhi_-_dpcc_6254666",
+    "location_id": 6254666,
+    "sensor_id": 15554740,
+    "sensor_ids": [
+      15554740
+    ],
+    "lat": 28.493624,
+    "lon": 77.201159,
+    "city": "Delhi",
+    "name": "IGNOU_Maidan Garhi, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-02-27T16:30:00Z",
+    "data_end": "2026-02-27T16:30:00Z"
+  },
+  {
+    "station": "cantonment_area_delhi_-_dpcc_6257818",
+    "location_id": 6257818,
+    "sensor_id": 15578291,
+    "sensor_ids": [
+      15578291
+    ],
+    "lat": 28.594169,
+    "lon": 77.1251,
+    "city": "Delhi",
+    "name": "Cantonment Area, Delhi - DPCC",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-03-02T12:30:00Z",
+    "data_end": "2026-03-02T12:30:00Z"
+  },
+  {
+    "station": "vithalwadi_ulhasnagar_-_mpcb_6258871",
+    "location_id": 6258871,
+    "sensor_id": 15586073,
+    "sensor_ids": [
+      15586073
+    ],
+    "lat": 19.2307571,
+    "lon": 73.155192,
+    "city": "Mumbai",
+    "name": "Vithalwadi, Ulhasnagar - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2026-03-03T10:30:00Z",
+    "data_end": "2026-03-03T10:30:00Z"
+  },
+  {
+    "station": "chinchpada_ambernath_-_mpcb_6266794",
+    "location_id": 6266794,
+    "sensor_id": 15645501,
+    "sensor_ids": [
+      15645501
+    ],
+    "lat": 19.215784,
+    "lon": 73.199781,
+    "city": "Mumbai",
+    "name": "Chinchpada, Ambernath - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2026-03-10T07:30:00Z",
+    "data_end": "2026-03-10T07:30:00Z"
+  },
+  {
+    "station": "kalu_nagar_dombivli_-_mpcb_6266795",
+    "location_id": 6266795,
+    "sensor_id": 15645513,
+    "sensor_ids": [
+      15645513
+    ],
+    "lat": 19.2268427,
+    "lon": 73.0788456,
+    "city": "Mumbai",
+    "name": "Kalu Nagar, Dombivli - MPCB",
+    "owner": "",
+    "state": "Maharashtra",
+    "data_start": "2026-03-09T12:30:00Z",
+    "data_end": "2026-03-09T12:30:00Z"
+  },
+  {
+    "station": "15th_mile-nongthymmai_byrnihat_-_meghalaya_pcb_629",
+    "location_id": 6290075,
+    "sensor_id": 15818173,
+    "sensor_ids": [
+      15818173
+    ],
+    "lat": 26.079047,
+    "lon": 91.875185,
+    "city": "Guwahati",
+    "name": "15th Mile-Nongthymmai, Byrnihat - Meghalaya PCB",
+    "owner": "",
+    "state": "Assam",
+    "data_start": "2026-06-25T15:30:00Z",
+    "data_end": "2026-06-25T15:30:00Z"
+  },
+  {
+    "station": "gandhi_nagar_6297968",
+    "location_id": 6297968,
+    "sensor_id": 15877266,
+    "sensor_ids": [
+      15877266
+    ],
+    "lat": 32.7014,
+    "lon": 74.8596,
+    "city": "Jammu",
+    "name": "Gandhi Nagar",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2026-04-06T07:30:00Z",
+    "data_end": "2026-04-06T07:30:00Z"
+  },
+  {
+    "station": "prashant_garden_khora_-_uppcb_6299494",
+    "location_id": 6299494,
+    "sensor_id": 15888918,
+    "sensor_ids": [
+      15888918
+    ],
+    "lat": 28.61119,
+    "lon": 77.34206,
+    "city": "Noida",
+    "name": "Prashant Garden, Khora - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2026-06-25T15:30:00Z",
+    "data_end": "2026-06-25T15:30:00Z"
+  },
+  {
+    "station": "srm_university_modinagar_-_uppcb_6299603",
+    "location_id": 6299603,
+    "sensor_id": 15889770,
+    "sensor_ids": [
+      15889770
+    ],
+    "lat": 28.798171,
+    "lon": 77.540243,
+    "city": "Ghaziabad",
+    "name": "SRM University, Modinagar - UPPCB",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2026-06-25T15:30:00Z",
+    "data_end": "2026-06-25T15:30:00Z"
+  },
+  {
+    "station": "ved_vihar-loni_ghaziabad_-_uppcb_6299678",
+    "location_id": 6299678,
+    "sensor_id": 15890341,
+    "sensor_ids": [
+      15890341
+    ],
+    "lat": 28.739153,
+    "lon": 77.273668,
+    "city": "Delhi",
+    "name": "Ved Vihar-Loni, Ghaziabad - UPPCB",
+    "owner": "",
+    "state": "Delhi",
+    "data_start": "2026-06-25T15:30:00Z",
+    "data_end": "2026-06-25T15:30:00Z"
+  },
+  {
+    "station": "palm_city_6356035",
+    "location_id": 6356035,
+    "sensor_id": 16311975,
+    "sensor_ids": [
+      16311975
+    ],
+    "lat": 27.20289,
+    "lon": 80.39693,
+    "city": "Lucknow",
+    "name": "Palm City",
+    "owner": "",
+    "state": "Uttar Pradesh",
+    "data_start": "2026-05-19T14:30:00Z",
+    "data_end": "2026-05-19T14:30:00Z"
+  },
+  {
+    "station": "channi_himmat_6401376",
+    "location_id": 6401376,
+    "sensor_id": 16606024,
+    "sensor_ids": [
+      16606024
+    ],
+    "lat": 32.689777,
+    "lon": 74.886016,
+    "city": "Jammu",
+    "name": "Channi Himmat",
+    "owner": "",
+    "state": "J&K",
+    "data_start": "2026-06-13T16:30:00Z",
+    "data_end": "2026-06-13T16:30:00Z"
+  }
+]

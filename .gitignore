@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Large data files — too big for GitHub (241 MB)
+data/dataset_v3.parquet
+
+# Model weights — push separately via Git LFS or Google Drive
+# (uncomment below if you DON'T want to push models)
+# data/*.keras
+# data/*.pt
+
+# Logs and plots
+data/*.png
+data/loss_curve.png
+data/predictions_test.png
+
+# Temporary / debug files
+*.log
+debug_*.py
+test_*.py
+
+# IDE
+.vscode/
+.idea/
