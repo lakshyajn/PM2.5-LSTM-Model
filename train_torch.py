@@ -434,7 +434,22 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
     print(f"\nTraining on {device} ... (epochs={epochs}, batch={batch_size}, AMP={use_amp})")
     print("=" * 65)
 
+    RESAMPLE_EVERY = 1   # fresh random sequences EVERY epoch from the full 2.27M pool
+                         # GTX 1650: 100 × 135k = 13.5M unique examples seen
+                         # A2000:    100 × 220k = 22M  unique examples seen
+                         # More VRAM = larger per-epoch sample = fewer epochs to converge
+
     for epoch in range(start_epoch, epochs):
+        # ── Re-sample training data every RESAMPLE_EVERY epochs ──────────────
+        if (epoch - start_epoch) % RESAMPLE_EVERY == 0:
+            seed = 42 + epoch  # different seed each resample → fresh sequences
+            if epoch > start_epoch:
+                del ds_tr                  # free old GPU tensors first
+                torch.cuda.empty_cache()   # reclaim VRAM before new allocation
+            ds_tr = build_gpu_dataset(df_tr, station_map, scaler_X, scaler_y,
+                                      FEATURE_COLS, device, max_seqs=max_tr, seed=seed)
+            dl_tr = DataLoader(ds_tr, batch_size=batch_size, shuffle=True, num_workers=0)
+
         t0      = time.time()
         tr_loss = train_epoch(model, dl_tr, optimizer, loss_fn, device, amp_scaler,
                               epoch + 1, epochs)
