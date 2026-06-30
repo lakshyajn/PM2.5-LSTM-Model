@@ -65,6 +65,15 @@ def get_device():
     return dev
 
 
+def get_num_workers():
+    """Safe worker count: 2 on GPU systems (shared memory), 0 on CPU."""
+    if not torch.cuda.is_available():
+        return 0
+    import sys
+    # Windows spawn is safe with shared-memory tensors; 2 workers = good overlap
+    return 2
+
+
 def auto_max_seqs(device, seq_len=SEQ_LEN, n_features=len(FEATURE_COLS),
                   n_splits=3, headroom_mb=600):
     """
@@ -96,92 +105,151 @@ def auto_max_seqs(device, seq_len=SEQ_LEN, n_features=len(FEATURE_COLS),
     max_seqs = max(10_000, max_seqs)  # minimum 10k
 
     total_vram_gb = total_bytes / 1024**3
-    print(f"  Auto VRAM budget: {total_vram_gb:.1f} GB total, "
-          f"{headroom_mb} MB reserved  ->  max {max_seqs:,} seqs/split")
+    print(f"  VRAM: {total_vram_gb:.1f} GB  |  recommended max_seqs ~{max_seqs:,}")
     return max_seqs
 
 
-# ─── Dataset ──────────────────────────────────────────────────────────────────
+# ─── Dataset (Streaming) ──────────────────────────────────────────────────────
+# ─── Dataset (Streaming, Flat-tensor) ────────────────────────────────────────────────
+# Design:
+#   1. Scale ALL rows once -> one contiguous shared-memory tensor per split
+#      (434 scattered dicts -> one flat tensor: better cache locality)
+#   2. Flat int32 numpy arrays as index (no Python tuples, no dict lookups)
+#   3. No .clone() — row slices of a C-contiguous 2D tensor are contiguous;
+#      DataLoader collation stacks them into a new owned tensor
+#   4. When MAX_SEQS_TRAIN=0: DataLoader shuffle=True (PyTorch C++ RandomSampler)
+#      When MAX_SEQS_TRAIN>0: ResampleSampler for capped random subsets
+#   5. pin_memory + non_blocking -> async CPU->GPU DMA pipeline
 
-def build_gpu_dataset(df, station_id_map, scaler_X, scaler_y,
-                      feature_cols, device, seq_len=SEQ_LEN, n_horizons=N_HORIZONS,
-                      max_seqs=0, shuffle=True, seed=42):
+def build_scaled_flat(df, scaler_X, scaler_y, feature_cols, station_id_map,
+                      seq_len=SEQ_LEN, n_horizons=N_HORIZONS):
     """
-    Builds all sequences into pre-allocated numpy arrays (fast, no list copies),
-    then moves them to GPU VRAM as float16.
-    Training loop: pure GPU VRAM -> GPU cores, zero CPU per batch.
+    Scale all rows, concatenate into ONE flat contiguous shared-memory tensor.
+    Eliminates per-station dict overhead and scattered memory allocations.
+
+    Returns:
+        flat_feats: Tensor (total_rows, n_feats)    — shared memory
+        flat_tgts:  Tensor (total_rows, n_horizons) — shared memory
+        offsets:    {station -> (start_row, n_rows)}
+        sids:       {station -> int}
     """
-    rng      = np.random.default_rng(seed)
     stations = sorted(df["station"].unique())
-    per_station = max(1, max_seqs // len(stations)) if max_seqs > 0 else 0
-
-    # ── Pass 1: count total sequences (fast, no data copy) ───────────────────
-    total = 0
-    counts = {}   # station -> number of valid indices chosen
-    chosen = {}   # station -> chosen indices array
-    for station in stations:
-        sdf = df[df["station"] == station]
-        n   = len(sdf)
-        if n < seq_len + n_horizons:
-            continue
-        valid = np.arange(seq_len, n - n_horizons + 1)
-        if per_station > 0 and len(valid) > per_station:
-            valid = rng.choice(valid, size=per_station, replace=False)
-        chosen[station] = valid
-        counts[station] = len(valid)
-        total += len(valid)
-
-    n_seqs = total
-    # ── Pre-allocate arrays (one allocation, no doubling) ────────────────────
-    X_arr   = np.empty((n_seqs, seq_len, len(feature_cols)), dtype=np.float32)
-    y_arr   = np.empty((n_seqs, n_horizons),                 dtype=np.float32)
-    sid_arr = np.empty(n_seqs,                               dtype=np.int64)
-
-    # ── Pass 2: fill arrays ───────────────────────────────────────────────────
+    feat_chunks, tgt_chunks = [], []
+    offsets, sids = {}, {}
     ptr = 0
+
     for station in stations:
-        if station not in chosen:
-            continue
         sdf = (df[df["station"] == station]
                .sort_values("timestamp")
                .reset_index(drop=True))
-        sid = station_id_map.get(station, 0)
-        n   = len(sdf)
+        n = len(sdf)
+        if n < seq_len + n_horizons:
+            continue
 
-        feat_s = scaler_X.transform(sdf[feature_cols].values.astype(np.float32))
-        tgt_s  = scaler_y.transform(
+        feat_np = scaler_X.transform(sdf[feature_cols].values.astype(np.float32))
+        tgt_np  = scaler_y.transform(
             sdf[TARGET_COLS].values.astype(np.float32).reshape(-1, 1)
         ).reshape(n, n_horizons)
 
-        for i in chosen[station]:
-            X_arr[ptr]   = feat_s[i - seq_len : i]
-            y_arr[ptr]   = tgt_s[i]
-            sid_arr[ptr] = sid
-            ptr += 1
+        feat_chunks.append(feat_np)
+        tgt_chunks.append(tgt_np)
+        offsets[station] = (ptr, n)
+        sids[station]    = station_id_map.get(station, 0)
+        ptr += n
 
-    # ── In-place shuffle (numpy, not Python lists) ───────────────────────────
-    if shuffle:
-        perm = rng.permutation(n_seqs)
-        X_arr   = X_arr[perm]
-        y_arr   = y_arr[perm]
-        sid_arr = sid_arr[perm]
-
-    vram_mb = n_seqs * seq_len * len(feature_cols) * 2 / 1024**2  # float16
-
-    if device.type == "cuda":
-        # One-shot CPU->GPU transfer as float16 — no per-batch transfer ever again
-        X_gpu   = torch.from_numpy(X_arr).half().to(device)
-        y_gpu   = torch.from_numpy(y_arr).to(device)
-        sid_gpu = torch.from_numpy(sid_arr).to(device)
-        del X_arr, y_arr, sid_arr  # free CPU RAM immediately
-        print(f"    {n_seqs:,} sequences -> GPU VRAM as float16  ({vram_mb:.0f} MB used)")
-        return torch.utils.data.TensorDataset(X_gpu, sid_gpu, y_gpu)
-    else:
-        print(f"    {n_seqs:,} sequences -> CPU RAM as float32")
-        return torch.utils.data.TensorDataset(
-            torch.from_numpy(X_arr), torch.from_numpy(sid_arr), torch.from_numpy(y_arr))
+    # Single np.vstack -> one contiguous block -> share_memory_()
+    flat_feats = torch.from_numpy(np.vstack(feat_chunks)).share_memory_()
+    flat_tgts  = torch.from_numpy(np.vstack(tgt_chunks)).share_memory_()
+    ram_mb = (flat_feats.numel() + flat_tgts.numel()) * 4 / 1024**2
+    print(f"  Scaled: {ptr:,} rows  ({ram_mb:.0f} MB RAM, flat contiguous shared tensor)")
+    return flat_feats, flat_tgts, offsets, sids
 
 
+def build_index_flat(offsets, sids, seq_len=SEQ_LEN, n_horizons=N_HORIZONS):
+    """
+    Build 3 flat int32/int64 numpy arrays instead of a list of Python tuples.
+    ~10x less memory, no tuple overhead, no dict lookup per sample.
+
+    Returns:
+        arr_offsets: int64 (n_seqs,) — station's start row in flat tensor
+        arr_rows:    int32 (n_seqs,) — local row_i within that station
+        arr_sids:    int32 (n_seqs,) — station embedding ID
+    """
+    # Pre-count total sequences to allocate exactly
+    n_total = sum(
+        max(0, n - seq_len - n_horizons + 1)
+        for _, (_, n) in offsets.items()
+    )
+    arr_offsets = np.empty(n_total, dtype=np.int64)
+    arr_rows    = np.empty(n_total, dtype=np.int32)
+    arr_sids    = np.empty(n_total, dtype=np.int32)
+
+    ptr = 0
+    for station in sorted(offsets.keys()):
+        start, n = offsets[station]
+        sid      = sids[station]
+        valid    = np.arange(seq_len, n - n_horizons + 1, dtype=np.int32)
+        k        = len(valid)
+        arr_offsets[ptr:ptr+k] = start
+        arr_rows[ptr:ptr+k]    = valid
+        arr_sids[ptr:ptr+k]    = sid
+        ptr += k
+
+    return arr_offsets, arr_rows, arr_sids
+
+
+class PM25StreamDataset(Dataset):
+    """
+    Flat-tensor streaming dataset.
+    - No dict lookup: direct integer offset into one contiguous tensor
+    - No .clone(): row-slices of C-contiguous 2D tensors are contiguous;
+      DataLoader collation (torch.stack) copies them into a new batch tensor
+    - No Python tuples: three flat int32/int64 numpy arrays as index
+    """
+    def __init__(self, flat_feats, flat_tgts,
+                 arr_offsets, arr_rows, arr_sids, seq_len=SEQ_LEN):
+        self.flat_feats  = flat_feats    # Tensor (total_rows, n_feats)
+        self.flat_tgts   = flat_tgts     # Tensor (total_rows, n_horizons)
+        self.arr_offsets = arr_offsets   # np.int64 (n_seqs,)
+        self.arr_rows    = arr_rows      # np.int32 (n_seqs,)
+        self.arr_sids    = arr_sids      # np.int32 (n_seqs,)
+        self.seq_len     = seq_len
+
+    def __len__(self):
+        return len(self.arr_rows)
+
+    def __getitem__(self, idx):
+        off = int(self.arr_offsets[idx])
+        i   = int(self.arr_rows[idx])
+        sid = int(self.arr_sids[idx])
+        # Direct integer slice into flat contiguous tensor — no dict, no clone
+        X = self.flat_feats[off + i - self.seq_len : off + i]
+        y = self.flat_tgts[off + i]
+        return X, torch.tensor(sid, dtype=torch.long), y
+
+
+class ResampleSampler(torch.utils.data.Sampler):
+    """
+    Only used when MAX_SEQS_TRAIN > 0 (capped epochs).
+    Picks max_seqs random indices each epoch via set_epoch() -> different seed.
+    When MAX_SEQS_TRAIN == 0, DataLoader's built-in C++ shuffle is used instead.
+    """
+    def __init__(self, n_total, max_seqs):
+        self.n_total  = n_total
+        self.max_seqs = max_seqs
+        self.epoch    = 0
+
+    def set_epoch(self, epoch):
+        self.epoch = epoch
+
+    def __iter__(self):
+        g = torch.Generator()
+        g.manual_seed(self.epoch * 1337 + 42)
+        idx = torch.randperm(self.n_total, generator=g)[:self.max_seqs]
+        return iter(idx.tolist())
+
+    def __len__(self):
+        return self.max_seqs
 
 
 # ─── Model ────────────────────────────────────────────────────────────────────
@@ -317,9 +385,10 @@ def train_epoch(model, loader, optimizer, loss_fn, device, amp_scaler, epoch, ep
     bar = tqdm(loader, desc=f"  Ep {epoch:>3}/{epochs} [train]",
                ncols=80, leave=False, unit="step")
     for X, sids, y in bar:
-        # Data already on GPU VRAM — just cast float16 -> float32 for model (GPU-only op)
-        if X.dtype == torch.float16:
-            X = X.float()
+        # Async CPU->GPU DMA (non_blocking=True + pin_memory=True in DataLoader)
+        X    = X.to(device, non_blocking=True)
+        sids = sids.to(device, non_blocking=True)
+        y    = y.to(device, non_blocking=True)
         optimizer.zero_grad(set_to_none=True)
         if amp_scaler:
             with torch.amp.autocast('cuda'):
@@ -346,9 +415,9 @@ def eval_epoch(model, loader, loss_fn, device):
     yt_list, yp_list = [], []
     bar = tqdm(loader, desc="               [val]  ", ncols=80, leave=False, unit="step")
     for X, sids, y in bar:
-        # Data already on GPU VRAM
-        if X.dtype == torch.float16:
-            X = X.float()
+        X    = X.to(device, non_blocking=True)
+        sids = sids.to(device, non_blocking=True)
+        y    = y.to(device, non_blocking=True)
         p = model(X, sids)
         total += loss_fn(p, y).item(); n += 1
         yt_list.append(y.cpu().numpy())
@@ -383,29 +452,65 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
 
     with open(FEAT_PATH, "w") as f: json.dump(FEATURE_COLS, f, indent=2)
 
-    if quick:
-        max_tr, max_ev = 5_000, 2_000
-    elif MAX_SEQS_TRAIN > 0:
-        # Config override: user explicitly set a cap
-        max_tr = MAX_SEQS_TRAIN
-        max_ev = min(50_000, MAX_SEQS_TRAIN // 2)
+    max_tr = 5_000 if quick else (MAX_SEQS_TRAIN if MAX_SEQS_TRAIN > 0 else 0)
+    max_ev = 2_000 if quick else 50_000
+
+    if not quick and MAX_SEQS_TRAIN == 0:
+        vram_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3 if device.type == "cuda" else 0
+        rec = auto_max_seqs(device)
+        print(f"  MAX_SEQS_TRAIN=0: using ALL sequences per epoch")
+        print(f"  (Set MAX_SEQS_TRAIN={rec:,} in config.py to cap epoch time on this GPU)")
+
+    # ── Scale ALL data once -> flat contiguous shared tensors ───────────────────
+    print("\nScaling all features (once) ...")
+    ff_tr, ft_tr, off_tr, sid_tr = build_scaled_flat(
+        df_tr, scaler_X, scaler_y, FEATURE_COLS, station_map)
+    ff_va, ft_va, off_va, sid_va = build_scaled_flat(
+        df_va, scaler_X, scaler_y, FEATURE_COLS, station_map)
+    ff_te, ft_te, off_te, sid_te = build_scaled_flat(
+        df_te, scaler_X, scaler_y, FEATURE_COLS, station_map)
+    del df, df_tr, df_va, df_te   # free parquet RAM (~1.5 GB)
+
+    # ── Build flat int32 index arrays (no Python tuples) ────────────────────────
+    print("Building sequence indices ...")
+    ao_tr, ar_tr, as_tr = build_index_flat(off_tr, sid_tr)
+    ao_va, ar_va, as_va = build_index_flat(off_va, sid_va)
+    ao_te, ar_te, as_te = build_index_flat(off_te, sid_te)
+    print(f"  Train: {len(ar_tr):,}  Val: {len(ar_va):,}  Test: {len(ar_te):,} valid sequences")
+
+    # ── Datasets ──────────────────────────────────────────────────────────────
+    ds_tr = PM25StreamDataset(ff_tr, ft_tr, ao_tr, ar_tr, as_tr)
+    ds_va = PM25StreamDataset(ff_va, ft_va, ao_va, ar_va, as_va)
+    ds_te = PM25StreamDataset(ff_te, ft_te, ao_te, ar_te, as_te)
+
+    nw  = get_num_workers()
+    pin = device.type == "cuda"
+    pw  = (nw > 0)
+    pf  = 2 if nw > 0 else None
+
+    # When max_tr==0 use all seqs: DataLoader's built-in C++ RandomSampler (no Python permutation)
+    # When max_tr>0 cap with ResampleSampler: fresh random subset each epoch via set_epoch()
+    if max_tr == 0:
+        dl_tr      = DataLoader(ds_tr, batch_size=batch_size, shuffle=True,
+                                num_workers=nw, pin_memory=pin,
+                                persistent_workers=pw, prefetch_factor=pf)
+        sampler_tr = None   # DataLoader handles shuffling internally
     else:
-        # Auto-scale: fill GPU VRAM as much as possible
-        max_tr = auto_max_seqs(device)
-        max_ev = min(50_000, max_tr // 3)
+        sampler_tr = ResampleSampler(len(ds_tr), max_seqs=max_tr)
+        dl_tr      = DataLoader(ds_tr, batch_size=batch_size, sampler=sampler_tr,
+                                num_workers=nw, pin_memory=pin,
+                                persistent_workers=pw, prefetch_factor=pf)
 
-    print("\nBuilding datasets (GPU-resident for pure GPU training) ...")
-    ds_tr = build_gpu_dataset(df_tr, station_map, scaler_X, scaler_y,
-                               FEATURE_COLS, device, max_seqs=max_tr)
-    ds_va = build_gpu_dataset(df_va, station_map, scaler_X, scaler_y,
-                               FEATURE_COLS, device, max_seqs=max_ev, shuffle=False)
-    ds_te = build_gpu_dataset(df_te, station_map, scaler_X, scaler_y,
-                               FEATURE_COLS, device, max_seqs=max_ev, shuffle=False)
+    sampler_va = ResampleSampler(len(ds_va), max_seqs=max_ev)
+    dl_va = DataLoader(ds_va, batch_size=512, sampler=sampler_va,
+                       num_workers=nw, pin_memory=pin,
+                       persistent_workers=pw, prefetch_factor=pf)
+    dl_te = DataLoader(ds_te, batch_size=512, shuffle=False,
+                       num_workers=nw, pin_memory=pin,
+                       persistent_workers=pw, prefetch_factor=pf)
+    steps = len(dl_tr)
+    print(f"  DataLoader: workers={nw}  pin={pin}  prefetch={pf}  steps/epoch={steps:,}")
 
-    # DataLoader just shuffles indices into GPU tensors — no CPU work per batch
-    dl_tr = DataLoader(ds_tr, batch_size=batch_size, shuffle=True,  num_workers=0)
-    dl_va = DataLoader(ds_va, batch_size=512,        shuffle=False, num_workers=0)
-    dl_te = DataLoader(ds_te, batch_size=512,        shuffle=False, num_workers=0)
 
     model     = PM25Model(len(FEATURE_COLS), n_stations).to(device)
     print(f"\nModel params: {sum(p.numel() for p in model.parameters()):,}")
@@ -434,23 +539,14 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
     print(f"\nTraining on {device} ... (epochs={epochs}, batch={batch_size}, AMP={use_amp})")
     print("=" * 65)
 
-    RESAMPLE_EVERY = 1   # fresh random sequences EVERY epoch from the full 2.27M pool
-                         # GTX 1650: 100 × 135k = 13.5M unique examples seen
-                         # A2000:    100 × 220k = 22M  unique examples seen
-                         # More VRAM = larger per-epoch sample = fewer epochs to converge
-
     for epoch in range(start_epoch, epochs):
-        # ── Re-sample training data every RESAMPLE_EVERY epochs ──────────────
-        if (epoch - start_epoch) % RESAMPLE_EVERY == 0:
-            seed = 42 + epoch  # different seed each resample → fresh sequences
-            if epoch > start_epoch:
-                del ds_tr                  # free old GPU tensors first
-                torch.cuda.empty_cache()   # reclaim VRAM before new allocation
-            ds_tr = build_gpu_dataset(df_tr, station_map, scaler_X, scaler_y,
-                                      FEATURE_COLS, device, max_seqs=max_tr, seed=seed)
-            dl_tr = DataLoader(ds_tr, batch_size=batch_size, shuffle=True, num_workers=0)
+        t0 = time.time()
 
-        t0      = time.time()
+        # Advance sampler seed for fresh random subset (only when capping)
+        if sampler_tr is not None:
+            sampler_tr.set_epoch(epoch)
+        sampler_va.set_epoch(epoch)
+
         tr_loss = train_epoch(model, dl_tr, optimizer, loss_fn, device, amp_scaler,
                               epoch + 1, epochs)
         va_loss, _, _ = eval_epoch(model, dl_va, loss_fn, device)
