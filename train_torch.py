@@ -145,8 +145,16 @@ def build_scaled_flat(df, scaler_X, scaler_y, feature_cols, station_id_map,
         n = len(sdf)
         if n < seq_len + n_horizons:
             continue
-
+        
+        print(sdf[feature_cols].isna().sum())
+        sdf[feature_cols] = sdf[feature_cols].fillna(method="ffill").fillna(method="bfill").fillna(0)
         feat_np = scaler_X.transform(sdf[feature_cols].values.astype(np.float32))
+
+        if np.isnan(feat_np).any():
+            r,c=np.argwhere(np.isnan(feat_np))[0]
+            print(f"NaN in features for station {station} at row {r}, feature {feature_cols[c]}")
+            print("Original Values: ", sdf.iloc[r][feature_cols[c]])
+            raise RuntimeError("NaN found after scaling")
         tgt_np  = scaler_y.transform(
             sdf[TARGET_COLS].values.astype(np.float32).reshape(-1, 1)
         ).reshape(n, n_horizons)
@@ -392,7 +400,15 @@ def train_epoch(model, loader, optimizer, loss_fn, device, amp_scaler, epoch, ep
         optimizer.zero_grad(set_to_none=True)
         if amp_scaler:
             with torch.amp.autocast('cuda'):
+                pred= model(X, sids)
+                if torch.isnan(pred).any():
+                    print("NaN in model output!")
+                    raise RuntimeError("NaN in prediction")
                 loss = loss_fn(model(X, sids), y)
+                if torch.isnan(loss):
+                    print("NaN in loss!")
+                    raise RuntimeError("NaN in loss")
+                
             amp_scaler.scale(loss).backward()
             amp_scaler.unscale_(optimizer)
             nn.utils.clip_grad_norm_(model.parameters(), 1.0)
@@ -469,6 +485,18 @@ def train(epochs=EPOCHS, batch_size=BATCH_SIZE, quick=False, resume=True):
         df_va, scaler_X, scaler_y, FEATURE_COLS, station_map)
     ff_te, ft_te, off_te, sid_te = build_scaled_flat(
         df_te, scaler_X, scaler_y, FEATURE_COLS, station_map)
+    print("\n Checking scaled tensors ...")
+    print("Train X NaN: ", torch.isnan(ff_tr).any().item(), "  y NaN: ", torch.isnan(ft_tr).any().item())
+    print("Val X NaN: ", torch.isnan(ff_va).any().item(), "  y NaN: ", torch.isnan(ft_va).any().item())
+    print("Test X NaN: ", torch.isnan(ff_te).any().item(), "  y NaN: ", torch.isnan(ft_te).any().item())
+
+    if torch.isnan(ff_tr).any():
+        idx=torch.nonzero(torch.isnan(ff_tr),as_tuple=False)[0]
+        print("First NaN in input features at index:", idx)
+        r,c=torch.nonzero(torch.isnan(ff_tr),as_tuple=False)[0].tolist()
+        print("Row: ", r)
+        print("Feature: ", FEATURE_COLS[c])
+        print(df_tr.iloc[r][["station","timestamp",FEATURE_COLS[c]]])
     del df, df_tr, df_va, df_te   # free parquet RAM (~1.5 GB)
 
     # ── Build flat int32 index arrays (no Python tuples) ────────────────────────
